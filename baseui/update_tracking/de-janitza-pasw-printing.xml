@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.printing">
+    <module_version install_time="1401882423860" last="true" origin="installer" specification_version="10.9.0">
+        <file crc="1970046519" name="config/Modules/de-janitza-pasw-printing.xml"/>
+        <file crc="839801925" name="modules/de-janitza-pasw-baseui-printing.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.exports.ui.desktop.common">
+    <module_version install_time="1401882425390" last="true" origin="installer" specification_version="1.6.0">
+        <file crc="1496146509" name="config/Modules/de-janitza-pasw-exports-ui-desktop-common.xml"/>
+        <file crc="779666647" name="modules/de-janitza-pasw-exports-ui-desktop-common.jar"/>
+    </module_version>
+</module>

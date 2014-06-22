@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.prodata2">
+    <module_version install_time="1401882425114" last="true" origin="installer" specification_version="1.27.0">
+        <file crc="1735269529" name="config/Modules/de-janitza-pasw-device-prodata2.xml"/>
+        <file crc="2275006453" name="modules/de-janitza-pasw-device-prodata2.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.exports.project.migration">
+    <module_version install_time="1401882425383" last="true" origin="installer" specification_version="1.1.0">
+        <file crc="4245728087" name="config/Modules/de-janitza-pasw-exports-project-migration.xml"/>
+        <file crc="2574267984" name="modules/de-janitza-pasw-exports-project-migration.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.gridvis.script">
+    <module_version install_time="1401882424149" last="true" origin="installer" specification_version="1.16.0">
+        <file crc="2843901865" name="config/Modules/de-janitza-pasw-gridvis-script.xml"/>
+        <file crc="2550574944" name="modules/de-janitza-pasw-gridvis-script.jar"/>
+    </module_version>
+</module>

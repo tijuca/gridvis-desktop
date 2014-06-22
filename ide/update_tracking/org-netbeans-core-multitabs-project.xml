@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.core.multitabs.project">
+    <module_version install_time="1401882421828" last="true" origin="installer" specification_version="1.3.1.1.1">
+        <file crc="3119371406" name="config/Modules/org-netbeans-core-multitabs-project.xml"/>
+        <file crc="3074668400" name="modules/locale/org-netbeans-core-multitabs-project_ja.jar"/>
+        <file crc="2874653439" name="modules/locale/org-netbeans-core-multitabs-project_pt_BR.jar"/>
+        <file crc="3922202085" name="modules/locale/org-netbeans-core-multitabs-project_ru.jar"/>
+        <file crc="1149559296" name="modules/locale/org-netbeans-core-multitabs-project_zh_CN.jar"/>
+        <file crc="3526514294" name="modules/org-netbeans-core-multitabs-project.jar"/>
+    </module_version>
+</module>

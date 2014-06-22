@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.swingx">
+    <module_version install_time="1401882424723" last="true" origin="installer" specification_version="1.6.1">
+        <file crc="3324841575" name="config/Modules/de-janitza-pasw-wrapper-swingx.xml"/>
+        <file crc="1844669720" name="modules/de-janitza-pasw-wrapper-swingx.jar"/>
+        <file crc="52845380" name="modules/ext/de.janitza.pasw.wrapper-swingx/com-jhlabs/filters.jar"/>
+        <file crc="994891229" name="modules/ext/de.janitza.pasw.wrapper-swingx/org-swinglabs/swing-worker.jar"/>
+        <file crc="1700001035" name="modules/ext/de.janitza.pasw.wrapper-swingx/org-swinglabs/swingx-beaninfo.jar"/>
+        <file crc="366189765" name="modules/ext/de.janitza.pasw.wrapper-swingx/org-swinglabs/swingx.jar"/>
+    </module_version>
+</module>

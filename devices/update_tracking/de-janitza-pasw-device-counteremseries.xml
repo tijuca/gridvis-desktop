@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.counteremseries">
+    <module_version install_time="1401882421908" last="true" origin="installer" specification_version="10.28.0">
+        <file crc="2091859454" name="config/Modules/de-janitza-pasw-device-counteremseries.xml"/>
+        <file crc="4242087059" name="modules/de-janitza-pasw-device-herhold.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.ui.desktop.imagewidget">
+    <module_version install_time="1401882423549" last="true" origin="installer" specification_version="1.6.0">
+        <file crc="2192633984" name="config/Modules/de-janitza-pasw-topology-ui-desktop-imagewidget.xml"/>
+        <file crc="3882681540" name="modules/de-janitza-pasw-topology-ui-desktop-imagewidget.jar"/>
+    </module_version>
+</module>

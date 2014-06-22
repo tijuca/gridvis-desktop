@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.codec">
+    <module_version install_time="1401882424239" last="true" origin="installer" specification_version="1.5">
+        <file crc="1461693849" name="config/Modules/de-janitza-pasw-wrapper-commons-codec.xml"/>
+        <file crc="3044985804" name="modules/de-janitza-pasw-wrapper-commons-codec.jar"/>
+        <file crc="1991922540" name="modules/ext/de.janitza.pasw.wrapper-commons-codec/commons-codec/commons-codec.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.programmingbase">
+    <module_version install_time="1401882422399" last="true" origin="installer" specification_version="10.17.0">
+        <file crc="3595366442" name="config/Modules/de-janitza-pasw-programmingbase.xml"/>
+        <file crc="2174362952" name="modules/de-janitza-pasw-graphprog-base.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.groovy">
+    <module_version install_time="1401882424356" last="true" origin="installer" specification_version="2.1.3">
+        <file crc="2354643171" name="config/Modules/de-janitza-pasw-wrapper-groovy.xml"/>
+        <file crc="3007382524" name="modules/de-janitza-pasw-wrapper-groovy.jar"/>
+        <file crc="1831638089" name="modules/ext/de.janitza.pasw.wrapper-groovy/org-codehaus-groovy/groovy-all.jar"/>
+    </module_version>
+</module>

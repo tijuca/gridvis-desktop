@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.net">
+    <module_version install_time="1401882424216" last="true" origin="installer" specification_version="3.1">
+        <file crc="1473646340" name="config/Modules/de-janitza-pasw-wrapper-commons-net.xml"/>
+        <file crc="4290593905" name="modules/de-janitza-pasw-wrapper-commons-net.jar"/>
+        <file crc="1987215567" name="modules/ext/commons-net/commons-net-3.1.jar"/>
+    </module_version>
+</module>

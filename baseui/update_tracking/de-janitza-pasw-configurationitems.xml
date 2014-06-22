@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.configurationitems">
+    <module_version install_time="1401882424157" last="true" origin="installer" specification_version="1.16.0">
+        <file crc="1005930112" name="config/Modules/de-janitza-pasw-configurationitems.xml"/>
+        <file crc="1408834540" name="modules/de-janitza-pasw-configurationitems.jar"/>
+    </module_version>
+</module>

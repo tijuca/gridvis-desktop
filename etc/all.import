@@ -1,0 +1,2 @@
+include config/.*
+exclude config/Modules/.*

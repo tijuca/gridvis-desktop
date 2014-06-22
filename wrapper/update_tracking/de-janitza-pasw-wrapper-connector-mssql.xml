@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.connector.mssql">
+    <module_version install_time="1401882422358" last="true" origin="installer" specification_version="4.0.2206">
+        <file crc="770206427" name="config/Modules/de-janitza-pasw-wrapper-connector-mssql.xml"/>
+        <file crc="3243151629" name="modules/de-janitza-pasw-wrapper-connector-mssql.jar"/>
+        <file crc="1746543214" name="modules/ext/de.janitza.pasw.wrapper-connector-mssql/com-microsoft/sqljdbc.jar"/>
+        <file crc="180503602" name="modules/lib/amd64/sqljdbc_auth.dll"/>
+        <file crc="1681083215" name="modules/lib/x86/sqljdbc_auth.dll"/>
+    </module_version>
+</module>

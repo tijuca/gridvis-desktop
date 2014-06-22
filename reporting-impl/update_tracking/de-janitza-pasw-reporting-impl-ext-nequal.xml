@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.ext.nequal">
+    <module_version install_time="1401882425511" last="true" origin="installer" specification_version="1.4.0">
+        <file crc="294532826" name="config/Modules/de-janitza-pasw-reporting-impl-ext-nequal.xml"/>
+        <file crc="3298167836" name="modules/de-janitza-pasw-reporting-impl-ext-nequal.jar"/>
+    </module_version>
+</module>

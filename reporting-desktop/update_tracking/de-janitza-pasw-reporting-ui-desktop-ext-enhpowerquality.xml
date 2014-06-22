@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.ext.enhpowerquality">
+    <module_version install_time="1401882425604" last="true" origin="installer" specification_version="1.1.0">
+        <file crc="3413546955" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-ext-enhpowerquality.xml"/>
+        <file crc="46956559" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-enhpowerquality.jar"/>
+    </module_version>
+</module>

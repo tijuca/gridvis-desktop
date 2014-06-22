@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jasperreport">
+    <module_version install_time="1401882424551" last="true" origin="installer" specification_version="4.7.1.0">
+        <file crc="13578893" name="config/Modules/de-janitza-pasw-wrapper-jasperreport.xml"/>
+        <file crc="521787053" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
+        <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcmail-jdk14.jar"/>
+        <file crc="401457712" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcprov-jdk14.jar"/>
+        <file crc="3598344187" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/com-lowagie/itext.jar"/>
+        <file crc="2115505048" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/eclipse/jdtcore.jar"/>
+        <file crc="1871618793" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/jfree/jcommon.jar"/>
+        <file crc="987423026" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/jfree/jfreechart.jar"/>
+        <file crc="129651783" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/net-sf-jasperreports/jasperreports.jar"/>
+        <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-bouncycastle/bcmail-jdk14.jar"/>
+        <file crc="401457712" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-bouncycastle/bcprov-jdk14.jar"/>
+        <file crc="1451835075" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-bouncycastle/bctsp-jdk14.jar"/>
+        <file crc="3648759030" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-codehaus-castor/castor.jar"/>
+    </module_version>
+</module>

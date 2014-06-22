@@ -1,0 +1,400 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="MSSmartTagsPreventParsing" content="true">
+<title>Changelog</title>
+<script type="text/javascript">
+            
+            function createCSSClass(selector, style)
+            {
+                // using information found at: http://www.quirksmode.org/dom/w3c_css.html
+                // doesn't work in older versions of Opera (&lt; 9) due to lack of styleSheets support
+                if(!document.styleSheets) return;
+                if(document.getElementsByTagName("head").length == 0) return;
+                var stylesheet;
+                var mediaType;
+                if(document.styleSheets.length > 0)
+                {
+                    for(i = 0; i < document.styleSheets.length; i++)
+                    {
+                        if(document.styleSheets[i].disabled) continue;
+                        var media = document.styleSheets[i].media;
+                        mediaType = typeof media;
+                        // IE
+                        if(mediaType == "string")
+                        {
+                            if(media == "" || media.indexOf("screen") != -1)
+                            {
+                                styleSheet = document.styleSheets[i];
+                            }
+                        }
+                        else if(mediaType == "object")
+                        {
+                            if(media.mediaText == "" || media.mediaText.indexOf("screen") != -1)
+                            {
+                                styleSheet = document.styleSheets[i];
+                            }
+                        }
+                        // stylesheet found, so break out of loop
+                        if(typeof styleSheet != "undefined") break;
+                    }
+                }
+                // if no style sheet is found
+                if(typeof styleSheet == "undefined")
+                {
+                    // create a new style sheet
+                    var styleSheetElement = document.createElement("style");
+                    styleSheetElement.type = "text/css";
+                    // add to <head>
+                    document.getElementsByTagName("head")[0].appendChild(styleSheetElement);
+                    // select it
+                    for(i = 0; i<document.styleSheets.length; i++)
+                    {
+                        if(document.styleSheets[i].disabled) continue;
+                        styleSheet = document.styleSheets[i];
+                    }
+                    // get media type
+                    var media = styleSheet.media;
+                    mediaType = typeof media;
+                }
+                // IE
+                if(mediaType == "string")
+                {
+                    for(i = 0;i<styleSheet.rules.length;i++)
+                    {
+                        // if there is an existing rule set up, replace it
+                        if(styleSheet.rules[i].selectorText.toLowerCase() == selector.toLowerCase())
+                        {
+                            styleSheet.rules[i].style.cssText = style;
+                            return;
+                        }
+                    }
+                    // or add a new rule
+                    styleSheet.addRule(selector,style);
+                }
+                else if(mediaType == "object")
+                {
+                    for(i = 0;i<styleSheet.cssRules.length;i++)
+                    {
+                        // if there is an existing rule set up, replace it
+                        if(styleSheet.cssRules[i].selectorText && styleSheet.cssRules[i].selectorText.toLowerCase() == selector.toLowerCase())
+                        {
+                            styleSheet.cssRules[i].style.cssText = style;
+                            return;
+                        }
+                    }
+                    // or insert new rule
+                    styleSheet.insertRule(selector + "{" + style + "}", styleSheet.cssRules.length);
+                }
+            }
+            function LanguageSetCookie(lang){
+                var a = new Date();
+                a = new Date(a.getTime() + 1000 * 60 * 60 * 24 * 90);
+                document.cookie = lang+'; expires=' + a.toGMTString() + ';';
+            }
+
+            function getCleanLanguage(cook){
+                if(cook!="de" && cook!="en")
+                    return "de";//Std Lang
+                return cook;
+            }
+            function getLanguageFromCookie(){
+		return getCleanLanguage(document.cookie);
+            }
+            function changeLang(lang){
+                //hide old
+                createCSSClass("."+CurrentLanguage.toLowerCase(),"")
+                //set new
+                LanguageSetCookie(lang);
+                CurrentLanguage = getCleanLanguage(lang);
+                createCSSClass("."+CurrentLanguage.toLowerCase(),"display:block!important;")
+            }
+
+            CurrentLanguage = getLanguageFromCookie();
+            createCSSClass("."+CurrentLanguage.toLowerCase(),"display:block!important;")
+            if(window.top.location.href.indexOf("start.html")==-1)
+                createCSSClass("#langsel","display:block!important;")
+
+
+        </script>
+<style type="text/css">
+
+            .version{
+                display:none;
+            }
+            body{
+                background:white;
+            }
+            #langsel{
+                     padding:10px;
+            }
+            #langsel a{
+                     padding-left:10px;
+            }
+            
+        </style>
+</head>
+<body>
+<div id="langsel">
+<span><a href="javascript:changeLang('de')">Deutsch</a><a href="javascript:changeLang('en')">English</a></span>
+</div>
+<h1>Changelog</h1>
+
+
+<div class="version de">
+<h2>Version 5.0.1</h2>
+<ul>
+<li>Ereignisse, Transienten und Sequenzen k&ouml;nnen separat gel&ouml;scht werden</li>
+<li>Ausf&uuml;hrung eines Exports wird in der Taskleiste angezeigt</li>
+<li>Der Temperaturoffset des UMG96RM-E kann konfiguriert werden</li>
+<li>Behoben: Spannungsobergrenze f&uuml;r Qualit&auml;tsreports ist zu niedrig</li>
+<li>Janitza DB Optimierungen f&uuml;r das Alarmsystem</li>
+<li>Behoben: ModBus-Kommunikation nur bis UnitID 127 m&ouml;glich.</li>
+<li>Behoben: Mehrfachselektion von Messwerten bei Exporten f&uuml;r Energie-/Leistungswerte</li>
+<li>Erzeugung von Jasic-Datei f&uuml;r BacNet wird entfernt (ersetzt durch BacNet in Ger&auml;te-Konfiguration)</li>
+<li>Behoben: Der Prodata 2 &uuml;bernimmt seinen Namen beim CSV Import nicht</li>
+<li>Behoben: Das UMG96RM &uuml;bernimmt seinen Namen beim CSV Import nicht</li>
+<li>Behoben: Bilder der Anschlussvarianten beim UMG511 falsch</li>
+<li>Behoben: Es konnten Profibus Profile mit mehr als 123 Byte angelegt werden</li>
+<li>Behoben: Status-Email des Servers f&uuml;hrt gel&ouml;schte Ger&auml;te mit auf</li>
+<li>Behoben: SMTP Port ist immer 465 wenn SSL verwendet wird,STARTTLS einzeln ausw&auml;hlbar.</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.0.1</h2>
+<ul>
+<li>Events, transients and sequences can be deleted separately</li>
+<li>A progress bar indicates the execution of an export</li>
+<li>The temperature offset can be configured for an UMG96RM-E</li>
+<li>Fixed: Upper voltage barrier for Quality Reports is too low</li>
+<li>Janitza DB improvements concerning the alarm system</li>
+<li>Fixed: ModBus communication was limited to a maximal UnitID of 127.</li>
+<li>Fixed: multi selection support for value types in energy/power values exports</li>
+<li>Creation of Jasic file for BacNet removed (becomes obsolete due to replacement by BacNet in device's configuration)</li>
+<li>Fixed: Prodata 2 does not use the name when importing from CSV file</li>
+<li>Fixed: UMG96RM does not use the name when importing from CSV file</li>
+<li>Fixed: Images of measuringvariants are wrong for UMG511</li>
+<li>Fixed: It was possible to create profibus profiles larger 123 bytes</li>
+<li>Fixed: State email sent by service includes deleted devices</li>
+<li>Fixed: SMTP port is always 465 when SSL is used, STARTTLS option added.</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 5.0.0</h2>
+<ul>
+<li>Einstellbarer Gateway-Timeout f&uuml;r UMG604, UMG605, UMG508, UMG511 und UMG104.</li>
+<li>Einstellbarer Gateway-Timeout f&uuml;r UMG96RME.</li>
+<li>Konfigurationswert f&uuml;r Ereignis-Nachlauf f&uuml;r UMG604 und UMG508 entfernt</li>
+<li>In der Topologie werden selektierte Elemente hervorgehoben</li>
+<li>Janitza DB wird als Standarddatenbank verwendet</li>
+<li>Topologie Elemente k&ouml;nnen gleichm&auml;&szlig;ig verteilt werden</li>
+<li>Summierkan&auml;le des UMG20CM k&ouml;nnen benannt werden.</li>
+<li>Aufzeichnungsl&uuml;cken in der Report&uuml;bersicht dargestellt.</li>
+<li>Anwendung kann mehr Speicher nutzen.</li>
+<li>Mail werden erneut gesendet wenn ein SMTP-Fehler auftritt.</li>
+<li>Behoben: Die GridVis friert ein wenn der Toolbarkonfigurator genutzt wird</li>
+<li>Behoben: Einheiten und Formatierung im Verbrauchsreport uneinheitlich</li>
+<li>Behoben: LastSync kann als Zeit in der Zukunft in der Datenbank abgespeichert werden</li>
+<li>Behoben: Unvollst&auml;ndiger PDF-Export des Verbindungstestreports</li>
+<li>Behoben: Der Dienst startet eine Redirect Schleife wenn kein Projekt gew&auml;hlt wurde</li>
+<li>Behoben: Grenzwertverletzungen in den Reports werden falsch berechnet</li>
+<li>Behoben: Virtuelles Ger&auml;t berechnet die Zeitspannen der vorhandenen Daten falsch</li>
+<li>Behoben: Projekte k&ouml;nnen nicht vom GridVis Service gel&ouml;st werden</li>
+<li>Behoben: Excel Exporte funktionieren mit Online erfassten Werten nicht</li>
+<li>Behoben: GridVis bleibt im Projekt Status 'Lade Ger&auml;te' h&auml;ngen</li>
+<li>Behoben: Als gel&ouml;scht markierte Ger&auml;te sind in Alarmquellen konfigurierbar</li>
+<li>Zust&auml;nde der Digitaleing&auml;nge von UMG96S in Online-Auslesung verf&uuml;gbar</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.0.0</h2>
+<ul>
+<li>Customizable gateway timeout for UMG604, UMG605, UMG508, UMG511 and UMG104.</li>
+<li>Customizable gateway timeout for UMG96RME.</li>
+<li>Configuration item for post event values removed for devices UMG604 and UMG508</li>
+<li>The topology marks selected Elements</li>
+<li>Janitza DB is used as default database</li>
+<li>Topology elements can be distributed evenly</li>
+<li>Sum channels of UMG20CM can be named.</li>
+<li>Overview in reports shows gaps in recordings.</li>
+<li>Application can use more memory.</li>
+<li>If the SMTP server reports an error there will be a retry.</li>
+<li>Fixed: GridVis freezes when the toolbar customizer is used</li>
+<li>Fixed: Units and formating of values in the consumption report is inconsistent</li>
+<li>Fixed: LastSync can be stored in database as future time</li>
+<li>Fixed: Incomplete PDF Export of ConnectionTest Report</li>
+<li>Fixed: The service starts a redirect loop when no project is selected</li>
+<li>Fixed: number of limit exceedances is not correct</li>
+<li>Fixed: The virtual device wrongly calculates time ranges for data available</li>
+<li>Fixed: Projects can not be removed from GridVis Service</li>
+<li>Fixed: Excel export fail to export online recorded values</li>
+<li>Fixed: GridVis stop at project state 'Loading devices'</li>
+<li>Fixed: Devices marked as deleted are assignable in alarmsources</li>
+<li>State of digital input from UMG96S added to online readings</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.3.3</h2>
+<ul>
+<li>Behoben: Der Dienst startet eine Redirect Schleife wenn kein Projekt gew&auml;hlt wurde</li>
+<li>Behoben: Grenzwertverletzungen in den Reports werden falsch berechnet</li>
+<li>Behoben: Virtuelles Ger&auml;t berechnet die Zeitspannen der vorhandenen Daten falsch</li>
+<li>Behoben: Timeout bei der Benutzerverwaltung </li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.3.3</h2>
+<ul>
+<li>Fixed: The service starts a redirect loop when no project is selected</li>
+<li>Fixed: number of limit exceedances is not correct</li>
+<li>Fixed: The virtual device wrongly calculates time ranges for data available</li>
+<li>Fixed: Timeout issue for user management</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.3.2</h2>
+<ul>
+<li>Behoben: Projekte k&ouml;nnen nicht vom GridVis Service gel&ouml;st werden</li>
+<li>Behoben: Excel Exporte funktionieren mit Online erfassten Werten nicht</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.3.2</h2>
+<ul>
+<li>Fixed: Projects can not be removed from GridVis Service</li>
+<li>Fixed: Excel export fail to export online recorded values</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.3.1</h2>
+<ul>
+<li>Behoben: GridVis bleibt im Projekt Status 'Lade Ger&auml;te' h&auml;ngen</li>
+<li>Behoben: In der Ger&auml;teliste bleiben die Spalten leer</li>
+<li>Behoben: GridVis bleibt im Projekt Status 'Starte Subsysteme' h&auml;ngen</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.3.1</h2>
+<ul>
+<li>Fixed: GridVis stop at project state 'Loading devices'</li>
+<li>Fixed: The device list has empty columns</li>
+<li>Fixed: GridVis stop at project state 'Loading subsystems'</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.3.0</h2>
+<ul>
+<li>Unterst&uuml;tzung f&uuml;r Kabelbruch-Erkennung von UMG96RM-E </li>
+<li>Virtuelle Ger&auml;te unterst&uuml;tzen Default-Werte f&uuml;r Ger&auml;te ohne Daten.</li>
+<li>Spannungsereignisse "Ger&auml;t aus" in EN50160 Reports</li>
+<li>REST: Verbesserte Parallel-Performance</li>
+<li>Behoben: Fehler bei der Skalierung von ausgelesenen Me&szlig;werten beim ProData</li>
+<li>Behoben: Me&szlig;werte in Konfiguration der Vergleicher eines UMG96RM werden nach Laden der Konfiguration nicht richtig angezeigt</li>
+<li>Behoben: Projektladen blockiert wenn virtuelle Ger&auml;te auf nicht mehr vorhanden Ger&auml;te verweisen.</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.3.0</h2>
+<ul>
+<li>Supports connection fault detection for UMG96RM-E</li>
+<li>Virtual devices support a default value for devices without data.</li>
+<li>Voltage event "device off" in EN50160 reports</li>
+<li>REST: Improved parallel performance</li>
+<li>Fixed: error in scaling of readed values for ProData</li>
+<li>Fixed: Configured value in UMG96RM'S comparator configuration are not correctly displayed </li>
+<li>Fixed: Loading of projects failed if virtual devices referenced deleted devices.</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.2.1</h2>
+<ul>
+<li>Behoben: ProData2 Es k&ouml;nnen keine Aufzeichnungen mit mehr als 14 Werten ausgelesen werden</li>
+<li>Behoben: Fehler bei der Skalierung von ausgelesenen Me&szlig;werten beim ProData</li>
+<li>Behoben: Alarme k&ouml;nnen nicht quittiert werden</li>
+<li>Behoben: Me&szlig;werte in Konfiguration der Vergleicher eines UMG96RM werden nach Laden der Konfiguration nicht richtig angezeigt</li>
+<li>Behoben: Excelexporte aktualisieren Start und Endzeiten nicht</li>
+<li>Behoben: Projektladen blockiert wenn virtuelle Ger&auml;te auf nicht mehr vorhanden Ger&auml;te verweisen.</li>
+<li>Behoben: Nicht alle COM Ports werden erkannt</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.2.1</h2>
+<ul>
+<li>Fixed: ProData2 Recordings containing more than 14 values can not be synchronized</li>
+<li>Fixed: error in scaling of readed values for ProData</li>
+<li>Fixed: Alarms could not be acknowleged</li>
+<li>Fixed: Configured value in UMG96RM'S comparator configuration are not correctly displayed </li>
+<li>Fixed: Excelexport are not adjusting start and end times</li>
+<li>Fixed: Loading of projects failed if virtual devices referenced deleted devices.</li>
+<li>Fixed: Not all COM Ports are detected</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 4.2.0</h2>
+<ul>
+<li>Leistungsf&auml;higes Alarmmanagement </li>
+<li>Warnung hinzugef&uuml;gt, wenn Zyklen in Virtuellen Ger&auml;ten vorhanden sind.</li>
+<li>Es k&ouml;nnen Projekte in existierenden MS SQL Datenbanken erstellt werden</li>
+<li>EN50160: Anzahl der Grenzwert&uuml;berschreitungen wird auch absolut angezeigt</li>
+<li>Bei den Ger&auml;te UMG104/UMG508/UMG511/UMG604/UMG605 kann kein Downgrade mehr durchgef&uuml;hrt werden.</li>
+<li>Behoben: Upgrade eines Prodata2 ben&ouml;tigte gro&szlig;e Timeout-Einstellungen (Sekunden-Bereich)</li>
+<li>Wertevalidierung ist per default aus geschaltet</li>
+<li>Behoben: Kein Zugriff auf UMG96RM-M mit ge&auml;nderter Sekund&auml;radresse</li>
+<li>Behoben: Probleme bei Auslesung der Aufzeichnungen von ProData2/UMG96RM-P/UMG96RM-CBM</li>
+<li>Behoben : Fehler bei &Uuml;bertragung der Vergleicher-Einstellungen an UMG503</li>
+<li>Behoben: Fehler bei der Auslesung des ProData in den Werten des 20mA-Eingangs</li>
+<li>Behoben: Ge&auml;nderte Aufzeichnungen auf Jasic Ger&auml;ten werden nicht gestartet</li>
+<li>Behoben: Jasic-Ger&auml;te mit Firmware-Version &auml;lter als 1.293 lassen sich nicht upgraden.</li>
+<li>Behoben: Freie Datumsauswahl beim Energieexport wurde nicht ber&uuml;cksichtigt.</li>
+<li>Behoben: Topologie-Symbole-Ordner war &uuml;bersetzt.</li>
+<li>Behoben: Die Ger&auml;teid bei REST Onlinewerte wurde falsch interpretiert.</li>
+<li>Behoben: Benutzerverwaltung konnte ohne Schreibrechte auf den GridVis-Installationsordner nicht gel&ouml;scht werden.</li>
+<li>Behoben: Nach dem L&ouml;schen von Daten bleiben Eintr&auml;ge im Wertebaum zur&uuml;ck.</li>
+<li>Behoben: In Aufzeichnungen und Feldbus-Profile f&uuml;r Jasic-Ger&auml;te und UMG96RM konnte keine verbrauchte Wirkarbeit und Wirkleistung eingef&uuml;gt werden.</li>
+<li>Behoben: &Uuml;berspannungsereignisse im EN50160 werden falsch sortiert</li>
+<li>Behoben: Ger&auml;t zur manuellen Eingabe konnte nicht als Wertequelle des virtuellen Ger&auml;ts benutzt werden.</li>
+<li>Behoben: Im Benutzerdefinierten Baum werden keine Ger&auml;telisten mehr angezeigt</li>
+<li>Behoben: R&uuml;cksetzung der Min/Maxwerte fehlt beim UMG104.</li>
+<li>Behoben: Falscher Einstellbereich f&uuml;r Impulswertigkeit bei UMG96S</li>
+<li>Behoben: &Auml;nderung des Zeitplans f&uuml;r einen Report wird nicht sofort in der &Uuml;bersicht angezeigt.</li>
+<li>Behoben: UMG503/UMG505 konnte nur mit maximaler Baudrate von 38400 angeschlossen werden.</li>
+<li>Behoben: Farblegende in Graph Browser fehlerhaft</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 4.2.0</h2>
+<ul>
+<li>Alarm management</li>
+<li>Warning if cycles between virtual devices were detected.</li>
+<li>Its now possible to create projects in existing MS SQL databases</li>
+<li>EN50160: number of missed intervals is also displayed as absolut number</li>
+<li>For UMG104/UMG508/UMG511/UMG604/UMG605 the downgrade can no longer be performed.</li>
+<li>Fixed: Upgrade for Prodata2 needed high timeout values (range of seconds)</li>
+<li>Value validation is turned off by default</li>
+<li>Fixed: No access to UMG96RM-M with changed secondary address</li>
+<li>Fixed: Problems with reading of records from ProData2/UMG96RM-P/UMG96RM-CBM</li>
+<li>Fixed : comparator settings will be changed during transmission to UMG503</li>
+<li>Fixed: Error in values from 20mA-input in historical data from ProData</li>
+<li>Fixed: Changed recordings are not started on jasic devices</li>
+<li>Fixed: Upgrade didn't work for Jasic devices with firmware release older than 1.293.</li>
+<li>Fixed: energy export did not consider the free date selection.</li>
+<li>Fixed: symbol direcotroy for topology was translated.</li>
+<li>Fixed: Wrong device id parsing while fetching online values using REST.</li>
+<li>Fixed: User administration could not be removed without write permissions for GridVis install directory.</li>
+<li>Fixed: After deleting values there are remaining nodes in the value tree.</li>
+<li>Fixed: Active power and active energy consumed could not be added to recordings and field bus profiles of Jasic-devices and UMG96RM</li>
+<li>Fixed: Overvoltage events are not sorted correctly</li>
+<li>Fixed: Device for manual input could not be used as virtual device's value source</li>
+<li>Fixed: Userdefined trees do not show devicelists anymore</li>
+<li>Fixed: Reset of min/max values is missing with umg104.</li>
+<li>Fixed: Wrong settings range for pulse valence of UMG96S</li>
+<li>Fixed: A report's schedule change is not shown in the overview immediately.</li>
+<li>Fixed: Connection to UMG503/UMG505 could not be configured with  baudrate higher than 38400 baud.</li>
+<li>Fixed: Legend of graph browser shows wrong colors</li>
+</ul>
+</div>
+</body>
+</html>

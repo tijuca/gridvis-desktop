@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.project.api">
+    <module_version install_time="1401882423453" last="true" origin="installer" specification_version="1.4.0">
+        <file crc="130776752" name="config/Modules/de-janitza-pasw-topology-project-api.xml"/>
+        <file crc="93039302" name="modules/de-janitza-pasw-topology-project-api.jar"/>
+    </module_version>
+</module>
