@@ -1,0 +1,47 @@
+#bin/gridvis usr/bin/
+etc/*       etc/gridvis-desktop/
+
+# the GridVis folder itself
+alarm               usr/lib/gridvis-desktop/
+baseui              usr/lib/gridvis-desktop/
+bin                 usr/lib/gridvis-desktop/
+databases           usr/lib/gridvis-desktop/
+devices             usr/lib/gridvis-desktop/
+exports-core        usr/lib/gridvis-desktop/
+exports-desktop     usr/lib/gridvis-desktop/
+exports-impl        usr/lib/gridvis-desktop/
+exports-project     usr/lib/gridvis-desktop/
+extdevice           usr/lib/gridvis-desktop/
+extdevices          usr/lib/gridvis-desktop/
+extra               usr/lib/gridvis-desktop/
+filesystems-core    usr/lib/gridvis-desktop/
+filesystems-impl    usr/lib/gridvis-desktop/
+filesystems-project usr/lib/gridvis-desktop/
+graph               usr/lib/gridvis-desktop/
+graphprog           usr/lib/gridvis-desktop/
+gridvis             usr/lib/gridvis-desktop/
+help                usr/lib/gridvis-desktop/
+ide                 usr/lib/gridvis-desktop/
+license             usr/lib/gridvis-desktop/
+mailing-core        usr/lib/gridvis-desktop/
+mailing-impl        usr/lib/gridvis-desktop/
+platform            usr/lib/gridvis-desktop/
+project             usr/lib/gridvis-desktop/
+reporting-core      usr/lib/gridvis-desktop/
+reporting-desktop   usr/lib/gridvis-desktop/
+reporting-impl      usr/lib/gridvis-desktop/
+reporting-project   usr/lib/gridvis-desktop/
+reports             usr/lib/gridvis-desktop/
+reports/logo.png    usr/share/gridvis-desktop/reports/
+scheduling          usr/lib/gridvis-desktop/
+scripting           usr/lib/gridvis-desktop/
+security            usr/lib/gridvis-desktop/
+sharedplugins       usr/lib/gridvis-desktop/
+topology            usr/lib/gridvis-desktop/
+wrapper             usr/lib/gridvis-desktop/
+icon16.png          usr/share/gridvis-desktop/
+icon32.ico          usr/lib/gridvis-desktop/
+icon32.png          usr/share/gridvis-desktop/
+license.ico         usr/lib/gridvis-desktop/
+request.ico         usr/lib/gridvis-desktop/
+

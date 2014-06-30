@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=GridVis
+Comment=Management Software for Janitza measurement devices
+GenericName=GridVis Desktop
+Exec=/usr/lib/gridvis-desktop/bin/gridvis
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=gridvis32
+Categories=Development;
+StartupWMClass=sun-awt-X11-XFramePeer
+StartupNotify=true
+Comment[de]=Administrationssoftware für Janitza Messgeräte
