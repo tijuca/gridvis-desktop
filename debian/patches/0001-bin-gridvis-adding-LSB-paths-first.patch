@@ -1,0 +1,78 @@
+From: Carsten Schoenert <c.schoenert@t-online.de>
+Date: Mon, 30 Jun 2014 23:11:20 +0200
+Subject: bin/gridvis: adding LSB paths first
+
+---
+ bin/gridvis | 27 ++++++++++++++++++++++-----
+ 1 file changed, 22 insertions(+), 5 deletions(-)
+
+diff --git a/bin/gridvis b/bin/gridvis
+index f9cd75e..bd262d0 100755
+--- a/bin/gridvis
++++ b/bin/gridvis
+@@ -4,22 +4,27 @@
+ # resolve symlinks
+ #
+ 
++#set -x
++
+ PRG=$0
+ 
+ while [ -h "$PRG" ]; do
+     ls=`ls -ld "$PRG"`
+     link=`expr "$ls" : '^.*-> \(.*\)$' 2>/dev/null`
+     if expr "$link" : '^/' 2> /dev/null >/dev/null; then
+-	PRG="$link"
++        PRG="$link"
+     else
+-	PRG="`dirname "$PRG"`/$link"
++        PRG="`dirname "$PRG"`/$link"
+     fi
+ done
+ 
+ progdir=`dirname "$PRG"`
+ APPNAME=`basename "$PRG"`
+ 
+-if [ -f "$progdir/../etc/$APPNAME".conf ] ; then
++# catching config from /etc first
++if [ -f /etc/gridvis-desktop/"$APPNAME".conf ]; then
++    . /etc/gridvis-desktop/"$APPNAME".conf
++elif [ -f "$progdir/../etc/$APPNAME".conf ] ; then
+     . "$progdir/../etc/$APPNAME".conf
+ fi
+ 
+@@ -34,6 +39,7 @@ case "`uname`" in
+         userdir="${default_userdir}"
+         ;;
+ esac
++
+ while [ $# -gt 0 ] ; do
+     case "$1" in
+         --userdir) shift; if [ $# -gt 0 ] ; then userdir="$1"; fi
+@@ -76,13 +82,24 @@ absolutize_paths() {
+     done
+ }
+ 
+-clusters=`(cat "$progdir/../etc/$APPNAME".clusters; echo) | readClusters | absolutize_paths | tr '\012' ':'`
++# catching LSB style first
++if [ -f /etc/gridvis-desktop/"$APPNAME".clusters ]; then
++    clusters=`(cat /etc/gridvis-desktop/"$APPNAME".clusters; echo) | readClusters | absolutize_paths | tr '\012' ':'`
++else
++# fall back to original
++    clusters=`(cat "$progdir/../etc/$APPNAME".clusters; echo) | readClusters | absolutize_paths | tr '\012' ':'`
++fi
+ 
+ if [ ! -z "$extra_clusters" ] ; then
+     clusters="$clusters:$extra_clusters"
+ fi
+ 
+-nbexec=`echo "$progdir"/../platform*/lib/nbexec`
++# catching LSB style first again
++if [ -f /usr/lib/gridvis-desktop/platform/lib/nbexec ]; then
++    nbexec=`echo /usr/lib/gridvis-desktop/platform/lib/nbexec`
++else
++    nbexec=`echo "$progdir"/../platform*/lib/nbexec`
++fi
+ 
+ case "`uname`" in
+     Darwin*)
