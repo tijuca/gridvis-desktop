@@ -2,5 +2,5 @@
     section="Applications/Programming" \
     title="GridVis Desktop" \
     icon32x32="/usr/share/pixmaps/gridvis32.xpm" \
-    command="/usr/lib/gridvis-desktop/bin/gridvis" \
+    command="gridvis-desktop" \
     hints="GridVis"

@@ -42,6 +42,8 @@ override_dh_install:
 	# copy menu icon
 	install -m 644 $(CURDIR)/debian/icons/gridvis32.xpm $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/pixmaps/gridvis32.xpm
 	install -m 644 $(CURDIR)/debian/gridvis.desktop $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/applications/gridvis.desktop
+	# install starting wrapper script
+	install -m 755 $(CURDIR)/debian/gridvis-desktop-wrapper.sh $(CURDIR)/debian/$(PACKAGE_NAME)/usr/bin/gridvis-desktop
 
 override_dh_shlibdeps:
 	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) \
