@@ -1,0 +1,6 @@
+gridvis-desktop (5.0.1-1~exp1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * initial packaging
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 13 May 2014 21:58:54 +0200
