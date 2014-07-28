@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jasperreport">
-    <module_version install_time="1401882424551" last="true" origin="installer" specification_version="4.7.1.0">
+    <module_version install_time="1404389626115" last="true" origin="installer" specification_version="4.7.1.0">
         <file crc="13578893" name="config/Modules/de-janitza-pasw-wrapper-jasperreport.xml"/>
         <file crc="521787053" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
         <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcmail-jdk14.jar"/>

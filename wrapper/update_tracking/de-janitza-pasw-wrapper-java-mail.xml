@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.java.mail">
-    <module_version install_time="1401882422482" last="true" origin="installer" specification_version="1.4.7.0">
+    <module_version install_time="1404389623058" last="true" origin="installer" specification_version="1.4.7.0">
         <file crc="1112490628" name="config/Modules/de-janitza-pasw-wrapper-java-mail.xml"/>
         <file crc="387944185" name="modules/de-janitza-pasw-wrapper-java-mail.jar"/>
         <file crc="984909869" name="modules/ext/javax.activation/activation-1.1.jar"/>

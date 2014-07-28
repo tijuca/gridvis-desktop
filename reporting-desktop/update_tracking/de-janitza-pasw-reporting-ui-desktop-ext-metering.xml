@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.ext.metering">
-    <module_version install_time="1401882425610" last="true" origin="installer" specification_version="1.5.0">
+    <module_version install_time="1404389627728" last="true" origin="installer" specification_version="1.5.1">
         <file crc="1338701343" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-ext-metering.xml"/>
-        <file crc="2781087009" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-metering.jar"/>
+        <file crc="3952259425" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-metering.jar"/>
     </module_version>
 </module>

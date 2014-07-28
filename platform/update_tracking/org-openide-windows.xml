@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.openide.windows">
-    <module_version install_time="1401882419611" last="true" origin="installer" specification_version="6.65.1">
+    <module_version install_time="1404389618790" last="true" origin="installer" specification_version="6.65.1">
         <file crc="3877728110" name="config/Modules/org-openide-windows.xml"/>
         <file crc="2453586863" name="modules/locale/org-openide-windows_ja.jar"/>
         <file crc="3421919372" name="modules/locale/org-openide-windows_pt_BR.jar"/>

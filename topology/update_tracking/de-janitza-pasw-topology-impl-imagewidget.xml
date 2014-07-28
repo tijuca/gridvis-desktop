@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.impl.imagewidget">
-    <module_version install_time="1401882423411" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1404389624470" last="true" origin="installer" specification_version="1.6.1">
         <file crc="2621287735" name="config/Modules/de-janitza-pasw-topology-impl-imagewidget.xml"/>
-        <file crc="4153775512" name="modules/de-janitza-pasw-topology-impl-imagewidget.jar"/>
+        <file crc="3522596389" name="modules/de-janitza-pasw-topology-impl-imagewidget.jar"/>
     </module_version>
 </module>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.xml.apis">
-    <module_version install_time="1401882424744" last="true" origin="installer" specification_version="1.3.2">
+    <module_version install_time="1404389626337" last="true" origin="installer" specification_version="1.3.2">
         <file crc="1019612584" name="config/Modules/de-janitza-pasw-wrapper-xml-apis.xml"/>
         <file crc="241300931" name="modules/de-janitza-pasw-wrapper-xml-apis.jar"/>
         <file crc="718358633" name="modules/ext/de.janitza.pasw.wrapper-xml-apis/stax/stax-api.jar"/>

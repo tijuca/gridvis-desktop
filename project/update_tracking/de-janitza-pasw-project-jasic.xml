@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.jasic">
-    <module_version install_time="1401882422601" last="true" origin="installer" specification_version="10.44.0">
+    <module_version install_time="1404389623239" last="true" origin="installer" specification_version="10.44.1">
         <file crc="2745542677" name="config/Modules/de-janitza-pasw-project-jasic.xml"/>
-        <file crc="527267448" name="modules/de-janitza-pasw-project-jasic.jar"/>
+        <file crc="1933245516" name="modules/de-janitza-pasw-project-jasic.jar"/>
     </module_version>
 </module>
