@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.serialio">
-    <module_version install_time="1401882424680" last="true" origin="installer" specification_version="8.4">
+    <module_version install_time="1404389626261" last="true" origin="installer" specification_version="8.4">
         <file crc="2712413507" name="config/Modules/de-janitza-pasw-wrapper-serialio.xml"/>
         <file crc="1121796323" name="modules/de-janitza-pasw-wrapper-serialio.jar"/>
         <file crc="1030456858" name="modules/ext/de.janitza.pasw.wrapper-serialio/Serialio/Serialio.jar"/>

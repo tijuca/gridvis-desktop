@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.quartz">
-    <module_version install_time="1401882424640" last="true" origin="installer" specification_version="1.8.5">
+    <module_version install_time="1404389626237" last="true" origin="installer" specification_version="1.8.5">
         <file crc="84672395" name="config/Modules/de-janitza-pasw-wrapper-quartz.xml"/>
         <file crc="1050155732" name="modules/de-janitza-pasw-wrapper-quartz.jar"/>
         <file crc="2715822795" name="modules/ext/de.janitza.pasw.wrapper-quartz/javax-transaction/jta.jar"/>

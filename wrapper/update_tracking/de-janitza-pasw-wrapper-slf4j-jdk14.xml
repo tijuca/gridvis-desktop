@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.slf4j.jdk14">
-    <module_version install_time="1401882424695" last="true" origin="installer" specification_version="1.6.4">
+    <module_version install_time="1404389626276" last="true" origin="installer" specification_version="1.6.4">
         <file crc="3163122052" name="config/Modules/de-janitza-pasw-wrapper-slf4j-jdk14.xml"/>
         <file crc="1870363291" name="modules/de-janitza-pasw-wrapper-slf4j-jdk14.jar"/>
         <file crc="735795422" name="modules/ext/de.janitza.pasw.wrapper-slf4j-jdk14/org-slf4j/slf4j-api.jar"/>

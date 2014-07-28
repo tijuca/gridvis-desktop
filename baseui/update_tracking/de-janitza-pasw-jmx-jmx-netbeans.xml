@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.jmx.jmx.netbeans">
-    <module_version install_time="1401882423823" last="true" origin="installer" specification_version="10.10.0">
+    <module_version install_time="1404389625106" last="true" origin="installer" specification_version="10.10.0">
         <file crc="1661598626" name="config/Modules/de-janitza-pasw-jmx-jmx-netbeans.xml"/>
         <file crc="1114734447" name="modules/de-janitza-pasw-jmx-jmx-netbeans.jar"/>
     </module_version>

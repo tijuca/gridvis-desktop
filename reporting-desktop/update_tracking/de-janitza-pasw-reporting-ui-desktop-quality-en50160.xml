@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.quality.en50160">
-    <module_version install_time="1401882425584" last="true" origin="installer" specification_version="1.1.0">
+    <module_version install_time="1404389627659" last="true" origin="installer" specification_version="1.1.1">
         <file crc="3926056104" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-quality-en50160.xml"/>
-        <file crc="3584690892" name="modules/de-janitza-pasw-reporting-ui-desktop-quality-en50160.jar"/>
+        <file crc="2492454062" name="modules/de-janitza-pasw-reporting-ui-desktop-quality-en50160.jar"/>
     </module_version>
 </module>

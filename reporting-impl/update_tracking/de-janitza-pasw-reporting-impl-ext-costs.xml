@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.ext.costs">
-    <module_version install_time="1401882425485" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1404389627187" last="true" origin="installer" specification_version="1.6.1">
         <file crc="2530533679" name="config/Modules/de-janitza-pasw-reporting-impl-ext-costs.xml"/>
-        <file crc="3745324239" name="modules/de-janitza-pasw-reporting-impl-ext-costs.jar"/>
+        <file crc="3712057873" name="modules/de-janitza-pasw-reporting-impl-ext-costs.jar"/>
     </module_version>
 </module>

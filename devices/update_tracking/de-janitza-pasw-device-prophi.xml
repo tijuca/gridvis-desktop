@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.prophi">
-    <module_version install_time="1401882421955" last="true" origin="installer" specification_version="10.27.0">
+    <module_version install_time="1404389622096" last="true" origin="installer" specification_version="10.27.1">
         <file crc="1325831606" name="config/Modules/de-janitza-pasw-device-prophi.xml"/>
-        <file crc="1420213602" name="modules/de-janitza-pasw-device-prophi.jar"/>
+        <file crc="2139023460" name="modules/de-janitza-pasw-device-prophi.jar"/>
     </module_version>
 </module>

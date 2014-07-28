@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.database.derby">
-    <module_version install_time="1401882422285" last="true" origin="installer" specification_version="10.46.0">
+    <module_version install_time="1404389622602" last="true" origin="installer" specification_version="10.46.1">
         <file crc="4008404607" name="config/Modules/de-janitza-pasw-database-derby.xml"/>
-        <file crc="3323150399" name="modules/de-janitza-pasw-database-derby.jar"/>
+        <file crc="2567798522" name="modules/de-janitza-pasw-database-derby.jar"/>
     </module_version>
 </module>
