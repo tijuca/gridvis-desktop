@@ -5,3 +5,4 @@ usr/share/gridvis-desktop
 usr/share/gridvis-desktop/reports
 usr/share/applications
 usr/share/pixmaps
+var/lib/GridVisProjects
