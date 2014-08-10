@@ -1,0 +1,38 @@
+From: Carsten Schoenert <c.schoenert@t-online.de>
+Date: Sun, 10 Aug 2014 13:07:23 +0200
+Subject: changing gridvis.conf to reflect Debian specifica
+
+---
+ etc/gridvis.conf | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+
+diff --git a/etc/gridvis.conf b/etc/gridvis.conf
+index 1cc9a8a..da358d8 100644
+--- a/etc/gridvis.conf
++++ b/etc/gridvis.conf
+@@ -1,6 +1,8 @@
+ # ${HOME} will be replaced by user home directory according to platform
+-default_userdir="${HOME}/.${APPNAME}/5.0"
+-default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/5.0"
++#default_userdir="${HOME}/.${APPNAME}/5.0"
++# We set a global project directory in /var/lib/GridVisProjects,
++# also storing the license information there.
++default_userdir="/var/lib/GridVisProjects/.${APPNAME}/5.0"
+ 
+ # options used by the launcher by default, can be overridden by explicit
+ # command line switches
+@@ -9,10 +11,11 @@ default_options="--branding gridvis -J-Xms64m -J-Xmx1g -J-XX:MaxPermSize=196m -J
+ # for development purposes you may wish to append: -J-Dnetbeans.logger.console=true -J-ea
+ 
+ # default location of JDK/JRE, can be overridden by using --jdkhome <dir> switch
++# Don't change anything here unless you are knowing rhat you doing!
++# We set the $jdkhome environment in the starting wrapper to ensure we
++# are using openjdk-7-jre!
+ #jdkhome="jre"
+ 
+ # clusters' paths separated by path.separator (semicolon on Windows, colon on Unices)
+ #extra_clusters=
+-jdkhome="jre"
+ 
+-        
+\ No newline at end of file
