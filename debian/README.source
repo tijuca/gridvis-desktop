@@ -1,0 +1,121 @@
+Getting and preparing the needed source to create archive *.orig.tar.xz
+-----------------------------------------------------------------------
+
+Unfortunately Janitza isn't providing a proper usable source tarball
+anymore there the orig.tar.xz can be builded from.
+So there we are needed a lot of manual steps to get a archiv that's
+importable with git-import-orig.
+
+Importend:
+You need booth setup scripts (amd64 and i386) to create the orig.tar.xz file!
+
+1. Get the ISO image from the Janitza website
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Open the GridVis download website and get the the current version of the
+ISO image file from http://www.janitza.de/downloads/gridvis-download/
+
+For example version 5.1.0
+http://gridvis.janitza.de/download/5.1.0/GridVis.iso
+
+The image file is very big, mostly greater than 1,8GB!
+
+2. Mount the ISO image or use a UI tool for getting the needed files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The image file is holding various setup routins for the GridVis desktop
+and the server variant. There are shell scripts that Janitza suggest to
+use for the installation of the GridVis Desktop software.
+We need the following two files for getting the source of the i386 and
+amd64 packages.
+
+GridVis-x.x.x
+└── GridVis
+    └── Linux
+        ├── ...
+        ├── ...
+        ├── setup64bit.sh           <---- GridVisDesktop-amd64
+        └── setup.sh                <---- GridVisDesktop-i386
+
+Use step 2.1 or 2.2 to get the setup scripts.
+
+2.1 Mounting the ISO image to get the source
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+As the regular downloaded file GridVis.iso can be mount via the loopback
+device it is possible to start the original installer script directly from
+the mount point. For the mount of the ISO image are sudo rights needed!
+
+To mount the image create first create a folder there image will be mounted,
+for example /tmp/gridvis.
+After that just mount the image.
+
+  $ sudo mount -o loop -t iso6990 /path/to/GridVis.iso /tmp/gridvis
+
+Now you can just run the installscript there, but you have to do this within
+a terminal within your DE because it will start a graphical installer!
+
+To install the GridVis Desktop amd64 version:
+  $ sh /tmp/gridvis/GridVis/Linux/setup64bit.sh
+
+To install the GridVis Desktop i386 version:
+  $ sh /tmp/gridvis/GridVis/Linux/setup.sh
+
+Install the GridVis Desktop application into a directory under your home
+dir. For example into
+
+        ~/GridVis-[amd64|i386]-x.x.x
+
+2.2 Use a UI tool
+~~~~~~~~~~~~~~~~~
+It's also possible to use a UI tool like Ark or Nautilus. Just open the
+GridVis.iso file within one of this tools. Extract the installer shell
+scripts:
+
+ GridVis/Linux/setup64bit.sh   # GridVis Desktop amd64
+ 
+and
+
+ GridVis/Linux/setup.sh        # GridVis Desktop i386
+
+Install the GridVis Desktop application into a directory under your home
+dir. Like suggested above install into:
+
+        ~/GridVis-[amd64|i386]-x.x.x
+
+3. Remove some unneeded files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The extract files contains some files we don't want to import, like
+'.stamp' files or MS Windows specific files (*.dll and *.exe)
+To remove them jump into the directory the extraced application is
+'installed'. Inside the top directory run the following command:
+
+  $ for i in $(find -type f \( -name ".lastModified" -o -name "*.dll" -o -name "*.exe" \)); do rm $i; done
+  $ rm -rf .install4j/
+
+5. Collect both versions within one directory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The both versions ov the GridVis Desktop installation are equal, except
+the platform specific precompiled JRE. The JRE is placed within the jre/
+folder.
+To place both JRE environment into one orig.tar.xz we have to rename the
+jre/ folder like
+
+ ... GridVis Desktop amd64 version
+ $ mv jre/ jre-amd64
+
+... GridVis Desktop i386 version
+ $ mv jre/ jre-i386
+
+By this we can now copy the second renamed JRE folder into teh other
+extraced sources and create there the orig.tar.xz file.
+
+5. Create the orig.tar.xz archive
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Jump one directory above the 'installed' GridVis Desktop application and
+create the archive by running:
+
+ $ tar -Jcvf gridvis-desktop_[x.x.x].orig.tar.xz  $(GridVis-Desktop-installation)/
+
+5. Import the orig.tar.xz
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Finaly the archive can now be imported.
+
+  $ git-import-orig ~/tmp/gridvis-desktop/gridvis-desktop_[x.x.x].orig.tar.xz --sign-tags
