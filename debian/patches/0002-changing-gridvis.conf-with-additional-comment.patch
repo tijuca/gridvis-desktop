@@ -1,13 +1,13 @@
 From: Carsten Schoenert <c.schoenert@t-online.de>
 Date: Sun, 10 Aug 2014 13:07:23 +0200
-Subject: changing gridvis.conf to reflect Debian specifica
+Subject: changing gridvis.conf with additional comment
 
 ---
- etc/gridvis.conf | 11 +++++++----
- 1 file changed, 7 insertions(+), 4 deletions(-)
+ etc/gridvis.conf | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
 
 diff --git a/etc/gridvis.conf b/etc/gridvis.conf
-index 1cc9a8a..da358d8 100644
+index 67a3332..ffb7ee4 100644
 --- a/etc/gridvis.conf
 +++ b/etc/gridvis.conf
 @@ -1,6 +1,8 @@
@@ -21,14 +21,13 @@ index 1cc9a8a..da358d8 100644
  
  # options used by the launcher by default, can be overridden by explicit
  # command line switches
-@@ -9,10 +11,11 @@ default_options="--branding gridvis -J-Xms64m -J-Xmx1g -J-XX:MaxPermSize=196m -J
+@@ -9,10 +11,9 @@ default_options="--branding gridvis -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.n
  # for development purposes you may wish to append: -J-Dnetbeans.logger.console=true -J-ea
  
  # default location of JDK/JRE, can be overridden by using --jdkhome <dir> switch
-+# Don't change anything here unless you are knowing rhat you doing!
-+# We set the $jdkhome environment in the starting wrapper to ensure we
-+# are using openjdk-7-jre!
- #jdkhome="jre"
+-#jdkhome="jre"
++# If the JRE version can't be satisfied by Debian set jdkhome to 'jre', else uncomment the definination.
++jdkhome="jre"
  
  # clusters' paths separated by path.separator (semicolon on Windows, colon on Unices)
  #extra_clusters=
