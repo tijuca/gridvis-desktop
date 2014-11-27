@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.0.50~),
   lynx
 #Vcs-Git: 
 #Vcs-Browser: 
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.janitza.com/products/software/software-gridvis/
 
 Package: gridvis-desktop
