@@ -1,4 +1,4 @@
-#bin/gridvis usr/bin/
+# we want to place the config stuff globaly
 etc/*       etc/gridvis-desktop/
 
 # the GridVis folder itself
@@ -17,11 +17,17 @@ extra               usr/lib/gridvis-desktop/
 filesystems-core    usr/lib/gridvis-desktop/
 filesystems-impl    usr/lib/gridvis-desktop/
 filesystems-project usr/lib/gridvis-desktop/
+format              usr/lib/gridvis-desktop/
 graph               usr/lib/gridvis-desktop/
 graphprog           usr/lib/gridvis-desktop/
 gridvis             usr/lib/gridvis-desktop/
 help                usr/lib/gridvis-desktop/
 ide                 usr/lib/gridvis-desktop/
+jmx-core            usr/lib/gridvis-desktop/
+jmx-netbeans        usr/lib/gridvis-desktop/
+# we can't just install the whole jre folder, depends on the build
+# platform, we do this within debian/rules
+#jre                 usr/lib/gridvis-desktop/
 license             usr/lib/gridvis-desktop/
 mailing-core        usr/lib/gridvis-desktop/
 mailing-impl        usr/lib/gridvis-desktop/
@@ -38,10 +44,10 @@ scripting           usr/lib/gridvis-desktop/
 security            usr/lib/gridvis-desktop/
 sharedplugins       usr/lib/gridvis-desktop/
 topology            usr/lib/gridvis-desktop/
+value               usr/lib/gridvis-desktop/
 wrapper             usr/lib/gridvis-desktop/
 icon16.png          usr/share/gridvis-desktop/
 icon32.ico          usr/lib/gridvis-desktop/
 icon32.png          usr/share/gridvis-desktop/
 license.ico         usr/lib/gridvis-desktop/
 request.ico         usr/lib/gridvis-desktop/
-
