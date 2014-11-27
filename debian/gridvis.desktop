@@ -4,6 +4,7 @@ Name=GridVis
 Comment=Management Software for Janitza measurement devices
 GenericName=GridVis Desktop
 Exec=/usr/bin/gridvis-desktop
+Keywords=measurement;Janitza;janitza;
 Terminal=false
 X-MultipleArgs=false
 Type=Application
