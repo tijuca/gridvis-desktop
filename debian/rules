@@ -20,7 +20,7 @@ endif
 override_dh_installdocs:
 	dh_installdocs
 	lynx -dump -nolist changelog.html > $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/doc/$(PACKAGE_NAME)/changelog
-	cd $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/doc/$(PACKAGE_NAME)/ && gzip -9 changelog
+	cd $(CURDIR)/debian/$(PACKAGE_NAME)/usr/share/doc/$(PACKAGE_NAME)/ && gzip -n -9 changelog
 
 override_dh_install:
 	dh_install
