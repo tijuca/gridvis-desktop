@@ -16,6 +16,14 @@ ARCH=`dpkg --print-architecture`
 getent group gridvis-desktop | grep $USER > /dev/null
 GETENT_RET=$(echo $?)
 
+# sourcing /etc/gridvis-desktop/gridvis-desktop.conf
+# We want to read the ${jdkhome}
+if [ -f /etc/gridvis-desktop/gridvis.conf ]; then
+    . /etc/gridvis-desktop/gridvis.conf
+else
+    echo "Uhh, no /etc/gridvis-desktop/gridvis.conf found! Stopping!"
+fi
+
 ### text fields ###
 TITLE="GridVis Desktop Starting Check"
 
@@ -95,4 +103,11 @@ else
 fi
 
 # finally starting gridvis-desktop
-jdkhome="/usr/lib/jvm/java-7-openjdk-$ARCH" $GRIDVIS_DESKTOP_STARTER
+if [ "${jdkhome}" = "jre" ]; then
+    # If we found 'jre' we have to run without a external JRE environment.
+    # This is true on a needed JRE version greater than the Debian version.
+    $GRIDVIS_DESKTOP_STARTER
+else
+    # We can use the openjdk-7 version from Debian.
+    jdkhome="/usr/lib/jvm/java-7-openjdk-$ARCH" $GRIDVIS_DESKTOP_STARTER
+fi
