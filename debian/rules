@@ -46,8 +46,9 @@ override_dh_install:
 	install -m 755 $(CURDIR)/debian/gridvis-desktop-wrapper.sh $(CURDIR)/debian/$(PACKAGE_NAME)/usr/bin/gridvis-desktop
 
 override_dh_shlibdeps:
-	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) \
-		-X$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/platform/modules/lib/$(DH_SHLIBDEPS_EXCLUDE)
+#	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) \
+#		-X$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/platform/modules/lib/$(DH_SHLIBDEPS_EXCLUDE) \
+#		-X$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/*
 
 override_dh_fixperms:
 	dh_fixperms
