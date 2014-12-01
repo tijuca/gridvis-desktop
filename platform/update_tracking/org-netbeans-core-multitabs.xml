@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.core.multitabs">
-    <module_version install_time="1404389621891" last="true" origin="installer" specification_version="1.3.3.1">
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.core.multitabs/1">
+    <module_version install_time="1415879057561" last="true" origin="installer" specification_version="1.7.1.1">
         <file crc="3018881510" name="config/Modules/org-netbeans-core-multitabs.xml"/>
-        <file crc="2486408082" name="modules/locale/org-netbeans-core-multitabs_ja.jar"/>
-        <file crc="3758747624" name="modules/locale/org-netbeans-core-multitabs_pt_BR.jar"/>
-        <file crc="3534787078" name="modules/locale/org-netbeans-core-multitabs_ru.jar"/>
-        <file crc="1493160258" name="modules/locale/org-netbeans-core-multitabs_zh_CN.jar"/>
-        <file crc="3691261528" name="modules/org-netbeans-core-multitabs.jar"/>
+        <file crc="462500698" name="modules/locale/org-netbeans-core-multitabs_ja.jar"/>
+        <file crc="1386833443" name="modules/locale/org-netbeans-core-multitabs_pt_BR.jar"/>
+        <file crc="2904874443" name="modules/locale/org-netbeans-core-multitabs_ru.jar"/>
+        <file crc="2150713600" name="modules/locale/org-netbeans-core-multitabs_zh_CN.jar"/>
+        <file crc="1699279552" name="modules/org-netbeans-core-multitabs.jar"/>
     </module_version>
 </module>

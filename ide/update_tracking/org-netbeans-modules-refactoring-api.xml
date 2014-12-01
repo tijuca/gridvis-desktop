@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.refactoring.api">
-    <module_version install_time="1404389624051" last="true" origin="installer" specification_version="1.37.1.1">
+    <module_version install_time="1415879058977" last="true" origin="installer" specification_version="1.39.1.1">
         <file crc="660297798" name="config/Modules/org-netbeans-modules-refactoring-api.xml"/>
-        <file crc="2227089309" name="modules/locale/org-netbeans-modules-refactoring-api_ja.jar"/>
-        <file crc="3902124423" name="modules/locale/org-netbeans-modules-refactoring-api_pt_BR.jar"/>
-        <file crc="1035642090" name="modules/locale/org-netbeans-modules-refactoring-api_ru.jar"/>
-        <file crc="2412431491" name="modules/locale/org-netbeans-modules-refactoring-api_zh_CN.jar"/>
-        <file crc="1064536218" name="modules/org-netbeans-modules-refactoring-api.jar"/>
+        <file crc="306412798" name="modules/locale/org-netbeans-modules-refactoring-api_ja.jar"/>
+        <file crc="1966446923" name="modules/locale/org-netbeans-modules-refactoring-api_pt_BR.jar"/>
+        <file crc="4247043786" name="modules/locale/org-netbeans-modules-refactoring-api_ru.jar"/>
+        <file crc="4252468814" name="modules/locale/org-netbeans-modules-refactoring-api_zh_CN.jar"/>
+        <file crc="1300895979" name="modules/org-netbeans-modules-refactoring-api.jar"/>
     </module_version>
 </module>

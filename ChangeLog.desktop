@@ -1,6 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Type=Application
-Name=ChangeLog
-Exec=/bin/sh "/usr/local/GridVis/changelog.html" 
-Categories=Application;

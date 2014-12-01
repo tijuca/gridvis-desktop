@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.json">
+    <module_version install_time="1415879057834" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="57767212" name="config/Modules/de-janitza-pasw-wrapper-json.xml"/>
+        <file crc="748488265" name="modules/de-janitza-pasw-wrapper-json.jar"/>
+        <file crc="901488629" name="modules/ext/de.janitza.pasw.wrapper-json/javax-json/javax.json-api.jar"/>
+        <file crc="1739586948" name="modules/ext/de.janitza.pasw.wrapper-json/org-glassfish/javax.json.jar"/>
+    </module_version>
+</module>

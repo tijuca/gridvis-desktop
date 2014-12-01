@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sec.realm.ui">
-    <module_version install_time="1404389626540" last="true" origin="installer" specification_version="1.14.0">
+    <module_version install_time="1415879060655" last="true" origin="installer" specification_version="1.17.1">
         <file crc="21319648" name="config/Modules/de-janitza-pasw-sec-realm-ui.xml"/>
-        <file crc="1946384022" name="modules/de-janitza-pasw-sec-realm-ui.jar"/>
+        <file crc="724482102" name="modules/de-janitza-pasw-sec-realm-ui.jar"/>
     </module_version>
 </module>

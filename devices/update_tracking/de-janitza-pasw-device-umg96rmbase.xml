@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg96rmbase">
-    <module_version install_time="1404389622358" last="true" origin="installer" specification_version="1.19.1">
-        <file crc="3451484008" name="config/Modules/de-janitza-pasw-device-umg96rmbase.xml"/>
-        <file crc="720320367" name="modules/de-janitza-pasw-device-umg96rmbase.jar"/>
-    </module_version>
-</module>

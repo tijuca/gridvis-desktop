@@ -1,6 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Type=Application
-Name=GridVis(unix)
-Exec=/bin/sh "/usr/local/GridVis/bin/gridvis"
-Categories=Application;
