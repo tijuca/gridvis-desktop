@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.utilities.project/1">
-    <module_version install_time="1404389620060" last="true" origin="installer" specification_version="1.30.1">
+    <module_version install_time="1415879056153" last="true" origin="installer" specification_version="1.33.1">
         <file crc="1999945361" name="config/Modules/org-netbeans-modules-utilities-project.xml"/>
-        <file crc="2804530552" name="modules/locale/org-netbeans-modules-utilities-project_ja.jar"/>
-        <file crc="1846246507" name="modules/locale/org-netbeans-modules-utilities-project_pt_BR.jar"/>
-        <file crc="3465116376" name="modules/locale/org-netbeans-modules-utilities-project_ru.jar"/>
-        <file crc="1891728020" name="modules/locale/org-netbeans-modules-utilities-project_zh_CN.jar"/>
-        <file crc="1843918096" name="modules/org-netbeans-modules-utilities-project.jar"/>
+        <file crc="2966305580" name="modules/locale/org-netbeans-modules-utilities-project_ja.jar"/>
+        <file crc="1641690814" name="modules/locale/org-netbeans-modules-utilities-project_pt_BR.jar"/>
+        <file crc="1034520547" name="modules/locale/org-netbeans-modules-utilities-project_ru.jar"/>
+        <file crc="3218907563" name="modules/locale/org-netbeans-modules-utilities-project_zh_CN.jar"/>
+        <file crc="646065405" name="modules/org-netbeans-modules-utilities-project.jar"/>
     </module_version>
 </module>

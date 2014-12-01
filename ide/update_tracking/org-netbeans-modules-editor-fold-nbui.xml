@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.editor.fold.nbui">
-    <module_version install_time="1404389619893" last="true" origin="installer" specification_version="1.4.1.43">
+    <module_version install_time="1415879056004" last="true" origin="installer" specification_version="1.6.1.43">
         <file crc="2740362867" name="config/Modules/org-netbeans-modules-editor-fold-nbui.xml"/>
-        <file crc="3785985550" name="modules/locale/org-netbeans-modules-editor-fold-nbui_ja.jar"/>
-        <file crc="287276887" name="modules/locale/org-netbeans-modules-editor-fold-nbui_pt_BR.jar"/>
-        <file crc="3737876467" name="modules/locale/org-netbeans-modules-editor-fold-nbui_ru.jar"/>
-        <file crc="1968659066" name="modules/locale/org-netbeans-modules-editor-fold-nbui_zh_CN.jar"/>
-        <file crc="2718253285" name="modules/org-netbeans-modules-editor-fold-nbui.jar"/>
+        <file crc="4104218991" name="modules/locale/org-netbeans-modules-editor-fold-nbui_ja.jar"/>
+        <file crc="4197008721" name="modules/locale/org-netbeans-modules-editor-fold-nbui_pt_BR.jar"/>
+        <file crc="272425652" name="modules/locale/org-netbeans-modules-editor-fold-nbui_ru.jar"/>
+        <file crc="1259914242" name="modules/locale/org-netbeans-modules-editor-fold-nbui_zh_CN.jar"/>
+        <file crc="4011389056" name="modules/org-netbeans-modules-editor-fold-nbui.jar"/>
     </module_version>
 </module>

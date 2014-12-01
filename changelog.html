@@ -145,11 +145,176 @@
 
 
 <div class="version de">
+<h2>Version 5.1.0</h2>
+<ul>
+<li>Optionale Ausgabe von Wert-Name und Zeitpunkt f&uuml;r Online-Werte &uuml;ber REST.</li>
+<li>In der Alarm&uuml;bersicht k&ouml;nnen Person und Kommentar der Quittierung eingeblendet werden.</li>
+<li>UMG20CM: Weitere Wandler der Konfiguration hinzugef&uuml;gt.</li>
+<li>Topologie: Neues Widget f&uuml;r historische Verbrauchswerte</li>
+<li>4-Quadranten Messwerte f&uuml;r UMG96RM-E und UMG512 hinzugef&uuml;gt.</li>
+<li>Konfiguration der BacNet-Einstellungen f&uuml;r UMG508, UMG511, UMG604, UMG605, UMG605us ist m&ouml;glich</li>
+<li>Konfiguration der SNMP-Traps f&uuml;r UMG96RM-E.</li>
+<li>Konfiguration der BacNet-Einstellungen f&uuml;r UMG96RM-E ist m&ouml;glich</li>
+<li>Byteorder und Integerwerte k&ouml;nnen in den Profibusprofilen des UMG96RM-P k&ouml;nnen konfiguriert werden</li>
+<li>Neue Alarmquelle ob neue Transienten oder Ereignisse aufgetreten sind.</li>
+<li>Speichernutzung ist w&auml;hrend der Installation konfigurierbar</li>
+<li>REST-Schnittstelle stellt nun auch die Ger&auml;tebeschreibung bereit.</li>
+<li>Unterst&uuml;tzung f&uuml;r UMG509</li>
+<li>Es k&ouml;nnen neue Anzeigen auf dem UMG96RM konfiguriert werden</li>
+<li>Neue Mindestfirmware f&uuml;r einige Ger&auml;te(siehe Onlinehilfe)</li>
+<li>Behoben: Fehlerhafte Grenzwerte f&uuml;r die Harmonischen im EN 61000-2-4 Report</li>
+<li>Behoben: REST-Schnittstelle liefert die Namen von umbenannten Eing&auml;ngen f&uuml;r Energie Abfragen nicht aus.</li>
+<li>Behoben: Graphachse zeigt die Kalenderwoche der Zeitumstellung doppelt an</li>
+<li>Behoben:  Im Zusammenhang mit der Janitza Datenbank und dem L&ouml;schen von Sequenzen konnte es zu Fehlern in den gespeicherten Sequenzen der Datenbank kommen.</li>
+<li>Behoben: Als gel&ouml;scht markierte Ger&auml;te erscheinen mit REST-Abfragen.</li>
+<li>Behoben: REST-Schnittstelle liefert die Namen von umbenannten Eing&auml;ngen nicht aus.</li>
+<li>Die Alarm&uuml;bersicht beh&auml;lt ihre Darstellungseinstellungen bei</li>
+<li>Behoben: Zu wenige Nachkommastellen in der Analogausgangskonfiguration des UMG96S</li>
+<li>Behoben: Projekt-Import-Dialog &ouml;ffnete sich nicht.</li>
+<li>Behoben: Aufgezeichnete Energiewerte in ProData2 werden um Faktor 1000 zu klein abgespeichert</li>
+<li>Behoben: Konfiguration Differenzstrommessung f&uuml;r UMG96RME, UMG509, UMG512 l&auml;sst keine Stromwerte kleiner als 1mA zu.</li>
+<li>Behoben: F&uuml;r Links in der Topologie fehlten einige Hinweistexte</li>
+<li>Behoben: Anzeigefehler bei Aufzeichnungskonfiguration 10 Sekunden nach Norm.</li>
+<li>Behoben: Fehler beim Auslesen UMG503</li>
+<li>Behoben: Scheduler konnte durch Einstellungs-Dialog beendet werden.</li>
+<li>Behoben: Redirect-Loop im GridVis Service</li>
+<li>Behoben: Es wird nur der Identit&auml;tsreiter der Ger&auml;tekonfiguration geladen, wenn keine Verbindung zu dem Ger&auml;t hergestellt werden kann.</li>
+<li>Behoben: Bei Fest-IP mit ARP Probe konnte keine IP-Adresse eingestellt werden</li>
+<li>Behoben: Onlineaufzeichnung f&uuml;r UMG510 wurde nicht persistiert.</li>
+<li>Behoben: ProData, UMG507, UMG510 konnten die Online- und Historische-Aufzeichnung nicht gleichzeitig nutzen.</li>
+<li>Behoben: Virtuelles Ger&auml;t l&auml;sst sich nicht editieren wenn ein verwendetes Ger&auml;t nicht von der GridVis unterst&uuml;tzt wird</li>
+<li>Behoben: Alarmbenachrichtigung wird zu h&auml;ufig angezeigt</li>
+<li>Behoben: Aktionen f&uuml;r das Quittieren eines Alarms werden auf zugewiesenem Server ausgef&uuml;hrt.</li>
+<li>Benutzerdefinierte Werte k&ouml;nnen aus der Datenbank gel&ouml;scht werden</li>
+<li>Der Ausdruck der Energie-&Uuml;bersicht entspricht jetzt dem Report</li>
+<li>Globale-Werte k&ouml;nnen in der Online-Erfassung verwendet werden</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.1.0</h2>
+<ul>
+<li>Optional value name and timestamps for online values via REST.</li>
+<li>In Alarm overview acknowledging person and comment can be displayed</li>
+<li>UMG20CM: Added additional transformer to configuration.</li>
+<li>Topology: New Widget for historical consumption values</li>
+<li>4-quadrant measurement for UMG96RM-E and UMG512</li>
+<li>Configuration of BacNet-settings for devices UMG508, UMG511, UMG604, UMG605, UMG605us is supported</li>
+<li>Configuration of SNMP traps for devices UMG96RM-E.</li>
+<li>Configuration of BacNet-settings for UMG96RM-E is supported</li>
+<li>The byte order and integer values can be used in profibus profiles on the UMG96RM-P</li>
+<li>New alarm source to check whether a new transient or an events occured.</li>
+<li>Memory usage can be configured during installation</li>
+<li>REST interface does also include the description of a device.</li>
+<li>Support for UMG509</li>
+<li>New displays can be configured on UMG96RM</li>
+<li>New minimal firmware version for several devices(see online help)</li>
+<li>Fixed: Wrong limits for harmonics in the EN 61000-2-4 report</li>
+<li>Fixed: REST did not include mapped names of inputs for energy requests</li>
+<li>Fixed: Graph axis shows the calendar week of the day light saving time twice</li>
+<li>Fixed: Under certain circumstances the Janitza DB may corrupt sequence data while deleting sequences.</li>
+<li>Fixed: If the device was retrieved with REST that list contained deleted device.</li>
+<li>Fixed: REST did not include mapped names of inputs.</li>
+<li>Alarm overview keeps its display settings</li>
+<li>Fixed: Too few decimal places in analog output configuration for UMG96S</li>
+<li>Fixed: Dialog for project import did not open.</li>
+<li>Fixed: Energy values recorded in ProData2 are stored too small by factor 1000.</li>
+<li>Fixed: rcm-measurement's configuration for UMG96RME, UMG509, UMG512 allowed no current values below 1mA.</li>
+<li>Fixed: Some hints where missing on the link element of the topology</li>
+<li>Fixed: False time value displayed for recording configuration "10 second according to norm".</li>
+<li>Fixed: error while reading historical data from UMG503</li>
+<li>Fixed: Scheduler could be stopped by config dialogs.</li>
+<li>Fixed: Redirect-Loop in GridVis Service</li>
+<li>Fixed: If no connection to device could be established, only identity tab is loaded in device configuration.</li>
+<li>Fixed: for the configuration "static ip with ARP probe" no ip could be set.</li>
+<li>Fixed: online recording for UMG510 was not saved.</li>
+<li>Fixed: ProData, UMG507, UMG510 did not support online and historical recording at the same time.</li>
+<li>Fixed: Virtual device is not configuratable when a used device is not supported</li>
+<li>Fixed: Alarm notification is shown too often</li>
+<li>Fixed: Actions for acknowledge alarms are now executed on the assigned server.</li>
+<li>Userdefined values can be deleted from datebase</li>
+<li>The printout of the energy overview now looks like the report</li>
+<li>Global values can be used for online recording</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 5.0.5</h2>
+<ul>
+<li>Optionale Ausgabe von Wert-Name und Zeitpunkt f&uuml;r Online-Werte &uuml;ber REST.</li>
+<li>Behoben:  Im Zusammenhang mit der Janitza Datenbank und dem L&ouml;schen von Sequenzen konnte es zu Fehlern in den gespeicherten Sequenzen der Datenbank kommen.</li>
+<li>Behoben: Als gel&ouml;scht markierte Ger&auml;te erscheinen mit REST-Abfragen.</li>
+<li>Behoben: REST-Schnittstelle liefert die Namen von umbenannten Eing&auml;ngen nicht aus.</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.0.5</h2>
+<ul>
+<li>Optional value name and timestamps for online values via REST.</li>
+<li>Fixed: Under certain circumstances the Janitza DB may corrupt sequence data while deleting sequences.</li>
+<li>Fixed: If the device was retrieved with REST that list contained deleted device.</li>
+<li>Fixed: REST did not include mapped names of inputs.</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 5.0.4</h2>
+<ul>
+<li>Behoben: Energiez&auml;hlst&auml;nde werden nicht mehr in der Ger&auml;te-Konfigurationsdatei gespeichert</li>
+<li>Behoben: Dienst funktionierte f&uuml;r bestimmte Sprachen nicht.</li>
+<li>Topologie: Verbrauchswidget beh&auml;lt Hintergrundeinstellungen bei</li>
+<li>Behoben: Projekt-Import-Dialog &ouml;ffnete sich nicht.</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.0.4</h2>
+<ul>
+<li>Fixed: Energy counts will not be saved within the device config file anymore</li>
+<li>Fixed: service did not work for all languages.</li>
+<li>Topology: Consumption Widget keeps background settings</li>
+<li>Fixed: Dialog for project import did not open.</li>
+</ul>
+</div>
+<div class="version de">
+<h2>Version 5.0.3</h2>
+<ul>
+<li>Topologie: Neues Widget f&uuml;r historische Verbrauchswerte</li>
+<li>Konfiguration der BacNet-Einstellungen f&uuml;r UMG508, UMG511, UMG604, UMG605, UMG605us ist m&ouml;glich</li>
+<li>REST-Schnittstelle stellt nun auch die Ger&auml;tebeschreibung bereit.</li>
+<li>Die Z&auml;hlst&auml;nde des Prodata 2 k&ouml;nnen konfiguriert werden</li>
+<li>Die Z&auml;hlst&auml;nde des UMG96RM k&ouml;nnen konfiguriert werden</li>
+<li>Es k&ouml;nnen neue Anzeigen auf dem UMG96RM konfiguriert werden</li>
+<li>Behoben: Aufgezeichnete Energiewerte in ProData2 werden um Faktor 1000 zu klein abgespeichert</li>
+<li>Behoben: Konfiguration Differenzstrommessung f&uuml;r UMG96RME, UMG509, UMG512 l&auml;sst keine Stromwerte kleiner als 1mA zu.</li>
+<li>Behoben: In der RS485 Konfiguration erschien bei einigen Ger&auml;te der Eintrag BACnet IP</li>
+<li>Behoben: F&uuml;r Links in der Topologie fehlten einige Hinweistexte</li>
+<li>Behoben: Anzeigefehler bei Aufzeichnungskonfiguration 10 Sekunden nach Norm.</li>
+<li>Behoben: Fehler beim Auslesen UMG503</li>
+<li>Benutzerdefinierte Werte k&ouml;nnen aus der Datenbank gel&ouml;scht werden</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 5.0.3</h2>
+<ul>
+<li>Topology: New Widget for historical consumption values</li>
+<li>Configuration of BacNet-settings for devices UMG508, UMG511, UMG604, UMG605, UMG605us is supported</li>
+<li>REST interface does also include the description of a device.</li>
+<li>The counters of the prodata 2 can be set</li>
+<li>The counters of the UMG96RM can be set</li>
+<li>New displays can be configured on UMG96RM</li>
+<li>Fixed: Energy values recorded in ProData2 are stored too small by factor 1000.</li>
+<li>Fixed: rcm-measurement's configuration for UMG96RME, UMG509, UMG512 allowed no current values below 1mA.</li>
+<li>Fixed: some devices showed an BACnet IP entry for RS485 configuration</li>
+<li>Fixed: Some hints where missing on the link element of the topology</li>
+<li>Fixed: False time value displayed for recording configuration "10 second according to norm".</li>
+<li>Fixed: error while reading historical data from UMG503</li>
+<li>Userdefined values can be deleted from datebase</li>
+</ul>
+</div>
+<div class="version de">
 <h2>Version 5.0.2</h2>
 <ul>
 <li>Konfiguration der BacNet-Einstellungen f&uuml;r UMG96RM-E ist m&ouml;glich</li>
 <li>Neue Mindestfirmware f&uuml;r einige Ger&auml;te(siehe Onlinehilfe)</li>
 <li>Behoben: Scheduler konnte durch Einstellungs-Dialog beendet werden.</li>
+<li>Behoben: Redirect-Loop im GridVis Service</li>
 <li>Behoben: Es wird nur der Identit&auml;tsreiter der Ger&auml;tekonfiguration geladen, wenn keine Verbindung zu dem Ger&auml;t hergestellt werden kann.</li>
 <li>Behoben: Beim Import in das neue Topologie-Format skaliert das Ger&auml;tewidget falsch</li>
 <li>&Auml;nderung der Zoomstufe &auml;ndert den Bearbeitungsstatus der Topologie nicht mehr</li>
@@ -167,6 +332,7 @@
 <li>Configuration of BacNet-settings for UMG96RM-E is supported</li>
 <li>New minimal firmware version for several devices(see online help)</li>
 <li>Fixed: Scheduler could be stopped by config dialogs.</li>
+<li>Fixed: Redirect-Loop in GridVis Service</li>
 <li>Fixed: If no connection to device could be established, only identity tab is loaded in device configuration.</li>
 <li>fixed: device widget sizing issues when converting to new topology format</li>
 <li>Changing the zoomlevel does no longer change the modified state of the topology</li>
@@ -219,15 +385,15 @@
 <div class="version de">
 <h2>Version 5.0.0</h2>
 <ul>
-<li>Einstellbarer Gateway-Timeout f&uuml;r UMG604, UMG605, UMG508, UMG511 und UMG104.</li>
-<li>Einstellbarer Gateway-Timeout f&uuml;r UMG96RME.</li>
-<li>Konfigurationswert f&uuml;r Ereignis-Nachlauf f&uuml;r UMG604 und UMG508 entfernt</li>
-<li>In der Topologie werden selektierte Elemente hervorgehoben</li>
 <li>Janitza DB wird als Standarddatenbank verwendet</li>
 <li>Topologie Elemente k&ouml;nnen gleichm&auml;&szlig;ig verteilt werden</li>
 <li>Summierkan&auml;le des UMG20CM k&ouml;nnen benannt werden.</li>
 <li>Aufzeichnungsl&uuml;cken in der Report&uuml;bersicht dargestellt.</li>
+<li>Einstellbarer Gateway-Timeout f&uuml;r UMG604, UMG605, UMG508, UMG511 und UMG104.</li>
+<li>Einstellbarer Gateway-Timeout f&uuml;r UMG96RME.</li>
 <li>Anwendung kann mehr Speicher nutzen.</li>
+<li>Konfigurationswert f&uuml;r Ereignis-Nachlauf f&uuml;r UMG604 und UMG508 entfernt</li>
+<li>In der Topologie werden selektierte Elemente hervorgehoben</li>
 <li>Mail werden erneut gesendet wenn ein SMTP-Fehler auftritt.</li>
 <li>Behoben: Die GridVis friert ein wenn der Toolbarkonfigurator genutzt wird</li>
 <li>Behoben: Einheiten und Formatierung im Verbrauchsreport uneinheitlich</li>
@@ -246,15 +412,15 @@
 <div class="version en">
 <h2>Version 5.0.0</h2>
 <ul>
-<li>Customizable gateway timeout for UMG604, UMG605, UMG508, UMG511 and UMG104.</li>
-<li>Customizable gateway timeout for UMG96RME.</li>
-<li>Configuration item for post event values removed for devices UMG604 and UMG508</li>
-<li>The topology marks selected Elements</li>
 <li>Janitza DB is used as default database</li>
 <li>Topology elements can be distributed evenly</li>
 <li>Sum channels of UMG20CM can be named.</li>
 <li>Overview in reports shows gaps in recordings.</li>
+<li>Customizable gateway timeout for UMG604, UMG605, UMG508, UMG511 and UMG104.</li>
+<li>Customizable gateway timeout for UMG96RME.</li>
 <li>Application can use more memory.</li>
+<li>Configuration item for post event values removed for devices UMG604 and UMG508</li>
+<li>The topology marks selected Elements</li>
 <li>If the SMTP server reports an error there will be a retry.</li>
 <li>Fixed: GridVis freezes when the toolbar customizer is used</li>
 <li>Fixed: Units and formating of values in the consumption report is inconsistent</li>
@@ -289,60 +455,6 @@
 </ul>
 </div>
 <div class="version de">
-<h2>Version 4.3.2</h2>
-<ul>
-<li>Behoben: Projekte k&ouml;nnen nicht vom GridVis Service gel&ouml;st werden</li>
-<li>Behoben: Excel Exporte funktionieren mit Online erfassten Werten nicht</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 4.3.2</h2>
-<ul>
-<li>Fixed: Projects can not be removed from GridVis Service</li>
-<li>Fixed: Excel export fail to export online recorded values</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 4.3.1</h2>
-<ul>
-<li>Behoben: GridVis bleibt im Projekt Status 'Lade Ger&auml;te' h&auml;ngen</li>
-<li>Behoben: In der Ger&auml;teliste bleiben die Spalten leer</li>
-<li>Behoben: GridVis bleibt im Projekt Status 'Starte Subsysteme' h&auml;ngen</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 4.3.1</h2>
-<ul>
-<li>Fixed: GridVis stop at project state 'Loading devices'</li>
-<li>Fixed: The device list has empty columns</li>
-<li>Fixed: GridVis stop at project state 'Loading subsystems'</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 4.3.0</h2>
-<ul>
-<li>Unterst&uuml;tzung f&uuml;r Kabelbruch-Erkennung von UMG96RM-E </li>
-<li>Virtuelle Ger&auml;te unterst&uuml;tzen Default-Werte f&uuml;r Ger&auml;te ohne Daten.</li>
-<li>Spannungsereignisse "Ger&auml;t aus" in EN50160 Reports</li>
-<li>REST: Verbesserte Parallel-Performance</li>
-<li>Behoben: Fehler bei der Skalierung von ausgelesenen Me&szlig;werten beim ProData</li>
-<li>Behoben: Me&szlig;werte in Konfiguration der Vergleicher eines UMG96RM werden nach Laden der Konfiguration nicht richtig angezeigt</li>
-<li>Behoben: Projektladen blockiert wenn virtuelle Ger&auml;te auf nicht mehr vorhanden Ger&auml;te verweisen.</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 4.3.0</h2>
-<ul>
-<li>Supports connection fault detection for UMG96RM-E</li>
-<li>Virtual devices support a default value for devices without data.</li>
-<li>Voltage event "device off" in EN50160 reports</li>
-<li>REST: Improved parallel performance</li>
-<li>Fixed: error in scaling of readed values for ProData</li>
-<li>Fixed: Configured value in UMG96RM'S comparator configuration are not correctly displayed </li>
-<li>Fixed: Loading of projects failed if virtual devices referenced deleted devices.</li>
-</ul>
-</div>
-<div class="version de">
 <h2>Version 4.2.1</h2>
 <ul>
 <li>Behoben: ProData2 Es k&ouml;nnen keine Aufzeichnungen mit mehr als 14 Werten ausgelesen werden</li>
@@ -364,70 +476,6 @@
 <li>Fixed: Excelexport are not adjusting start and end times</li>
 <li>Fixed: Loading of projects failed if virtual devices referenced deleted devices.</li>
 <li>Fixed: Not all COM Ports are detected</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 4.2.0</h2>
-<ul>
-<li>Leistungsf&auml;higes Alarmmanagement </li>
-<li>Warnung hinzugef&uuml;gt, wenn Zyklen in Virtuellen Ger&auml;ten vorhanden sind.</li>
-<li>Es k&ouml;nnen Projekte in existierenden MS SQL Datenbanken erstellt werden</li>
-<li>EN50160: Anzahl der Grenzwert&uuml;berschreitungen wird auch absolut angezeigt</li>
-<li>Bei den Ger&auml;te UMG104/UMG508/UMG511/UMG604/UMG605 kann kein Downgrade mehr durchgef&uuml;hrt werden.</li>
-<li>Behoben: Upgrade eines Prodata2 ben&ouml;tigte gro&szlig;e Timeout-Einstellungen (Sekunden-Bereich)</li>
-<li>Wertevalidierung ist per default aus geschaltet</li>
-<li>Behoben: Kein Zugriff auf UMG96RM-M mit ge&auml;nderter Sekund&auml;radresse</li>
-<li>Behoben: Probleme bei Auslesung der Aufzeichnungen von ProData2/UMG96RM-P/UMG96RM-CBM</li>
-<li>Behoben : Fehler bei &Uuml;bertragung der Vergleicher-Einstellungen an UMG503</li>
-<li>Behoben: Fehler bei der Auslesung des ProData in den Werten des 20mA-Eingangs</li>
-<li>Behoben: Ge&auml;nderte Aufzeichnungen auf Jasic Ger&auml;ten werden nicht gestartet</li>
-<li>Behoben: Jasic-Ger&auml;te mit Firmware-Version &auml;lter als 1.293 lassen sich nicht upgraden.</li>
-<li>Behoben: Freie Datumsauswahl beim Energieexport wurde nicht ber&uuml;cksichtigt.</li>
-<li>Behoben: Topologie-Symbole-Ordner war &uuml;bersetzt.</li>
-<li>Behoben: Die Ger&auml;teid bei REST Onlinewerte wurde falsch interpretiert.</li>
-<li>Behoben: Benutzerverwaltung konnte ohne Schreibrechte auf den GridVis-Installationsordner nicht gel&ouml;scht werden.</li>
-<li>Behoben: Nach dem L&ouml;schen von Daten bleiben Eintr&auml;ge im Wertebaum zur&uuml;ck.</li>
-<li>Behoben: In Aufzeichnungen und Feldbus-Profile f&uuml;r Jasic-Ger&auml;te und UMG96RM konnte keine verbrauchte Wirkarbeit und Wirkleistung eingef&uuml;gt werden.</li>
-<li>Behoben: &Uuml;berspannungsereignisse im EN50160 werden falsch sortiert</li>
-<li>Behoben: Ger&auml;t zur manuellen Eingabe konnte nicht als Wertequelle des virtuellen Ger&auml;ts benutzt werden.</li>
-<li>Behoben: Im Benutzerdefinierten Baum werden keine Ger&auml;telisten mehr angezeigt</li>
-<li>Behoben: R&uuml;cksetzung der Min/Maxwerte fehlt beim UMG104.</li>
-<li>Behoben: Falscher Einstellbereich f&uuml;r Impulswertigkeit bei UMG96S</li>
-<li>Behoben: &Auml;nderung des Zeitplans f&uuml;r einen Report wird nicht sofort in der &Uuml;bersicht angezeigt.</li>
-<li>Behoben: UMG503/UMG505 konnte nur mit maximaler Baudrate von 38400 angeschlossen werden.</li>
-<li>Behoben: Farblegende in Graph Browser fehlerhaft</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 4.2.0</h2>
-<ul>
-<li>Alarm management</li>
-<li>Warning if cycles between virtual devices were detected.</li>
-<li>Its now possible to create projects in existing MS SQL databases</li>
-<li>EN50160: number of missed intervals is also displayed as absolut number</li>
-<li>For UMG104/UMG508/UMG511/UMG604/UMG605 the downgrade can no longer be performed.</li>
-<li>Fixed: Upgrade for Prodata2 needed high timeout values (range of seconds)</li>
-<li>Value validation is turned off by default</li>
-<li>Fixed: No access to UMG96RM-M with changed secondary address</li>
-<li>Fixed: Problems with reading of records from ProData2/UMG96RM-P/UMG96RM-CBM</li>
-<li>Fixed : comparator settings will be changed during transmission to UMG503</li>
-<li>Fixed: Error in values from 20mA-input in historical data from ProData</li>
-<li>Fixed: Changed recordings are not started on jasic devices</li>
-<li>Fixed: Upgrade didn't work for Jasic devices with firmware release older than 1.293.</li>
-<li>Fixed: energy export did not consider the free date selection.</li>
-<li>Fixed: symbol direcotroy for topology was translated.</li>
-<li>Fixed: Wrong device id parsing while fetching online values using REST.</li>
-<li>Fixed: User administration could not be removed without write permissions for GridVis install directory.</li>
-<li>Fixed: After deleting values there are remaining nodes in the value tree.</li>
-<li>Fixed: Active power and active energy consumed could not be added to recordings and field bus profiles of Jasic-devices and UMG96RM</li>
-<li>Fixed: Overvoltage events are not sorted correctly</li>
-<li>Fixed: Device for manual input could not be used as virtual device's value source</li>
-<li>Fixed: Userdefined trees do not show devicelists anymore</li>
-<li>Fixed: Reset of min/max values is missing with umg104.</li>
-<li>Fixed: Wrong settings range for pulse valence of UMG96S</li>
-<li>Fixed: A report's schedule change is not shown in the overview immediately.</li>
-<li>Fixed: Connection to UMG503/UMG505 could not be configured with  baudrate higher than 38400 baud.</li>
-<li>Fixed: Legend of graph browser shows wrong colors</li>
 </ul>
 </div>
 </body>

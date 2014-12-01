@@ -5,6 +5,6 @@
     <param name="autoload">false</param>
     <param name="eager">false</param>
     <param name="enabled">true</param>
-    <param name="jar">modules/de-janitza-pasw-device-umg605us.jar</param>
+    <param name="jar">modules/de-janitza-pasw-device-impl-umg605us.jar</param>
     <param name="reloadable">false</param>
 </module>

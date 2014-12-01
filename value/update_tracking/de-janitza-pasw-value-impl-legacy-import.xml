@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.impl.legacy.import">
+    <module_version install_time="1415879052569" last="true" origin="installer" specification_version="0.0.1">
+        <file crc="4224209145" name="config/Modules/de-janitza-pasw-value-impl-legacy-import.xml"/>
+        <file crc="177929005" name="modules/de-janitza-pasw-value-impl-legacy-import.jar"/>
+    </module_version>
+</module>

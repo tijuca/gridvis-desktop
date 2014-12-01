@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.controlsfx">
+    <module_version install_time="1415879057637" last="true" origin="installer" specification_version="8.0.6">
+        <file crc="1149403049" name="config/Modules/de-janitza-pasw-wrapper-controlsfx.xml"/>
+        <file crc="222008875" name="modules/de-janitza-pasw-wrapper-controlsfx.jar"/>
+        <file crc="2614237790" name="modules/ext/de.janitza.pasw.wrapper-controlsfx/org-controlsfx/controlsfx.jar"/>
+    </module_version>
+</module>

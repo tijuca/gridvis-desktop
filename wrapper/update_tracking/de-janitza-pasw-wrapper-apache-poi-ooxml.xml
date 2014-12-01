@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.apache.poi.ooxml">
-    <module_version install_time="1404389622543" last="true" origin="installer" specification_version="3.9.0.0">
+    <module_version install_time="1415879057795" last="true" origin="installer" specification_version="3.9.0.0">
         <file crc="633473132" name="config/Modules/de-janitza-pasw-wrapper-apache-poi-ooxml.xml"/>
-        <file crc="1360063873" name="modules/de-janitza-pasw-wrapper-apache-poi-ooxml.jar"/>
+        <file crc="159237497" name="modules/de-janitza-pasw-wrapper-apache-poi-ooxml.jar"/>
         <file crc="2050839146" name="modules/ext/de.janitza.pasw.wrapper-apache-poi-ooxml/dom4j/dom4j.jar"/>
         <file crc="1517778327" name="modules/ext/de.janitza.pasw.wrapper-apache-poi-ooxml/org-apache-poi/poi-ooxml-schemas.jar"/>
         <file crc="699763645" name="modules/ext/de.janitza.pasw.wrapper-apache-poi-ooxml/org-apache-poi/poi-ooxml.jar"/>

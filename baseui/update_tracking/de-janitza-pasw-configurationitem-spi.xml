@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.configurationitem.spi">
-    <module_version install_time="1404389625605" last="true" origin="installer" specification_version="1.13.1">
+    <module_version install_time="1415879059939" last="true" origin="installer" specification_version="1.17.1">
         <file crc="3678302996" name="config/Modules/de-janitza-pasw-configurationitem-spi.xml"/>
-        <file crc="376944514" name="modules/de-janitza-pasw-configurationitem-spi.jar"/>
+        <file crc="4031130632" name="modules/de-janitza-pasw-configurationitem-spi.jar"/>
     </module_version>
 </module>

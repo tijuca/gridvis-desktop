@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.ext.nequal">
-    <module_version install_time="1401882425617" last="true" origin="installer" specification_version="1.1.0">
-        <file crc="2207094243" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-ext-nequal.xml"/>
-        <file crc="1278228374" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-nequal.jar"/>
-    </module_version>
-</module>
