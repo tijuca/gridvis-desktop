@@ -3,6 +3,8 @@
 # Uncomment this to turn on verbose mode.
 # #export DH_VERBOSE=1
 
+DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+
 PACKAGE_NAME=gridvis-desktop
 
 ifeq ($(DEB_BUILD_ARCH),amd64)
@@ -24,6 +26,8 @@ override_dh_installdocs:
 
 override_dh_install:
 	dh_install
+	# installing the jre/ folder platform depended
+	cp -a $(CURDIR)/jre-$(DEB_HOST_ARCH) $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre
 	# removing all preshipped libraries in 'wrapper/modules/lib'
 	# and replace only the platform related files in there
 	rm -rf $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/wrapper/modules/lib/*
@@ -53,3 +57,16 @@ override_dh_shlibdeps:
 override_dh_fixperms:
 	dh_fixperms
 	chmod +x $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/platform/lib/nbexec
+	# fixing file permissions in jre/
+	@for i in `find $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/ -type f \
+		\( -name "*.cfg" \
+		-o -name "*.dat*" \
+		-o -name "*.ja*" \
+		-o -name "*.txt" \
+		-o -name "*.so" \
+		-o -name "classlist" \
+		-o -name "fontconfig.*" \
+		-o -name "meta-*" \
+		-o -name "*properties*" \)` ;\
+		do echo "fixing file permission: $$i" && chmod 644 $$i; done
+
