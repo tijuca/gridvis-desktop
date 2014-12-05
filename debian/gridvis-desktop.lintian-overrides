@@ -6,3 +6,11 @@ gridvis-desktop: postinst-has-useless-call-to-ldconfig
 gridvis-desktop: postrm-has-useless-call-to-ldconfig
 # this is no license file
 gridvis-desktop: extra-license-file usr/lib/gridvis-desktop/license.ico
+# preshipped image files in the jre/ folder
+gridvis-desktop: image-file-in-usr-lib usr/lib/gridvis-desktop/jre/*
+# preshipped librarys in the jre/ folder
+gridvis-desktop: embedded-library usr/lib/gridvis-desktop/jre/*
+# misc
+gridvis-desktop: hardening-no-relro usr/lib/gridvis-desktop/*
+gridvis-desktop: hardening-no-fortify-functions usr/lib/gridvis-desktop/*
+gridvis-desktop: extra-license-file usr/lib/gridvis-desktop/jre/LICENSE
