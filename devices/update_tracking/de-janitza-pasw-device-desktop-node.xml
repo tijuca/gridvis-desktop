@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.desktop.node">
-    <module_version install_time="1415879052820" last="true" origin="installer" specification_version="0.3.1">
+    <module_version install_time="1417159147737" last="true" origin="installer" specification_version="0.4.0">
         <file crc="1098937650" name="config/Modules/de-janitza-pasw-device-desktop-node.xml"/>
-        <file crc="501141588" name="modules/de-janitza-pasw-device-desktop-node.jar"/>
+        <file crc="836142394" name="modules/de-janitza-pasw-device-desktop-node.jar"/>
     </module_version>
 </module>

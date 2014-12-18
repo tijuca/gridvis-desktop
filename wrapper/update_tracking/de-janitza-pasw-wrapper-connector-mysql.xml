@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.connector.mysql">
-    <module_version install_time="1415879058130" last="true" origin="installer" specification_version="5.1.24">
+    <module_version install_time="1417159150032" last="true" origin="installer" specification_version="5.1.24">
         <file crc="2427589602" name="config/Modules/de-janitza-pasw-wrapper-connector-mysql.xml"/>
-        <file crc="2096835101" name="modules/de-janitza-pasw-wrapper-connector-mysql.jar"/>
+        <file crc="1928033836" name="modules/de-janitza-pasw-wrapper-connector-mysql.jar"/>
         <file crc="4031705609" name="modules/ext/de.janitza.pasw.wrapper-connector-mysql/mysql/mysql-connector-java.jar"/>
     </module_version>
 </module>

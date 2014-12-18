@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.graph.cbema">
-    <module_version install_time="1415879059675" last="true" origin="installer" specification_version="10.21.1">
+    <module_version install_time="1417159150827" last="true" origin="installer" specification_version="10.22.0">
         <file crc="1769353765" name="config/Modules/de-janitza-pasw-graph-cbema.xml"/>
-        <file crc="3075845863" name="modules/de-janitza-pasw-graph-iti-cbema.jar"/>
+        <file crc="1580177815" name="modules/de-janitza-pasw-graph-iti-cbema.jar"/>
     </module_version>
 </module>

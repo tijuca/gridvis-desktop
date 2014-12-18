@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.database.mssqlserver">
-    <module_version install_time="1415879057947" last="true" origin="installer" specification_version="10.48.1">
+    <module_version install_time="1417159150001" last="true" origin="installer" specification_version="10.49.0">
         <file crc="1452343373" name="config/Modules/de-janitza-pasw-database-mssqlserver.xml"/>
-        <file crc="1297340448" name="modules/de-janitza-pasw-database-mssqlserver.jar"/>
+        <file crc="905103040" name="modules/de-janitza-pasw-database-mssqlserver.jar"/>
     </module_version>
 </module>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.extdevices.security">
-    <module_version install_time="1415879060773" last="true" origin="installer" specification_version="1.4.1">
+    <module_version install_time="1417159151335" last="true" origin="installer" specification_version="1.5.0">
         <file crc="1443148807" name="config/Modules/de-janitza-pasw-extdevices-security.xml"/>
-        <file crc="1791848649" name="modules/de-janitza-pasw-extdevices-security.jar"/>
+        <file crc="184834544" name="modules/de-janitza-pasw-extdevices-security.jar"/>
     </module_version>
 </module>
