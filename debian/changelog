@@ -1,3 +1,28 @@
+gridvis-desktop (5.1.0-1) unstable; urgency=low
+
+  * [3dc8cb4] debian/*: adding a starter wrapper script
+  * [c03e045] imported gridvis 5.0.2
+  * [185d24c] adding a directory for later project data
+  * [a971d91] changing etc/gridvis.conf
+  * [81916a7] d/gridvis.desktop: changing binary call
+  * [0b44576] d/g-d.post{inst,rm}: adding postinst and postrm script
+  * [f91237d] d/g-d-w.sh: expanding the starter script
+  * [1ac7b32] Imported Upstream version 5.1.0
+  * [e8b4810] rebuild patch queue from patchqueue branch
+  * [1aa3f46] debian/gbp.conf: adding xz compression for orig.tar
+  * [9889ab7] README.source: adding a basic description
+  * [c4a2436] gridvis-desktop.install: adding new upstream folders
+  * [8492b3f] debian/control: bump up standards version to 3.9.6
+  * [04ab245] lintian: adding new override
+  * [255c922] debian/gridvis.desktop: adding some Keywords
+  * [b4c5287] d/g-d-w.sh: switching the JRE usage dynamically
+  * [fbe643b] debian/rules: fix package-contains-timestamped-gzip
+  * [fde3fb8] debian/rules: removing dh_shlibdeps for now
+  * [5fff2a7] debian/rules: adopting changes related to the jre/ folder
+  * [f518fc5] lintian: adding some more overrides
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 18 Dec 2014 13:41:08 +0100
+
 gridvis-desktop (5.0.1-1~exp1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
