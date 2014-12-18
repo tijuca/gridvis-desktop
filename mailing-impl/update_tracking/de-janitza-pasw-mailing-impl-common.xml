@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.mailing.impl.common">
-    <module_version install_time="1415879060924" last="true" origin="installer" specification_version="1.7.1">
+    <module_version install_time="1417159151381" last="true" origin="installer" specification_version="1.8.0">
         <file crc="1990916075" name="config/Modules/de-janitza-pasw-mailing-impl-common.xml"/>
-        <file crc="3751561139" name="modules/de-janitza-pasw-mailing-impl-common.jar"/>
+        <file crc="3034574530" name="modules/de-janitza-pasw-mailing-impl-common.jar"/>
     </module_version>
 </module>

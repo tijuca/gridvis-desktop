@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.editor.fold.nbui">
-    <module_version install_time="1415879056004" last="true" origin="installer" specification_version="1.6.1.43">
+    <module_version install_time="1417159148974" last="true" origin="installer" specification_version="1.6.1.43">
         <file crc="2740362867" name="config/Modules/org-netbeans-modules-editor-fold-nbui.xml"/>
         <file crc="4104218991" name="modules/locale/org-netbeans-modules-editor-fold-nbui_ja.jar"/>
         <file crc="4197008721" name="modules/locale/org-netbeans-modules-editor-fold-nbui_pt_BR.jar"/>

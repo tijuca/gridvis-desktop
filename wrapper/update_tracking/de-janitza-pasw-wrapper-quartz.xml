@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.quartz">
-    <module_version install_time="1415879060364" last="true" origin="installer" specification_version="1.8.5">
+    <module_version install_time="1417159151164" last="true" origin="installer" specification_version="1.8.5">
         <file crc="84672395" name="config/Modules/de-janitza-pasw-wrapper-quartz.xml"/>
-        <file crc="2028037586" name="modules/de-janitza-pasw-wrapper-quartz.jar"/>
+        <file crc="1158633800" name="modules/de-janitza-pasw-wrapper-quartz.jar"/>
         <file crc="2715822795" name="modules/ext/de.janitza.pasw.wrapper-quartz/javax-transaction/jta.jar"/>
         <file crc="488160358" name="modules/ext/de.janitza.pasw.wrapper-quartz/org-quartz-scheduler/quartz.jar"/>
     </module_version>

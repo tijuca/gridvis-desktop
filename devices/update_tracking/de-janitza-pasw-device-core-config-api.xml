@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.core.config.api">
-    <module_version install_time="1415879052740" last="true" origin="installer" specification_version="0.2.1">
+    <module_version install_time="1417159147708" last="true" origin="installer" specification_version="0.3.0">
         <file crc="553181224" name="config/Modules/de-janitza-pasw-device-core-config-api.xml"/>
-        <file crc="4219356249" name="modules/de-janitza-pasw-device-core-config-api.jar"/>
+        <file crc="3112642086" name="modules/de-janitza-pasw-device-core-config-api.jar"/>
     </module_version>
 </module>

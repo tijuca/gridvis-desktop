@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.security.mediator">
-    <module_version install_time="1415879060676" last="true" origin="installer" specification_version="1.13.1">
+    <module_version install_time="1417159151273" last="true" origin="installer" specification_version="1.14.0">
         <file crc="4223119547" name="config/Modules/de-janitza-pasw-security-mediator.xml"/>
-        <file crc="1231008844" name="modules/de-janitza-pasw-security-mediator.jar"/>
+        <file crc="279792317" name="modules/de-janitza-pasw-security-mediator.jar"/>
     </module_version>
 </module>

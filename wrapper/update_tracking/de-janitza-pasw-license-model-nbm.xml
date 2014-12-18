@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.license.model.nbm">
-    <module_version install_time="1415879059711" last="true" origin="installer" specification_version="10.2.2">
+    <module_version install_time="1417159150848" last="true" origin="installer" specification_version="10.2.2">
         <file crc="2385455766" name="config/Modules/de-janitza-pasw-license-model-nbm.xml"/>
         <file crc="3496011157" name="modules/de-janitza-pasw-license-model-nbm.jar"/>
         <file crc="647566067" name="modules/ext/de.janitza.pasw.license-model-nbm/de-janitza-pasw/license-model.jar"/>

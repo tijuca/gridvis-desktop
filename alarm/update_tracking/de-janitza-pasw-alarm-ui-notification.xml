@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.alarm.ui.notification">
-    <module_version install_time="1415879060954" last="true" origin="installer" specification_version="1.11.1">
+    <module_version install_time="1417159151399" last="true" origin="installer" specification_version="1.12.0">
         <file crc="3110892312" name="config/Modules/de-janitza-pasw-alarm-ui-notification.xml"/>
-        <file crc="787866082" name="modules/de-janitza-pasw-alarm-ui-notification.jar"/>
+        <file crc="3829299451" name="modules/de-janitza-pasw-alarm-ui-notification.jar"/>
     </module_version>
 </module>

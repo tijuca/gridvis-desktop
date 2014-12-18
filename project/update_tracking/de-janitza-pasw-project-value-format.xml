@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.value.format">
-    <module_version install_time="1415879059944" last="true" origin="installer" specification_version="0.1.2">
+    <module_version install_time="1417159150931" last="true" origin="installer" specification_version="0.2.0">
         <file crc="3679250272" name="config/Modules/de-janitza-pasw-project-value-format.xml"/>
-        <file crc="2754942782" name="modules/de-janitza-pasw-project-value-format.jar"/>
+        <file crc="1322281723" name="modules/de-janitza-pasw-project-value-format.jar"/>
     </module_version>
 </module>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.core.fluent.builder">
-    <module_version install_time="1415879052439" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1417159147592" last="true" origin="installer" specification_version="1.0.1">
         <file crc="2889890922" name="config/Modules/de-janitza-pasw-value-core-fluent-builder.xml"/>
-        <file crc="2156813395" name="modules/de-janitza-pasw-value-core-fluent-builder.jar"/>
+        <file crc="2781723188" name="modules/de-janitza-pasw-value-core-fluent-builder.jar"/>
     </module_version>
 </module>
