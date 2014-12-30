@@ -18,13 +18,20 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+# testing for installed package 'gridvis-server'
+PKG_GS=$(test -f /usr/share/doc/gridvis-server/changelog && echo yes)
 
 case "$1" in
     purge)
         if getent group gridvis-desktop >/dev/null; then
             delgroup gridvis-desktop || true
         fi
-        rm -rf /var/lib/GridVisProjects
+        if [ "${PKG_GS}" = "yes" ]; then
+            echo "Not purging '/var/lib/GridVisProjects' due installed package 'gridvis-server'!"
+            echo "Please resolve a possible deletation by your own."
+        else
+            rm -rf /var/lib/GridVisProjects
+        fi
     ;;
 
     remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
