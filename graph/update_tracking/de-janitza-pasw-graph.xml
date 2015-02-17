@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.graph">
-    <module_version install_time="1417159150823" last="true" origin="installer" specification_version="10.27.0">
+    <module_version install_time="1421146335450" last="true" origin="installer" specification_version="10.28.0">
         <file crc="2485959698" name="config/Modules/de-janitza-pasw-graph.xml"/>
-        <file crc="13801102" name="modules/de-janitza-pasw-graph-api.jar"/>
+        <file crc="265790765" name="modules/de-janitza-pasw-graph-api.jar"/>
     </module_version>
 </module>

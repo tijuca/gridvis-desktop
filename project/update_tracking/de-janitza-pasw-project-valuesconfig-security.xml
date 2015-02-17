@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.valuesconfig.security">
-    <module_version install_time="1417159150871" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1421146335643" last="true" origin="installer" specification_version="1.0.0">
         <file crc="2463867540" name="config/Modules/de-janitza-pasw-project-valuesconfig-security.xml"/>
-        <file crc="4235887094" name="modules/de-janitza-pasw-project-valuesconfig-security.jar"/>
+        <file crc="2644988200" name="modules/de-janitza-pasw-project-valuesconfig-security.jar"/>
     </module_version>
 </module>

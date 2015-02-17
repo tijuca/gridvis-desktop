@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.slf4j.jdk14">
-    <module_version install_time="1417159151179" last="true" origin="installer" specification_version="1.6.4">
+    <module_version install_time="1421146336526" last="true" origin="installer" specification_version="1.6.6">
         <file crc="3163122052" name="config/Modules/de-janitza-pasw-wrapper-slf4j-jdk14.xml"/>
-        <file crc="313383585" name="modules/de-janitza-pasw-wrapper-slf4j-jdk14.jar"/>
-        <file crc="735795422" name="modules/ext/de.janitza.pasw.wrapper-slf4j-jdk14/org-slf4j/slf4j-api.jar"/>
-        <file crc="2188184073" name="modules/ext/de.janitza.pasw.wrapper-slf4j-jdk14/org-slf4j/slf4j-jdk14.jar"/>
+        <file crc="2691624814" name="modules/de-janitza-pasw-wrapper-slf4j-jdk14.jar"/>
+        <file crc="1888669852" name="modules/ext/de.janitza.pasw.wrapper-slf4j-jdk14/org-slf4j/slf4j-api.jar"/>
+        <file crc="679423285" name="modules/ext/de.janitza.pasw.wrapper-slf4j-jdk14/org-slf4j/slf4j-jdk14.jar"/>
     </module_version>
 </module>
