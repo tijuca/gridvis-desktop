@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.io">
-    <module_version install_time="1417159150978" last="true" origin="installer" specification_version="2.0.1">
+    <module_version install_time="1421146336008" last="true" origin="installer" specification_version="2.0.1">
         <file crc="765138037" name="config/Modules/de-janitza-pasw-wrapper-commons-io.xml"/>
-        <file crc="1184124813" name="modules/de-janitza-pasw-wrapper-commons-io.jar"/>
+        <file crc="1583284428" name="modules/de-janitza-pasw-wrapper-commons-io.jar"/>
         <file crc="3973900425" name="modules/ext/de.janitza.pasw.wrapper-commons-io/commons-io/commons-io.jar"/>
     </module_version>
 </module>

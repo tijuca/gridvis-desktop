@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sec.realm.jdbc.base">
-    <module_version install_time="1417159151246" last="true" origin="installer" specification_version="1.21.0">
+    <module_version install_time="1421146336693" last="true" origin="installer" specification_version="1.22.0">
         <file crc="1910479195" name="config/Modules/de-janitza-pasw-sec-realm-jdbc-base.xml"/>
-        <file crc="2599575470" name="modules/de-janitza-pasw-sec-realm-jdbc-base.jar"/>
+        <file crc="2078907285" name="modules/de-janitza-pasw-sec-realm-jdbc-base.jar"/>
     </module_version>
 </module>

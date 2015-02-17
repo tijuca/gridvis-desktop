@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.mbusbase">
-    <module_version install_time="1417159147797" last="true" origin="installer" specification_version="1.3.0">
+    <module_version install_time="1421146326999" last="true" origin="installer" specification_version="1.3.0">
         <file crc="2440714516" name="config/Modules/de-janitza-pasw-device-impl-mbusbase.xml"/>
-        <file crc="1731560940" name="modules/de-janitza-pasw-device-impl-mbusbase.jar"/>
+        <file crc="1403389772" name="modules/de-janitza-pasw-device-impl-mbusbase.jar"/>
     </module_version>
 </module>
