@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.ui.desktop.link.base">
-    <module_version install_time="1421146328488" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1424778721760" last="true" origin="installer" specification_version="1.6.0">
         <file crc="3699753937" name="config/Modules/de-janitza-pasw-topology-ui-desktop-link-base.xml"/>
-        <file crc="1245644611" name="modules/de-janitza-pasw-topology-ui-desktop-link-base.jar"/>
+        <file crc="2181512174" name="modules/de-janitza-pasw-topology-ui-desktop-link-base.jar"/>
     </module_version>
 </module>

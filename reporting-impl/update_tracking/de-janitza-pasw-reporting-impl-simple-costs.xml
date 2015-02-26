@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.simple.costs">
-    <module_version install_time="1421146325407" last="true" origin="installer" specification_version="1.10.0">
+    <module_version install_time="1424778721061" last="true" origin="installer" specification_version="1.10.0">
         <file crc="2021437193" name="config/Modules/de-janitza-pasw-reporting-impl-simple-costs.xml"/>
         <file crc="2176414947" name="modules/de-janitza-pasw-reporting-impl-simple-costs.jar"/>
     </module_version>

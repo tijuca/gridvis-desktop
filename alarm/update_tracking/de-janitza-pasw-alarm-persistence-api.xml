@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.alarm.persistence.api">
-    <module_version install_time="1421146336871" last="true" origin="installer" specification_version="1.9.0">
+    <module_version install_time="1424778725475" last="true" origin="installer" specification_version="1.9.0">
         <file crc="3971250465" name="config/Modules/de-janitza-pasw-alarm-persistence-api.xml"/>
-        <file crc="247116367" name="modules/de-janitza-pasw-alarm-persistence-api.jar"/>
+        <file crc="2463593649" name="modules/de-janitza-pasw-alarm-persistence-api.jar"/>
     </module_version>
 </module>

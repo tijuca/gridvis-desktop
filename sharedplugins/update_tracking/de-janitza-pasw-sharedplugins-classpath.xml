@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sharedplugins.classpath">
-    <module_version install_time="1421146336972" last="true" origin="installer" specification_version="1.22.0">
+    <module_version install_time="1424778725521" last="true" origin="installer" specification_version="1.22.0">
         <file crc="1303517344" name="config/Modules/de-janitza-pasw-sharedplugins-classpath.xml"/>
         <file crc="3659744989" name="modules/de-janitza-pasw-sharedplugins-classpath.jar"/>
     </module_version>

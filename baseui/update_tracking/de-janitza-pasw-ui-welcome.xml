@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.ui.welcome/1">
-    <module_version install_time="1421146334952" last="true" origin="installer" specification_version="10.20.0">
+    <module_version install_time="1424778724630" last="true" origin="installer" specification_version="10.20.0">
         <file crc="4083902232" name="config/Modules/de-janitza-pasw-ui-welcome.xml"/>
-        <file crc="2284662647" name="modules/de-janitza-pasw-baseui-welcome.jar"/>
+        <file crc="1276628722" name="modules/de-janitza-pasw-baseui-welcome.jar"/>
     </module_version>
 </module>

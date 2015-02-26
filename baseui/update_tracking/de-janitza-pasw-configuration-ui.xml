@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.configuration.ui">
-    <module_version install_time="1421146336932" last="true" origin="installer" specification_version="1.24.0">
+    <module_version install_time="1424778725507" last="true" origin="installer" specification_version="1.24.0">
         <file crc="1701107592" name="config/Modules/de-janitza-pasw-configuration-ui.xml"/>
         <file crc="2570363419" name="modules/de-janitza-pasw-configuration-ui.jar"/>
     </module_version>

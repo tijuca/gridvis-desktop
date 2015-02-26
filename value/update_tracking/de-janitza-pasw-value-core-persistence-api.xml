@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.core.persistence.api">
-    <module_version install_time="1421146326148" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1424778721181" last="true" origin="installer" specification_version="1.0.0">
         <file crc="3989644813" name="config/Modules/de-janitza-pasw-value-core-persistence-api.xml"/>
-        <file crc="171034439" name="modules/de-janitza-pasw-value-core-persistence-api.jar"/>
+        <file crc="432343837" name="modules/de-janitza-pasw-value-core-persistence-api.jar"/>
     </module_version>
 </module>
