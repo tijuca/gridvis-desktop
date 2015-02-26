@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporterror">
-    <module_version install_time="1421146335660" last="true" origin="installer" specification_version="10.13.0">
+    <module_version install_time="1424778724917" last="true" origin="installer" specification_version="10.13.0">
         <file crc="2126506829" name="config/Modules/de-janitza-pasw-reporterror.xml"/>
         <file crc="1688347252" name="modules/de-janitza-pasw-reporterror.jar"/>
     </module_version>

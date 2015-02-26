@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.filesystems.ui.desktop.common">
-    <module_version install_time="1421146327665" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1424778721578" last="true" origin="installer" specification_version="1.4.0">
         <file crc="4285519577" name="config/Modules/de-janitza-pasw-filesystems-ui-desktop-common.xml"/>
-        <file crc="2842581398" name="modules/de-janitza-pasw-filesystems-ui-desktop-common.jar"/>
+        <file crc="3665698451" name="modules/de-janitza-pasw-filesystems-ui-desktop-common.jar"/>
     </module_version>
 </module>

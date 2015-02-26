@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.httpcomponents.httpcore">
-    <module_version install_time="1421146337099" last="true" origin="installer" specification_version="4.3.2">
+    <module_version install_time="1424778725565" last="true" origin="installer" specification_version="4.3.2">
         <file crc="75412184" name="config/Modules/de-janitza-pasw-wrapper-httpcomponents-httpcore.xml"/>
         <file crc="3946961691" name="modules/de-janitza-pasw-wrapper-httpcomponents-httpcore.jar"/>
         <file crc="2573583878" name="modules/ext/de.janitza.pasw.wrapper-httpcomponents-httpcore/org-apache-httpcomponents/httpcore.jar"/>

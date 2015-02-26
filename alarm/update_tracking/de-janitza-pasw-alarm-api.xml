@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.alarm.api">
-    <module_version install_time="1421146336841" last="true" origin="installer" specification_version="1.19.0">
+    <module_version install_time="1424778725455" last="true" origin="installer" specification_version="1.19.0">
         <file crc="2608537397" name="config/Modules/de-janitza-pasw-alarm-api.xml"/>
         <file crc="1858970221" name="modules/de-janitza-pasw-alarm-api.jar"/>
     </module_version>

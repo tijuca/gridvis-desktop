@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.scheduling.timesync">
-    <module_version install_time="1421146335721" last="true" origin="installer" specification_version="10.27.0">
+    <module_version install_time="1424778724936" last="true" origin="installer" specification_version="10.27.0">
         <file crc="3570129324" name="config/Modules/de-janitza-pasw-scheduling-timesync.xml"/>
         <file crc="3492702830" name="modules/de-janitza-pasw-scheduling-timesync.jar"/>
     </module_version>

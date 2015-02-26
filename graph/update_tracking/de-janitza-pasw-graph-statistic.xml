@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.graph.statistic">
-    <module_version install_time="1421146335512" last="true" origin="installer" specification_version="10.27.0">
+    <module_version install_time="1424778724877" last="true" origin="installer" specification_version="10.27.0">
         <file crc="3845482026" name="config/Modules/de-janitza-pasw-graph-statistic.xml"/>
         <file crc="1529235314" name="modules/de-janitza-pasw-graph-statistic.jar"/>
     </module_version>
