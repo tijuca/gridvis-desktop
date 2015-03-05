@@ -13,6 +13,8 @@ Homepage: http://www.janitza.com/products/software/software-gridvis/
 Package: gridvis-desktop
 Architecture: amd64 i386
 Depends: ${misc:Depends}, ${shlibs:Depends},
+  xauth
+Recommends: cups-pdf, ttf-mscorefonts-installer
 Description: administration software for Janitza measurement devices
  The Janitza-GridVis software allows you to control any setting for
  the measurement devices. It gives you also the possibility to read
