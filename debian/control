@@ -20,6 +20,10 @@ Description: administration software for Janitza measurement devices
  the measurement devices. It gives you also the possibility to read
  out the devices and store the measurement data.
  .
+ GridVis is also able to create reports based on DIN or EN normings.
+ To create such PDF reports you will need to install some recommended
+ packages like cups-pdf and depending on this ttf-mscorefonts-installer.
+ .
  The GridVis software is a product of:
  .
  Janitza electronics GmbH
