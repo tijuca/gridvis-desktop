@@ -9,11 +9,9 @@ PACKAGE_NAME=gridvis-desktop
 
 ifeq ($(DEB_BUILD_ARCH),amd64)
 	MODULES_LIB_PLATFORM=amd64
-	DH_SHLIBDEPS_EXCLUDE=amd64/linux/libjnidispatch-340.so
 endif
 ifeq ($(DEB_BUILD_ARCH),i386)
 	MODULES_LIB_PLATFORM=i386
-	DH_SHLIBDEPS_EXCLUDE=i386/linux/libjnidispatch-340.so
 endif
 
 %:
@@ -50,9 +48,33 @@ override_dh_install:
 	install -m 755 $(CURDIR)/debian/gridvis-desktop-wrapper.sh $(CURDIR)/debian/$(PACKAGE_NAME)/usr/bin/gridvis-desktop
 
 override_dh_shlibdeps:
-#	dh_shlibdeps -a -l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME) \
-#		-X$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/platform/modules/lib/$(DH_SHLIBDEPS_EXCLUDE) \
-#		-X$(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/*
+	# The guys from Janitza unfortunately packing the (complete) JRE from Oracle.
+	# By this many useless DSO files are preshipped such for gstreamer and ffmpeg
+	# with their related bindings. These functions are surely not used and
+	# provide while packaging some unresolvable situations so we have move
+	# them out of the way.
+	# Without removing the lib{avplugin,gstreamer-lite}.so dh_shlibs will stop
+	# because unresolvable libraries ending with a error message. :-(
+	rm $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libavplugin.so
+	rm $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/libgstreamer-lite.so
+	# Now we can call dh_shlibs with some additional paths and excludes.
+	dh_shlibdeps -a \
+		-l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM) \
+		-l $(CURDIR)/debian/$(PACKAGE_NAME)/usr/lib/$(PACKAGE_NAME)/jre/lib/$(MODULES_LIB_PLATFORM)/server \
+		-Xlibjnidispatch-340 \
+		-Xibfontmanager \
+		-Xlibdecora_sse \
+		-Xlibfxplugins \
+		-Xlibglass \
+		-Xlibjavafx_font \
+		-Xlibjavafx_font_freetype \
+		-Xlibjavafx_font_pango \
+		-Xlibjavafx_font_t2k \
+		-Xlibjavafx_iio \
+		-Xlibjfxmedia \
+		-Xlibprism_common \
+		-Xlibprism_es2 \
+		-Xlibprism_sw
 
 override_dh_fixperms:
 	dh_fixperms
