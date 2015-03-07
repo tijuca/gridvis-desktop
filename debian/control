@@ -4,6 +4,13 @@ Priority: optional
 Maintainer: Janitza electronics GmbH <info@janitza.com>
 Uploaders: Carsten Schoenert <c.schoenert@t-online.de>
 Build-Depends: debhelper (>= 7.0.50~),
+  libfreetype6 (>= 2.4.9-1.1~),
+  libgcj15,
+  libgl1-mesa-glx (>= 8.0.5-4~),
+  libxrender1 (>= 1:0.9.7-1),
+  libxslt1.1 (>= 1.1.26-14.1~),
+  libxtst6 (>= 2:1.2.1-1~),
+  libxxf86vm1 (>= 1:1.1.2-1~),
   lynx
 #Vcs-Git: 
 #Vcs-Browser: 
