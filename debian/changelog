@@ -1,3 +1,12 @@
+gridvis-desktop (5.1.2.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * Rebuild for wheezy-backports.
+  * [b46bafb] debian/gbp.conf: adopting debian/wheezy-bpo branch
+  * [f711a8a] debian/control: needed changes for wheezy build
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 11 Mar 2015 21:48:41 +0100
+
 gridvis-desktop (5.1.2.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
