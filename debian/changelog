@@ -1,3 +1,29 @@
+gridvis-desktop (5.1.2.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [ac81309] Imported Upstream version 5.1.1
+  * [f2e9744] rebuild patch queue from patchqueue branch
+  * [17530c1] gridvis-desktop.preinst: adding installer helper
+  * [bd8bbf5] d/g-d.postrm: change purging depending on gridvis-server
+  * [6f3fb5b] Imported Upstream version 5.1.2
+  * [7678a5a] Imported Upstream version 5.1.2.1
+  * [5818d5d] d/g-d.postrm: fixing typo within a check
+  * [9ddb512] debian/control: change package depends
+  * [a88478c] debian/control: adding p-d xauth
+  * [5c512bb] debian/control: adding a note about package recommends
+  * [9897bbc] debian/control: adding p-d on libxtst6
+  * [bfaabc6] debian/control: adding some new Build-Depends
+  * [b2ca579] debian/rules: re-activate of dh_shlibs
+  * [1e24539] debian/control: adding some new Build-Depends
+  * [7b665c9] debian/rules: re-activate of dh_shlibs
+  * [2a83900] fixup! debian/control: adding some new Build-Depends
+  * [468b439] debian/gridvis-desktop.preinst: check for cache folder
+  * [3b37847] debian/control: adding some new Build-Depends
+  * [ec4eacc] debian/rules: re-activate of dh_shlibs
+  * [cb7fe38] debian/gridvis-desktop.preinst: check for cache folder
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 11 Mar 2015 21:28:46 +0100
+
 gridvis-desktop (5.1.0-1) unstable; urgency=low
 
   * [3dc8cb4] debian/*: adding a starter wrapper script
