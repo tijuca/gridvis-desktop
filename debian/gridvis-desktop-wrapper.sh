@@ -66,7 +66,7 @@ if [ "${GETENT_RET}" != 0 ]; then
         ;;
 
         *)
-            logger -i -p warning -s "$0: Couldn't find a desktop notifier, please check your memberchip to group 'gridvis-deskop'!"
+            logger -i -p warning -s "$0: Couldn't find a desktop notifier, please check your memberchip to group 'gridvis-desktop'!"
 
     esac
 
