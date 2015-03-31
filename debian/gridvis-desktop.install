@@ -5,7 +5,12 @@ etc/*       etc/gridvis-desktop/
 alarm               usr/lib/gridvis-desktop/
 baseui              usr/lib/gridvis-desktop/
 bin                 usr/lib/gridvis-desktop/
+database-core       usr/lib/gridvis-desktop/
+database-desktop    usr/lib/gridvis-desktop/
+database-impl       usr/lib/gridvis-desktop/
+database-project    usr/lib/gridvis-desktop/
 databases           usr/lib/gridvis-desktop/
+device              usr/lib/gridvis-desktop/
 devices             usr/lib/gridvis-desktop/
 exports-core        usr/lib/gridvis-desktop/
 exports-desktop     usr/lib/gridvis-desktop/
@@ -30,7 +35,7 @@ jmx-netbeans        usr/lib/gridvis-desktop/
 #jre                 usr/lib/gridvis-desktop/
 license             usr/lib/gridvis-desktop/
 mailing-core        usr/lib/gridvis-desktop/
-mailing-impl        usr/lib/gridvis-desktop/
+performance         usr/lib/gridvis-desktop/
 platform            usr/lib/gridvis-desktop/
 project             usr/lib/gridvis-desktop/
 reporting-core      usr/lib/gridvis-desktop/
