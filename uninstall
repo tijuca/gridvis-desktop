@@ -173,7 +173,7 @@ read_vmoptions() {
   if [ ! -r "$vmoptions_file" ]; then
     vmoptions_file="$prg_dir/$vmoptions_file"
   fi
-  if [ -r "$vmoptions_file" ]; then
+  if [ -r "$vmoptions_file" ] && [ -f "$vmoptions_file" ]; then
     exec 8< "$vmoptions_file"
     while read cur_option<&8; do
       is_comment=`expr "W$cur_option" : 'W *#.*'`
@@ -312,7 +312,8 @@ fi
 
 
 if [ -z "$app_java_home" ]; then
-  common_jvm_locations="/opt/i4j_jres/* /usr/local/i4j_jres/* $HOME/.i4j_jres/* /usr/bin/java* /usr/bin/jdk* /usr/bin/jre* /usr/bin/j2*re* /usr/bin/j2sdk* /usr/java* /usr/java*/jre /usr/jdk* /usr/jre* /usr/j2*re* /usr/j2sdk* /usr/java/j2*re* /usr/java/j2sdk* /opt/java* /usr/java/jdk* /usr/java/jre* /usr/lib/java/jre /usr/local/java* /usr/local/jdk* /usr/local/jre* /usr/local/j2*re* /usr/local/j2sdk* /usr/jdk/java* /usr/jdk/jdk* /usr/jdk/jre* /usr/jdk/j2*re* /usr/jdk/j2sdk* /usr/lib/jvm/* /usr/lib/java* /usr/lib/jdk* /usr/lib/jre* /usr/lib/j2*re* /usr/lib/j2sdk* /System/Library/Frameworks/JavaVM.framework/Versions/1.?/Home"
+  common_jvm_locations="/opt/i4j_jres/* /usr/local/i4j_jres/* $HOME/.i4j_jres/* /usr/bin/java* /usr/bin/jdk* /usr/bin/jre* /usr/bin/j2*re* /usr/bin/j2sdk* /usr/java* /usr/java*/jre /usr/jdk* /usr/jre* /usr/j2*re* /usr/j2sdk* /usr/java/j2*re* /usr/java/j2sdk* /opt/java* /usr/java/jdk* /usr/java/jre* /usr/lib/java/jre /usr/local/java* /usr/local/jdk* /usr/local/jre* /usr/local/j2*re* /usr/local/j2sdk* /usr/jdk/java* /usr/jdk/jdk* /usr/jdk/jre* /usr/jdk/j2*re* /usr/jdk/j2sdk* /usr/lib/jvm/* /usr/lib/java* /usr/lib/jdk* /usr/lib/jre* /usr/lib/j2*re* /usr/lib/j2sdk* /System/Library/Frameworks/JavaVM.framework/Versions/1.?/Home
+ /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home /Library/Java/JavaVirtualMachines/*.jdk/Contents/Home/jre"
   for current_location in $common_jvm_locations
   do
 if [ -z "$app_java_home" ]; then
@@ -418,7 +419,7 @@ if [ "W$vmov_5" = "W" ]; then
   vmov_5="-Di4j.vmov=true"
 fi
 
-$INSTALL4J_JAVA_PREFIX "$app_java_home/bin/java" -Dinstall4j.jvmDir="$app_java_home" -Dexe4j.moduleName="$prg_dir/$progname" -Djava.ext.dirs="$app_java_home/lib/ext:$app_java_home/jre/lib/ext" "$vmov_1" "$vmov_2" "$vmov_3" "$vmov_4" "$vmov_5" $INSTALL4J_ADD_VM_PARAMS -classpath "$local_classpath" com.install4j.runtime.launcher.Launcher launch com.install4j.runtime.installer.Uninstaller true false "" "" true true false "" true true 0 0 "" 20 20 "Arial" "0,0,0" 8 500 "version 5.1.2.1" 20 40 "Arial" "0,0,0" 8 500 -1  "$@"
+$INSTALL4J_JAVA_PREFIX "$app_java_home/bin/java" -Dinstall4j.jvmDir="$app_java_home" -Dexe4j.moduleName="$prg_dir/$progname" -Djava.ext.dirs="$app_java_home/lib/ext:$app_java_home/jre/lib/ext" "$vmov_1" "$vmov_2" "$vmov_3" "$vmov_4" "$vmov_5" $INSTALL4J_ADD_VM_PARAMS -classpath "$local_classpath" com.install4j.runtime.launcher.Launcher launch com.install4j.runtime.installer.Uninstaller true false "" "" true true false "" true true 0 0 "" 20 20 "Arial" "0,0,0" 8 500 "version 5.1.4" 20 40 "Arial" "0,0,0" 8 500 -1  "$@"
 
 
 exit $?

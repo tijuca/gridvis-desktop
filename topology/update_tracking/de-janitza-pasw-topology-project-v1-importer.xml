@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.project.v1.importer">
-    <module_version install_time="1424778721670" last="true" origin="installer" specification_version="1.13.0">
+    <module_version install_time="1426672666100" last="true" origin="installer" specification_version="1.14.0">
         <file crc="3543427700" name="config/Modules/de-janitza-pasw-topology-project-v1-importer.xml"/>
-        <file crc="1089830187" name="modules/de-janitza-pasw-topology-project-v1-importer.jar"/>
+        <file crc="1115619103" name="modules/de-janitza-pasw-topology-project-v1-importer.jar"/>
     </module_version>
 </module>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.common">
-    <module_version install_time="1424778721680" last="true" origin="installer" specification_version="1.12.0">
+    <module_version install_time="1426672666134" last="true" origin="installer" specification_version="1.16.0">
         <file crc="197818589" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-common.xml"/>
-        <file crc="2933985780" name="modules/de-janitza-pasw-reporting-ui-desktop-common.jar"/>
+        <file crc="1914796019" name="modules/de-janitza-pasw-reporting-ui-desktop-common.jar"/>
     </module_version>
 </module>
