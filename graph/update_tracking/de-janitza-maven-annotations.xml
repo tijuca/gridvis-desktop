@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.maven.annotations">
-    <module_version install_time="1424778724833" last="true" origin="installer" specification_version="1.1">
+    <module_version install_time="1426672674584" last="true" origin="installer" specification_version="1.1">
         <file crc="2728035017" name="config/Modules/de-janitza-maven-annotations.xml"/>
-        <file crc="3313411258" name="modules/de-janitza-maven-annotations.jar"/>
+        <file crc="2817392096" name="modules/de-janitza-maven-annotations.jar"/>
     </module_version>
 </module>

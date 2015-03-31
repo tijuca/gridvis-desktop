@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.security.project">
-    <module_version install_time="1424778725347" last="true" origin="installer" specification_version="1.15.0">
+    <module_version install_time="1426672675864" last="true" origin="installer" specification_version="1.16.0">
         <file crc="1335469134" name="config/Modules/de-janitza-pasw-security-project.xml"/>
-        <file crc="2854125071" name="modules/de-janitza-pasw-security-project.jar"/>
+        <file crc="919749155" name="modules/de-janitza-pasw-security-project.jar"/>
     </module_version>
 </module>
