@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.validator">
-    <module_version install_time="1424778724967" last="true" origin="installer" specification_version="1.4.0.0">
+    <module_version install_time="1426672674973" last="true" origin="installer" specification_version="1.4.0.0">
         <file crc="953912354" name="config/Modules/de-janitza-pasw-wrapper-commons-validator.xml"/>
         <file crc="295354036" name="modules/de-janitza-pasw-wrapper-commons-validator.jar"/>
         <file crc="4065229087" name="modules/ext/de.janitza.pasw.wrapper-commons-validator/commons-validator/commons-validator.jar"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tasklib">
-    <module_version install_time="1424778721423" last="true" origin="installer" specification_version="1.1.0">
+    <module_version install_time="1426672664780" last="true" origin="installer" specification_version="1.2.0">
         <file crc="1375337224" name="config/Modules/de-janitza-pasw-tasklib.xml"/>
-        <file crc="2338568571" name="modules/de-janitza-pasw-device-impl-tasks.jar"/>
+        <file crc="371283010" name="modules/de-janitza-pasw-device-impl-tasks.jar"/>
     </module_version>
 </module>
