@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.programmingprofibus">
-    <module_version install_time="1424778723988" last="true" origin="installer" specification_version="10.19.0">
+    <module_version install_time="1426672672457" last="true" origin="installer" specification_version="10.20.0">
         <file crc="2726462373" name="config/Modules/de-janitza-pasw-programmingprofibus.xml"/>
-        <file crc="3934766234" name="modules/de-janitza-pasw-graphprog-profibus.jar"/>
+        <file crc="2820881296" name="modules/de-janitza-pasw-graphprog-profibus.jar"/>
     </module_version>
 </module>

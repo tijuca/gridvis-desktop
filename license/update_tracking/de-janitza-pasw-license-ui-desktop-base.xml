@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.license.ui.desktop.base">
-    <module_version install_time="1424778724882" last="true" origin="installer" specification_version="1.3.0">
+    <module_version install_time="1426672674790" last="true" origin="installer" specification_version="1.4.0">
         <file crc="2650463212" name="config/Modules/de-janitza-pasw-license-ui-desktop-base.xml"/>
-        <file crc="3466826608" name="modules/de-janitza-pasw-license-ui-desktop-base.jar"/>
+        <file crc="774101682" name="modules/de-janitza-pasw-license-ui-desktop-base.jar"/>
     </module_version>
 </module>

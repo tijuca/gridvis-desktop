@@ -1,10 +1,16 @@
 reports
 platform
 etc
+license
 exports-core
 exports-impl
 exports-project
 reporting-project
+mailing-core
+database-core
+database-impl
+database-project
+database-desktop
 filesystems-core
 filesystems-impl
 filesystems-project
@@ -13,6 +19,7 @@ reporting-impl
 value
 format
 devices
+device
 jmx-core
 jmx-netbeans
 topology
@@ -22,11 +29,11 @@ exports-desktop
 project
 ide
 baseui
-gridvis
 databases
+gridvis
 wrapper
-license
 graphprog
+performance
 extdevices
 extdevice
 scheduling
@@ -36,5 +43,3 @@ scripting
 sharedplugins
 security
 alarm
-mailing-core
-mailing-impl
