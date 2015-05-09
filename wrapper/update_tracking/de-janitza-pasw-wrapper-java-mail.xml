@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.java.mail">
-    <module_version install_time="1426672672474" last="true" origin="installer" specification_version="1.4.7.0">
+    <module_version install_time="1430303201846" last="true" origin="installer" specification_version="1.5.2.0">
         <file crc="1112490628" name="config/Modules/de-janitza-pasw-wrapper-java-mail.xml"/>
-        <file crc="4008348870" name="modules/de-janitza-pasw-wrapper-java-mail.jar"/>
+        <file crc="3122245547" name="modules/de-janitza-pasw-wrapper-java-mail.jar"/>
+        <file crc="3161675639" name="modules/ext/com.sun.mail/javax.mail-1.5.2.jar"/>
         <file crc="984909869" name="modules/ext/javax.activation/activation-1.1.jar"/>
-        <file crc="3186994136" name="modules/ext/javax.mail/mail-1.4.7.jar"/>
+        <file crc="1465506182" name="modules/ext/javax.mail/javax.mail-api-1.5.2.jar"/>
     </module_version>
 </module>

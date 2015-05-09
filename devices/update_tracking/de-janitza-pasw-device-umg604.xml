@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg604">
-    <module_version install_time="1426672665133" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1430303198481" last="true" origin="installer" specification_version="1.11.0">
         <file crc="2700564260" name="config/Modules/de-janitza-pasw-device-umg604.xml"/>
-        <file crc="1679227827" name="modules/de-janitza-pasw-device-impl-umg604.jar"/>
+        <file crc="3239156633" name="modules/de-janitza-pasw-device-impl-umg604.jar"/>
     </module_version>
 </module>
