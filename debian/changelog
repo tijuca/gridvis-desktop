@@ -1,3 +1,13 @@
+gridvis-desktop (5.1.4-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [2bc3b7a] debian/gridvis-desktop-wrapper.sh: fix typo
+  * [9dcdd02] Imported Upstream version 5.1.4
+  * [c250214] d/g-d.install: adopting changes by upstream
+  * [e2d3510] lintian: fix build-depends-on-1-revision
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 09 May 2015 11:39:05 +0200
+
 gridvis-desktop (5.1.2.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
