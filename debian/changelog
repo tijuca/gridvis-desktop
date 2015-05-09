@@ -1,3 +1,13 @@
+gridvis-desktop (5.1.4-1~bpo70+1) wheezy-backports; urgency=medium
+
+  * Rebuild for wheezy-backports.
+  * [09674af] debian/gridvis-desktop-wrapper.sh: fix typo
+  * [9dcdd02] Imported Upstream version 5.1.4
+  * [cc73789] d/g-d.install: adopting changes by upstream
+  * [ddcf6fa] lintian: fix build-depends-on-1-revision
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 05 May 2015 11:33:44 +0200
+
 gridvis-desktop (5.1.2.1-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
