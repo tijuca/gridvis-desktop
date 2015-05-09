@@ -7,17 +7,17 @@ Subject: changing gridvis.conf with additional comment
  1 file changed, 7 insertions(+), 5 deletions(-)
 
 diff --git a/etc/gridvis.conf b/etc/gridvis.conf
-index 67a3332..1a3ce44 100644
+index c70530e..e456fe5 100644
 --- a/etc/gridvis.conf
 +++ b/etc/gridvis.conf
 @@ -1,6 +1,8 @@
  # ${HOME} will be replaced by user home directory according to platform
--default_userdir="${HOME}/.${APPNAME}/5.0"
--default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/5.0"
-+#default_userdir="${HOME}/.${APPNAME}/5.0"
+-default_userdir="${HOME}/.${APPNAME}/6.0"
+-default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/6.0"
++#default_userdir="${HOME}/.${APPNAME}/6.0"
 +# We set a global project directory in /var/lib/GridVisProjects,
 +# also storing the license information there.
-+default_userdir="/var/lib/GridVisProjects/.${APPNAME}/5.0"
++default_userdir="/var/lib/GridVisProjects/.${APPNAME}/6.0"
  
  # options used by the launcher by default, can be overridden by explicit
  # command line switches
