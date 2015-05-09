@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.alarm.criteria">
-    <module_version install_time="1426672676278" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1430303204056" last="true" origin="installer" specification_version="1.7.0">
         <file crc="1919641497" name="config/Modules/de-janitza-pasw-alarm-criteria.xml"/>
         <file crc="4277363867" name="modules/de-janitza-pasw-alarm-criteria.jar"/>
     </module_version>

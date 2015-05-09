@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.core.serialport.api">
+    <module_version install_time="1430303197964" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="778752691" name="config/Modules/de-janitza-pasw-device-core-serialport-api.xml"/>
+        <file crc="2632714166" name="modules/de-janitza-pasw-device-core-serialport-api.jar"/>
+    </module_version>
+</module>

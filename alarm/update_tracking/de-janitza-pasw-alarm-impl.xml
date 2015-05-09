@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.alarm.impl">
-    <module_version install_time="1426672676245" last="true" origin="installer" specification_version="1.22.0">
+    <module_version install_time="1430303204051" last="true" origin="installer" specification_version="1.26.0">
         <file crc="3301374545" name="config/Modules/de-janitza-pasw-alarm-impl.xml"/>
-        <file crc="4185359935" name="modules/de-janitza-pasw-alarm-impl.jar"/>
+        <file crc="2343683056" name="modules/de-janitza-pasw-alarm-impl.jar"/>
     </module_version>
 </module>

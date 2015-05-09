@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.energyoverview">
-    <module_version install_time="1426672663306" last="true" origin="installer" specification_version="1.14.0">
+    <module_version install_time="1430303197131" last="true" origin="installer" specification_version="1.17.0">
         <file crc="4000148902" name="config/Modules/de-janitza-pasw-reporting-impl-energyoverview.xml"/>
-        <file crc="2649741464" name="modules/de-janitza-pasw-reporting-impl-energyoverview.jar"/>
+        <file crc="60830862" name="modules/de-janitza-pasw-reporting-impl-energyoverview.jar"/>
     </module_version>
 </module>

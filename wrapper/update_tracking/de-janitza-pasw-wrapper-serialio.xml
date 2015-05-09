@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.serialio">
-    <module_version install_time="1426672675639" last="true" origin="installer" specification_version="8.4">
+    <module_version install_time="1430303203766" last="true" origin="installer" specification_version="8.9">
         <file crc="2712413507" name="config/Modules/de-janitza-pasw-wrapper-serialio.xml"/>
-        <file crc="1542941662" name="modules/de-janitza-pasw-wrapper-serialio.jar"/>
-        <file crc="1030456858" name="modules/ext/de.janitza.pasw.wrapper-serialio/Serialio/Serialio.jar"/>
-        <file crc="4016236411" name="modules/lib/amd64/jspWin.dll"/>
+        <file crc="885805477" name="modules/de-janitza-pasw-wrapper-serialio.jar"/>
+        <file crc="2244760751" name="modules/lib/amd64/jspWin.dll"/>
         <file crc="3254164390" name="modules/lib/amd64/libjspLux86_64bit.so"/>
         <file crc="1792391055" name="modules/lib/amd64/libjspMacOSX.jnilib"/>
-        <file crc="2277196667" name="modules/lib/i386/jspWin.dll"/>
+        <file crc="2934956454" name="modules/lib/i386/jspWin.dll"/>
         <file crc="3319901089" name="modules/lib/i386/libjspLux86.so"/>
         <file crc="2473824211" name="modules/lib/i386/libjspMacOSX.jnilib"/>
-        <file crc="2277196667" name="modules/lib/x86/jspWin.dll"/>
+        <file crc="2934956454" name="modules/lib/x86/jspWin.dll"/>
         <file crc="3319901089" name="modules/lib/x86/libjspLux86.so"/>
         <file crc="2473824211" name="modules/lib/x86/libjspMacOSX.jnilib"/>
     </module_version>
