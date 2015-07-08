@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.core.relation.api">
-    <module_version install_time="1430303197249" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1434015697357" last="true" origin="installer" specification_version="1.0.0">
         <file crc="919252598" name="config/Modules/de-janitza-pasw-value-core-relation-api.xml"/>
         <file crc="888190516" name="modules/de-janitza-pasw-value-core-relation-api.jar"/>
     </module_version>

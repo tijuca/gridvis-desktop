@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.simple.costs">
-    <module_version install_time="1430303198814" last="true" origin="installer" specification_version="1.15.0">
+    <module_version install_time="1434015698198" last="true" origin="installer" specification_version="1.15.0">
         <file crc="1048487129" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-simple-costs.xml"/>
-        <file crc="76970200" name="modules/de-janitza-pasw-reporting-ui-desktop-simple-costs.jar"/>
+        <file crc="1551712593" name="modules/de-janitza-pasw-reporting-ui-desktop-simple-costs.jar"/>
     </module_version>
 </module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.apache.fop">
+    <module_version install_time="1434015700419" last="true" origin="installer" specification_version="1.1.0.1">
+        <file crc="2305277660" name="config/Modules/de-janitza-pasw-wrapper-apache-fop.xml"/>
+        <file crc="246520736" name="modules/de-janitza-pasw-wrapper-apache-fop.jar"/>
+        <file crc="931522945" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-avalon-framework/avalon-framework-api.jar"/>
+        <file crc="1094334232" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-avalon-framework/avalon-framework-impl.jar"/>
+        <file crc="2172739633" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-pdfbox/fontbox.jar"/>
+        <file crc="1731985570" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-pdfbox/jempbox.jar"/>
+        <file crc="410055442" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-pdfbox/pdfbox.jar"/>
+        <file crc="3813308714" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-anim.jar"/>
+        <file crc="4277228369" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-awt-util.jar"/>
+        <file crc="2298984112" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-bridge.jar"/>
+        <file crc="793821825" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-css.jar"/>
+        <file crc="2608077669" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-dom.jar"/>
+        <file crc="1085953367" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-ext.jar"/>
+        <file crc="4175904776" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-extension.jar"/>
+        <file crc="2759434962" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-gvt.jar"/>
+        <file crc="2331846347" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-js.jar"/>
+        <file crc="538149297" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-parser.jar"/>
+        <file crc="3876875797" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-script.jar"/>
+        <file crc="4170266847" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-svg-dom.jar"/>
+        <file crc="2832021953" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-svggen.jar"/>
+        <file crc="2464253166" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-transcoder.jar"/>
+        <file crc="1822598402" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-util.jar"/>
+        <file crc="3401832098" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/batik-xml.jar"/>
+        <file crc="1338278054" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/fop.jar"/>
+        <file crc="111485382" name="modules/ext/de.janitza.pasw.wrapper-apache-fop/org-apache-xmlgraphics/xmlgraphics-commons.jar"/>
+    </module_version>
+</module>

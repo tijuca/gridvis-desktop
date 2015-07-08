@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.core.common.values">
-    <module_version install_time="1430303197430" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1434015697472" last="true" origin="installer" specification_version="1.0.0">
         <file crc="1848930640" name="config/Modules/de-janitza-pasw-value-core-common-values.xml"/>
-        <file crc="2406815804" name="modules/de-janitza-pasw-value-core-common-values.jar"/>
+        <file crc="3709609604" name="modules/de-janitza-pasw-value-core-common-values.jar"/>
     </module_version>
 </module>

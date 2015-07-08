@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.sharedplugins.consumption.export.provider">
+    <module_version install_time="1434015702338" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="3664660802" name="config/Modules/de-janitza-sharedplugins-consumption-export-provider.xml"/>
+        <file crc="105803024" name="modules/de-janitza-sharedplugins-consumption-export-provider.jar"/>
+        <file crc="4166089402" name="sharedplugins/consumption-export-richclient.nbm"/>
+        <file crc="3927436401" name="sharedplugins/consumption-export.nbm"/>
+    </module_version>
+</module>

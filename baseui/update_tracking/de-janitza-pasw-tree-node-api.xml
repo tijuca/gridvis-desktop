@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tree.node.api">
+    <module_version install_time="1434015700293" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="999861326" name="config/Modules/de-janitza-pasw-tree-node-api.xml"/>
+        <file crc="1810044884" name="modules/de-janitza-pasw-tree-node-api.jar"/>
+    </module_version>
+</module>
