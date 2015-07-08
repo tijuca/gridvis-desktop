@@ -1,0 +1,480 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: GridVis
+Upstream-Contact: Janitza electronics GmbH <info@janitza.de>
+Download: http://www.janitza.de/downloads/gridvis-download/
+Disclaimer: Allgemeine Vertragsbedingungen der Janitza Electronics GmbH für
+ den Verkauf von Standardsoftware
+ .
+ § 1 Geltung der Vertragsbedingungen
+ (1) Für den Verkauf von Standardsoftware durch die Janitza Electronics GmbH,
+     geschäftsansässig Vor dem Polstück 1, 35663 Lahnau (im Folgenden "JANITZA"
+     genannt) und für vorvertragliche Schuldverhältnisse in diesem Zusammenhang
+     gelten im unternehmerischen Verkehr ausschließlich diese Allgemeinen
+     Vertragsbedingungen, soweit nichts anderes vereinbart ist. Abweichende
+     Vertragsbedingungen des Kunden werden nicht Vertragsinhalt, auch wenn
+     JANITZA ihnen nicht ausdrücklich widerspricht.
+ .
+ (2) Auch wenn beim Abschluss gleichartiger Verträge hierauf nicht nochmals
+     hingewiesen wird, gelten ausschließlich die Allgemeinen
+     Vertragsbedingungen der Janitza Electronics GmbH für den Verkauf von
+     Standardsoftware in ihrer bei Abgabe der Erklärung des Kunden aktuellen
+     Fassung (abrufbar unter www.janitza.de), es sei denn, die Vertragsparteien
+     vereinbaren schriftlich etwas anderes.
+ .
+ (3) Es geltend ergänzend die gesetzlichen Bestimmungen, für die Lieferung der
+     Standardsoftware die §§ 433 ff. BGB, für getrennt bestellte
+     Dienstleistungen (z.B. Installation, Parametrisierung, Schulung) die §§
+     611 ff. BGB.
+ .
+ § 2 Vertragsschluss
+ (1) Angebote von JANITZA sind freibleibend und unverbindlich, es sei denn, das
+     Angebot wird schriftlich als bindend bezeichnet. Eine rechtliche Bindung
+     kommt nur durch einen beiderseits unterzeichneten Vertrag oder durch eine
+     schriftliche Auftragsbestätigung von JANITZA zustande, außerdem dadurch,
+     dass JANITZA mit der vertragsgemäßen Leistungserbringung beginnt. JANITZA
+     kann die schriftliche Bestätigungen mündlicher Vertragserklärungen des
+     Kunden verlangen.
+ .
+ (2) Der Kunde hält sich vier Wochen an Erklärungen zum Abschluss von Verträgen
+     (Vertragsangebote) gebunden.
+ .
+ (3) Für Lieferungen und Leistungen anderer Art (z.B. Hardwarelieferung,
+     Softwarepflege, Einrichtung und Installation der Software) sind gesonderte
+     Verträge zu schließen.
+ .
+ § 3 Vertragsgegenstand, Leistungsumfang
+ (1) Gegenstand dieser Vertragsbedingungen ist nur die Lieferung von
+     Standardsoftware und die Einräumung der Nutzungsrechte nach § 4, außerdem
+     (soweit bestellt) die Schulung nach § 15.
+ .
+ (2) Der Kunde hat vor Vertragsabschluss überprüft, dass die Spezifikation der
+     Software seinen Wünschen und Bedürfnissen entspricht. Ihm sind die
+     wesentlichen Funktionsmerkmale und -bedingungen der Software bekannt.
+ .
+ (3) Maßgebend für Umfang, Art und Qualität der Lieferungen und Leistungen ist
+     der beiderseits unterzeichnete Vertrag oder die Auftragsbestätigung von
+     JANITZA, sonst das Angebot von JANITZA. Sonstige Angaben oder
+     Anforderungen werden nur Vertragsbestandteil, wenn die Vertragspartner
+     dies schriftlich vereinbaren oder JANITZA sie schriftlich bestätigt hat.
+     Nachträgliche Änderungen des Leistungsumfangs bedürfen der schriftlichen
+     Vereinbarung oder der schriftlichen Bestätigung durch JANITZA.
+ .
+ (4) Produktbeschreibungen, Darstellungen, Testprogramme usw. sind
+     Leistungsbeschreibungen, jedoch keine Garantien. Eine Garantie bedarf der
+     schriftlichen Erklärung durch die Geschäftsleitung von JANITZA.
+ .
+ (5) Der Kunde erhält die Software bestehend aus dem Maschinenprogramm und dem
+     Benutzerhandbuch. Die Technik der Auslieferung der Software richtet sich
+     nach den Vereinbarungen; mangels anderer Vereinbarung werden Programm und
+     Handbuch auf CDROM ausgeliefert. Der Kunde hat keinen Anspruch auf
+     Überlassung des Quellprogramms.
+ .
+ (6) JANITZA erbringt alle Lieferungen und Leistungen nach dem Stand der Technik.
+ .
+ § 4 Rechte des Kunden an der Software
+ (1) Die Software (Programm und Benutzerhandbuch) ist rechtlich geschützt. Das
+     Urheberrecht, Patentrechte, Markenrechte und alle sonstigen
+     Leistungsschutzrechte an der Software sowie an sonstigen Gegenständen, die
+     JANITZA dem Kunde im Rahmen der Vertragsanbahnung und -durchführung
+     überlässt oder zugänglich macht, stehen im Verhältnis der Vertragspartner
+     ausschließlich JANITZA zu. Soweit die Rechte Dritten zustehen, hat JANITZA
+     entsprechende Verwertungsrechte.
+ .
+ (2) Der Kunde ist nur berechtigt, mit dem Programm eigene Daten selbst im
+     eigenen Betrieb für eigene Zwecke zu verarbeiten. Alle
+     Datenverarbeitungsgeräte (z.B. Festplatten und Zentraleinheiten), auf die
+     die Programme ganz oder teilweise, kurzzeitig oder auf Dauer kopiert oder
+     übernommen werden, müssen sich in Räumen des Kunden befinden und in seinem
+     unmittelbaren Besitz stehen. Weitere vertragliche Nutzungsregeln (z.B.
+     die Beschränkung auf eine Anzahl von Arbeitsplätzen oder Personen) sind
+     technisch einzurichten und praktisch einzuhalten. JANITZA räumt dem Kunden
+     hiermit die für diese Nutzung notwendigen Befugnisse als einfaches
+     Nutzungsrecht ein, einschließlich des Rechts zur Fehlerbeseitigung. Für
+     die Dauer des Nutzungsrechts gilt § 13.
+ .
+ (3) Der Kunde darf die für einen sicheren Betrieb erforderlichen
+     Sicherungskopien der Programme erstellen. Die Sicherungskopien müssen
+     sicher verwahrt werden und, soweit technisch möglich, mit dem
+     Urheberrechtsvermerk des Original-Datenträgers versehen werden.
+     Urheberrechtsvermerke dürfen nicht gelöscht, geändert oder unterdrückt
+     werden. Nicht mehr benötigte Kopien sind zu löschen oder zu vernichten.
+     Das Benutzerhandbuch und andere von JANITZA überlassene Unterlagen dürfen
+     nur für betriebsinterne Zwecke kopiert werden.
+ .
+ (4) Der Kunde ist nur nach den folgenden Regeln und nach Durchführung der
+     folgenden Vorgänge berechtigt, die Software oder Teile davon an einen
+     Dritten weiterzugeben:
+  a) Nur ein Original-Datenträger (vgl. § 3 Abs. 5) darf weitergegeben werden.
+     Andere Software oder die Software in einem anderem Stand dürfen nicht
+     weitergegeben werden.
+ .
+  b) Der Kunde löscht alle anderen Kopien der Software (gleich in welchem
+     Stand), insbesondere auf Datenträgern und in Fest- oder Arbeitsspeichern.
+     Er gibt die Nutzung endgültig auf. Er verpflichtet sich, diese Vorgänge
+     vor der Weitergabe des Original-Datenträgers an den Dritten durchzuführen
+     und sie unverzüglich JANITZA schriftlich zu bestätigen.
+ .
+  c) Die Weitergabe an den Dritten erfolgt auf Dauer, also ohne
+     Rückgabeanspruch oder Rückerwerbsoption.
+ .
+  d) Der Dritte erklärt schriftlich gegenüber JANITZA, dass er § 4, § 13 Abs. 2
+     und 3, §14 und § 16 dieser Allgemeinen Vertragsbedingungen unmittelbar
+     gegenüber JANITZA einhalten wird.
+ .
+  e) Die schriftliche Zustimmung von JANITZA liegt vor. JANITZA ist zur
+     Zustimmung verpflichtet, wenn keine wichtigen Gründe (z.B.
+     Konkurrenzschutz) entgegenstehen.
+     Im Falle eines Verstoßes des Kunden gegen diese Regeln schuldet er JANITZA
+     eine Vertragsstrafe in Höhe des Betrages, den der Dritte nach der dann
+     aktuellen Preisliste von JANITZA für die Software hätte zahlen müssen,
+     zumindest aber in Höhe des heute vereinbarten Kaufpreises. Weitergehende
+     Ansprüche von JANITZA bleiben vorbehalten.
+ .
+ (5) Die Regeln nach Abs. 2, Abs. 3 und Abs. 4 d), e) gelten auch, wenn der
+     Kunde eine Fehlerbeseitigung oder (soweit zulässig) eine sonstige
+     Bearbeitung der Programme durchführt oder die Software zu Schulungszwecken
+     einsetzt.
+ .
+ (6) Der Kunde darf die Schnittstelleninformationen der Programme nur in den
+     Schranken des § 69 e UrhG dekompilieren und erst dann, wenn er schriftlich
+     JANITZA von seinem Vorhaben unterrichtet und mit einer Frist von zumindest
+     zwei Wochen um Überlassung der erforderlichen Informationen gebeten hat.
+     Für alle Kenntnisse und Informationen, die der Kunde über die Software im
+     Rahmen des Dekompilierens erhält, gilt § 14. Vor jeder Einschaltung von
+     Dritten verschafft er JANITZA eine schriftliche Erklärung des Dritten,
+     dass dieser sich unmittelbar gegenüber JANITZA zur Einhaltung der in §§ 4
+     und 14 festgelegten Regeln verpflichtet.
+ .
+ (7) Alle anderen Verwertungshandlungen, insbesondere die Vermietung, der
+     Verleih und die Verbreitung in körperlicher oder unkörperlicher Form,
+     Gebrauch der Software durch und für Dritte (z.B. Outsourcing,
+     Rechenzentrumstätigkeiten, Application Service Providing) sind ohne
+     vorherige schriftliche Zustimmung von JANITZA nicht erlaubt.
+ .
+ (8) Vertragsgegenstände, Unterlagen, Vorschläge, Testprogramme usw. von
+     JANITZA, die dem Kunde vor oder nach Vertragsabschluss zugänglich werden,
+     gelten als geistiges Eigentum und als Geschäfts- und Betriebsgeheimnis von
+     JANITZA. Sie dürfen ohne schriftliche Gestattung von JANITZA nicht in
+     gleich welcher Weise genutzt werden und sind nach § 14 geheimzuhalten.
+ .
+ § 5 Leistungszeit, Verzögerungen, Leistungsort
+ (1) Angaben zu Liefer- und Leistungszeitpunkten sind unverbindlich, es sei
+     denn, sie werden von JANITZA schriftlich als verbindlich bezeichnet.
+     JANITZA kann Teilleistungen erbringen, soweit die gelieferten Teile für
+     den Kunde sinnvoll nutzbar sind.
+ .
+ (2) Liefer- und Leistungsfristen verlängern sich um den Zeitraum, in welchem
+     sich der Kunde in Zahlungsverzug aus dem Vertrag befindet, und um den
+     Zeitraum, in dem JANITZA durch Umstände, die JANITZA nicht zu vertreten
+     hat, an der Lieferung oder Leistung gehindert ist, und um eine angemessene
+     Anlaufzeit nach Ende des Hinderungsgrundes. Zu diesen Umständen zählen
+     auch höhere Gewalt und Arbeitskampf. Fristen gelten auch um den Zeitraum
+     als verlängert, in welchem der Kunde vertragswidrig eine
+     Mitwirkungsleistung nicht erbringt, z.B. eine Information nicht gibt,
+     einen Zugang nicht schafft, eine Beistellung nicht liefert oder
+     Mitarbeiter nicht zur Verfügung stellt.
+ .
+ (3) Vereinbaren die Vertragsparteien nachträglich andere oder zusätzliche
+     Leistungen, die sich auf vereinbarte Fristen auswirken, so verlängern sich
+     diese Fristen um einen angemessenen Zeitraum.
+ .
+ (4) Mahnungen und Fristsetzungen des Kundes bedürfen zur Wirksamkeit der
+     Schriftform.  Eine Nachfrist muss angemessen sein. Eine Frist von weniger
+     als zwei Wochen ist nur bei besonderer Eilbedürftigkeit angemessen.
+ .
+ (5) Leistungsort von Schulungen ist der Ort, an dem die Schulung zu erbringen
+     ist. Im übrigen ist für alle Leistungen aus und im Zusammenhang mit diesem
+     Vertrag der Sitz von JANITZA der Leistungsort.
+ .
+ § 6 Vertragsbindung und Vertragsbeendigung
+ (1) Jede Beendigung des weiteren Leistungsaustausches (z.B. bei Rücktritt,
+     Minderung, Kündigung aus wichtigem Grund, Schadensersatz statt der
+     Leistung) muss stets unter Benennung des Grundes und mit angemessener
+     Fristsetzung zur Beseitigung (üblicherweise zumindest zwei Wochen)
+     angedroht werden und kann nur binnen zwei Wochen nach Fristablauf erklärt
+     werden. In den gesetzlich angeordneten Fällen (vgl. § 323 Abs. 2 BGB) kann
+     die Fristsetzung entfallen. Wer die Störung ganz oder überwiegend zu
+     vertreten hat, kann die Rückabwicklung nicht verlangen.
+ .
+ (2) Alle Erklärungen in diesem Zusammenhang bedürfen zur Wirksamkeit der
+     Schriftform.
+ .
+ § 7 Vergütung, Zahlung
+ (1) Die vereinbarte Vergütung ist nach Ablieferung der Software (bei
+     Schulungen nach Durchführung der Schulung) und Eingang der Rechnung beim
+     Kunden ohne Abzug fällig und innerhalb von 14 Tagen zahlbar.
+ .
+ (2) Mangels abweichender Vereinbarungen gilt die jeweilige Preisliste von
+     JANITZA, die über www.janitza.de einsehbar ist bzw. bei JANITZA
+     angefordert werden kann.
+ .
+ (3) Fahrtkosten, Spesen, Zubehör, Versandkosten und Telekommunikationskosten
+     sind zusätzlich nach Aufwand zu vergüten. Zusätzliche vom Kunden verlangte
+     Leistungen (z.B. Beratung und Unterstützung bei der Programminstallation)
+     werden nach der jeweils aktuellen Preisliste von JANITZA in Rechnung
+     gestellt. Eine Listenpreiserhöhung ist auf 3% pro Jahr begrenzt.
+ .
+ (4) Zu allen Preisen kommt die Umsatzsteuer hinzu.
+ .
+ (5) Der Kunde kann gegenüber JANITZA nur mit von JANITZA unbestrittenen oder
+     rechtskräftig festgestellten Forderungen aufrechnen. Außer im Bereich des
+     § 354 a HGB kann der Kunde Ansprüche aus diesem Vertrag nur mit vorheriger
+     schriftlicher Zustimmung von JANITZA an Dritte abtreten. Ein
+     Zurückbehaltungsrecht oder die Einrede des nicht erfüllten Vertrages
+     stehen dem Kunden nur innerhalb dieses Vertragsverhältnisses zu.
+ .
+ § 8 Pflichten des Kunden
+ (1) Der Kunde ist verpflichtet, alle Liefergegenstände von JANITZA
+     unverzüglich ab Lieferung oder ab Zugänglichmachung entsprechend den
+     handelsrechtlichen Regelungen (§ 377 HGB) durch einen fachkundigen
+     Mitarbeiter untersuchen zu lassen und erkannte Mängel schriftlich unter
+     genauer Beschreibung des Fehlers zu rügen. Der Kunde testet gründlich
+     jedes Modul auf Verwendbarkeit in der konkreten Situation, bevor er mit
+     der produktiven Nutzung beginnt. Dies gilt auch für Programme, die der
+     Kunde im Rahmen der Gewährleistung und eines Pflegevertrages bekommt.
+ .
+ (2) Der Kunde trifft angemessene Vorkehrungen für den Fall, dass das Programm
+     ganz oder teilweise nicht ordnungsgemäß arbeitet (z.B. durch
+     Datensicherung, Störungsdiagnose, regelmäßige Prüfung der Ergebnisse,
+     Notfallplanung). Es liegt in seiner Verantwortung, die Funktionsfähigkeit
+     der Arbeitsumgebung des Programms sicherzustellen.
+ .
+ § 9 Sachmängel
+ (1) Die Software hat die vereinbarte Beschaffenheit und eignet sich für die
+     vertraglich vorausgesetzte, bei fehlender Vereinbarung für die gewöhnliche
+     Verwendung. Sie genügt dem Kriterium praktischer Tauglichkeit und hat die
+     bei Software dieser Art übliche Qualität; sie ist jedoch nicht fehlerfrei.
+     Eine Funktionsbeeinträchtigung des Programms, die aus Hardwaremängeln,
+     Umgebungsbedingungen, Fehlbedienung oder ähnliches resultiert, ist kein
+     Mangel. Eine unerhebliche Minderung der Qualität bleibt unberücksichtigt.
+ .
+ (2) Bei Sachmängeln kann JANITZA zunächst nacherfüllen. Die Nacherfüllung
+     erfolgt nach Wahl von JANITZA durch Beseitigung des Mangels, durch
+     Lieferung von Software, die den Mangel nicht hat, oder dadurch, dass
+     JANITZA Möglichkeiten aufzeigt, die Auswirkungen des Mangels zu vermeiden.
+     Wegen eines Mangels sind vom Kunden zumindest drei Nachbesserungsversuche
+     hinzunehmen. Eine gleichwertige neue Programmversion oder die
+     gleichwertige vorhergehende Programmversion, die den Fehler nicht
+     enthalten hat, ist vom Kunden zu übernehmen, wenn dies für ihn zumutbar
+     ist.
+ .
+ (3) Der Kunde unterstützt JANITZA bei der Fehleranalyse und Mängelbeseitigung,
+     indem er insbesondere auftretende Probleme konkret beschreibt, JANITZA
+     umfassend informiert und JANITZA die für die Mangelbeseitigung
+     erforderliche Zeit und Gelegenheit gewährt. JANITZA kann die
+     Mangelbeseitigung nach Wahl von JANITZA vor Ort oder in den
+     Geschäftsräumen von JANITZA durchführen. JANITZA kann Leistungen auch
+     durch Fernwartung erbringen. Der Kunde hat auf eigene Kosten für die
+     erforderlichen technischen Voraussetzungen zu sorgen und JANITZA nach
+     entsprechender vorheriger Ankündigung Zugang zu seiner EDV-Anlage zu
+     gewähren.
+ .
+ (4) Die Vertragspartner vereinbaren folgende Fehlerklassen und
+     Reaktionszeiten:
+  a) Fehlerklasse 1: Betriebsverhindernde Mängel: Der Fehler verhindert den
+     Geschäftsbetrieb beim Kunden; eine Umgehungslösung liegt nicht vor:
+     JANITZA beginnt unverzüglich, spätestens innerhalb von sechs Stunden nach
+     Fehlermeldung mit der Fehlerbeseitigung und setzt sie mit Nachdruck bis
+     zur Beseitigung des Fehlers fort, soweit zumutbar auch außerhalb der
+     üblichen Arbeitszeit (werktags 8.00 Uhr bis 17.00 Uhr).
+ .
+  b) Fehlerklasse 2: Betriebsbehindernde Mängel: Der Fehler behindert den
+     Geschäftsbetrieb beim Kunde erheblich; die Nutzung der Software ist jedoch
+     mit Umgehungslösungen oder mit temporär akzeptablen Einschränkungen oder
+     Erschwernissen möglich: JANITZA beginnt bei Fehlermeldung vor 10.00 Uhr
+     mit der Fehlerbeseitigung am gleichen Tag, bei späterer Fehlermeldung zu
+     Beginn des nächsten Arbeitstages und setzt sie bis zur Beseitigung des
+     Fehlers innerhalb der üblichen Arbeitszeit fort. JANITZA kann zunächst
+     eine Umgehungslösung aufzeigen und den Fehler später beseitigen, wenn dies
+     für den Kunden zumutbar ist.
+ .
+  c) Fehlerklasse 3: Sonstige Mängel: JANITZA beginnt innerhalb einer Woche mit
+     der Fehlerbeseitigung oder beseitigt den Fehler erst mit dem nächsten
+     Programmstand, wenn dies für den Kunde zumutbar ist.
+ .
+ (5) Die Fristen nach Abs. 4 beginnen mit einer Fehlermeldung nach § 8 Abs. 1.
+     Für die Fristberechnung gilt § 5 Abs. 2, 3. Bei Meinungsverschiedenheit
+     über die Zuordnung eines Fehlers in die Klassen nach Abs. 4 kann der Kunde
+     die Einstufung in eine höhere Fehlerklasse verlangen. Sofern er nicht
+     nachweist, dass seine Einstufung richtig war, hat er JANITZA den
+     Zusatzaufwand zu erstatten.
+ .
+ (6) JANITZA kann Mehrkosten daraus verlangen, dass die Software verändert,
+     außerhalb der vorgegebenen Umgebung eingesetzt oder falsch bedient wurde.
+     JANITZA kann Aufwendungsersatz verlangen, wenn kein Mangel gefunden wird.
+     Die Beweislast liegt beim Kunden. § 254 BGB gilt entsprechend.
+ .
+ (7) Wenn JANITZA die Nacherfüllung endgültig verweigert oder diese endgültig
+     fehlschlägt oder dem Kunde nicht zumutbar ist, kann er im Rahmen des § 6
+     entweder vom Vertrag zurücktreten oder die Vergütung angemessen
+     herabsetzen und zusätzlich nach § 11 Schadensersatz oder Aufwendungsersatz
+     verlangen. Die Ansprüche verjähren nach § 12.
+ .
+ § 10 Rechtsmängel
+ (1) JANITZA gewährleistet, dass der vertragsgemäßen Nutzung der Software durch
+     den Kunden keine Rechte Dritter entgegenstehen. Bei Rechtsmängeln leistet
+     JANITZA dadurch Gewähr, dass JANITZA dem Kunden nach der Wahl von JANITZA
+     eine rechtlich einwandfreie Nutzungsmöglichkeit an der Software oder an
+     gleichwertiger Software verschafft.
+ .
+ (2) Der Kunde hat JANITZA unverzüglich schriftlich zu unterrichten, falls
+     Dritte Schutzrechte (z.B. Urheber- oder Patentrechte) an der Software ihm
+     gegenüber geltend machen. Der Kunde ermächtigt JANITZA, die
+     Auseinandersetzung mit dem Dritten allein zu führen. Solange JANITZA von
+     dieser Ermächtigung Gebrauch macht, darf der Kunde von sich aus die
+     Ansprüche des Dritten nicht ohne Zustimmung von JANITZA anerkennen;
+     JANITZA wehrt dann die Ansprüche des Dritten auf eigene Kosten ab und
+     stellt den Kunde von allen mit der Abwehr dieser Ansprüche verbundenen
+     Kosten frei, soweit diese nicht auf pflichtwidrigem Verhalten des Kundes
+     (z.B. der vertragswidrigen Nutzung der Programme) beruhen.
+ .
+ (3) § 9 Abs. 2, 6, 7 gelten entsprechend. Für den Abbruch des
+     Leistungsaustauschs gilt § 6. Für die Haftung gilt § 11, für die
+     Verjährung § 12.
+ .
+ § 11 Haftung
+ (1) JANITZA haftet nach den gesetzlichen Bestimmungen, sofern der Kunde
+     Schadensersatzansprüche geltend macht, die auf Vorsatz oder grober
+     Fahrlässigkeit, einschließlich von Vorsatz oder grober Fahrlässigkeit der
+     Vertreter oder Erfüllungsgehilfen von JANITZA beruhen.
+ .
+ (2) Bei leicht fahrlässigen Verletzungen solcher Vertragspflichten, deren
+     Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst
+     ermöglicht und auf deren Einhaltung ein Auftraggeber regelmäßig vertraut
+     und vertrauen darf (Kardinalpflichten, wesentliche Vertragspflichten),
+     haftet JANITZA nach gesetzlichen Bestimmungen. In diesem Fall ist die
+     Haftung von JANITZA jedoch auf den nach der Art der Leistung
+     vorhersehbaren und typischerweise entstehenden Schaden begrenzt und der
+     Ersatz für Folgeschäden, wie z.B. entgangenen Gewinn, ist ausgeschlossen.
+     Dasselbe gilt bei grob fahrlässigen Pflichtverletzungen nicht wesentlicher
+     Vertragspflichten, die durch die einfachen Erfüllungsgehilfen von JANITZA
+     begangen werden.
+ .
+ (3) JANITZA haftet nicht bei leicht fahrlässigen Verletzungen nicht
+     wesentlicher Vertragspflichten.
+ .
+ (4) Die Haftungsbegrenzungen und Haftungsausschlüsse in den Abs. 1, 2 und 3
+     gelten auch für Ansprüche aus Verschulden bei Vertragsschluss, sonstigen
+     Pflichtverletzungen und aus unerlaubter Handlung. Sie gelten nicht bei
+     JANITZA zurechenbaren Verletzungen des Lebens, des Körpers oder der
+     Gesundheit sowie bei Ansprüchen nach dem Produkthaftungsgesetz.
+ .
+ (5) Der Einwand des Mitverschuldens bleibt JANITZA offen. Der Kunde hat
+     insbesondere die Pflicht zur Datensicherung und zur Abwehr von
+     Schadsoftware nach dem aktuellen Stand der Technik.
+ .
+ § 12 Verjährung
+ (1) Die Verjährungsfrist beträgt
+  a) für Ansprüche auf Kaufpreisrückzahlung aus Rücktritt oder Minderung
+     ein Jahr ab Ablieferung der Software, jedoch für ordnungsgemäß gerügte
+     Mängel nicht weniger als drei Monate ab Abgabe der wirksamen Rücktritts-
+     oder Minderungserklärung;
+ .
+  b) bei anderen Ansprüchen aus Sachmängeln ein Jahr;
+ .
+  c) bei Ansprüchen aus Rechtsmängeln zwei Jahre, wenn der Rechtsmangel nicht
+     in einem dinglichen Recht eines Dritten liegt, auf Grund dessen er die in
+     § 3 Abs. 5 genannten Gegenstände herausverlangen oder die Unterlassung
+     deren Nutzung verlangen kann;
+ .
+  d) bei nicht auf Sach- oder Rechtsmängeln beruhenden Ansprüchen auf
+     Schadensersatz oder Ersatz vergeblicher Aufwendungen zwei Jahre, beginnend
+     ab dem Zeitpunkt, in dem der Kunde von den anspruchsbegründenden Umständen
+     Kenntnis erlangt hat oder ohne grobe Fahrlässigkeit erlangen musste. Die
+     Verjährung tritt spätestens mit Ablauf der in § 199 BGB bestimmten
+     Höchstfristen ein.
+ .
+ (2) Bei Schadens- und Aufwendungsersatz aus Vorsatz, grober Fahrlässigkeit,
+     Garantie, Arglist und in den in § 11 Abs. 3 genannten Fällen gelten jedoch
+     stets die gesetzlichen Verjährungsfristen.
+ .
+ § 13 Beginn und Ende der Rechte des Kunden
+ (1) Das Eigentum an gelieferten Sachen und die Rechte nach § 4 gehen erst mit
+     vollständiger Bezahlung der vertragsgemäßen Vergütung auf den Kunde über.
+     Zuvor hat er nur ein vorläufiges, nur schuldrechtliches und nach Abs. 2
+     widerrufbares Nutzungsrecht.
+ .
+ (2) JANITZA kann die Rechte nach § 4 aus wichtigem Grund unter den
+     Voraussetzungen des § 6 widerrufen. Ein wichtiger Grund liegt insbesondere
+     vor, wenn JANITZA das weitere Festhalten am Vertrag nicht zuzumuten ist,
+     insbesondere wenn der Kunde die Vergütung nicht zahlt oder in erheblicher
+     Weise gegen § 4 verstößt.
+ .
+ (3) Wenn die Rechte nach § 4 nicht entstehen oder wenn sie enden, kann JANITZA
+     vom Kunden die Rückgabe der überlassenen Gegenstände verlangen oder die
+     schriftliche Versicherung, dass sie vernichtet sind, außerdem die Löschung
+     oder Vernichtung aller Kopien der Gegenstände und die schriftliche
+     Versicherung, dass dies geschehen ist.
+ .
+ § 14 Geheimhaltung
+ (1) Die Vertragsparteien verpflichten sich, alle ihnen vor oder bei der
+     Vertragsdurchführung von der jeweils anderen Vertragspartei zugehenden
+     oder bekannt werdenden Gegenstände (z.B. Software, Unterlagen,
+     Informationen), die rechtlich geschützt sind oder Geschäfts- oder
+     Betriebsgeheimnisse enthalten oder als vertraulich bezeichnet sind, auch
+     über das Vertragsende hinaus vertraulich zu behandeln, es sei denn, sie
+     sind ohne Verstoß gegen die Geheimhaltungspflicht öffentlich bekannt. Die
+     Vertragsparteien verwahren und sichern diese Gegenstände so, dass ein
+     Zugang durch Dritte ausgeschlossen ist.
+ .
+ (2) Der Kunde macht die Vertragsgegenstände nur den Mitarbeitern und sonstigen
+     Dritten zugänglich, die den Zugang zur Ausübung ihrer Dienstaufgaben
+     benötigen. Er belehrt diese Personen über die Geheimhaltungsbedürftigkeit
+     der Gegenstände.
+ .
+ (3) JANITZA verarbeitet die zur Geschäftsabwicklung erforderlichen Daten des
+     Kunden unter Beachtung der datenschutzrechtlichen Vorschriften. JANITZA
+     darf den Kunden nach erfolgreichem Abschluß der Leistungen als
+     Referenzkunden benennen.
+ .
+ § 15 Schulung
+ (1) Sofern Schulungen vertraglich vereinbart sind, erfolgen diese nach Wahl
+     von JANITZA beim Kunden oder an einer in Absprache mit dem Kunden zu
+     bestimmenden anderen Stelle. Bei einer Schulung beim Kunden stellt dieser
+     nach Absprache mit JANITZA entsprechende Räumlichkeiten und technische
+     Ausrüstung zur Verfügung. Bei einer Schulung an anderer Stelle mietet der
+     Kunde die Räumlichkeiten an und stellt die erforderliche Hardware und
+     Software vor Ort bereit.
+ .
+ (2) JANITZA kann einen Schulungstermin aus wichtigem Grund ausfallen lassen.
+     JANITZA wird dem Kunden die Absage eines Termins rechtzeitig mitteilen und
+     Ersatztermine anbieten.
+ .
+ (3) Für den Fall einer berechtigten Unzufriedenheit des Kunden hat JANITZA
+     die Möglichkeit zur Abhilfe. Im Übrigen gilt § 6.
+ .
+ § 16 Schlussbestimmungen
+ (1) Änderungen und Ergänzungen des Vertrages bedürfen zu ihrer Wirksamkeit der
+     Schriftform. Das Schriftformerfordernis kann nur schriftlich aufgehoben
+     werden. Zur Wahrung der Schriftform genügt auch eine Übermittlung in
+     Textform, insbesondere mittels Telefax oder E-Mail.
+ .
+ (2) Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des
+     UN-Kaufrechts.
+ .
+ (3) Erfüllungsort und Gerichtstand für alle Streitigkeiten aus und im
+     Zusammenhang mit diesem Vertrag ist bei Verträgen mit Kaufleuten,
+     juristischen Personen des öffentlichen Rechts oder öffentlich-rechtlichen
+     Sondervermögen der Sitz von JANITZA.
+ .
+ Janitza electronics GmbH
+ Vor dem Polstück 1
+ D-35633 Lahnau
+ email:info@janitza.de
+ Internet: http://www.janitza.de
+
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files: *
+Copyright: (C) 2008 - 2014 Janitza electronics GmbH <info@janitza.de>
+License: permissive
+ Copying and distribution of this package, with or without modification, are
+ permitted in any medium without royalty provided the copyright notice and this
+ notice are preserved.
+
+Files: debian/*
+Copyright: (C) 2014-2015 Carsten Schoenert <c.schoenert@t-online.de>
+               2014 Guido Guenther <agx@sigxcpu.org>
+License: GPL-2+
