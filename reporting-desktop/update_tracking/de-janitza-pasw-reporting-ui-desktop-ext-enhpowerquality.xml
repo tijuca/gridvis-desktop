@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.ui.desktop.ext.enhpowerquality">
-    <module_version install_time="1430303198834" last="true" origin="installer" specification_version="1.14.1">
+    <module_version install_time="1434015698221" last="true" origin="installer" specification_version="1.14.1">
         <file crc="3413546955" name="config/Modules/de-janitza-pasw-reporting-ui-desktop-ext-enhpowerquality.xml"/>
-        <file crc="2748103711" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-enhpowerquality.jar"/>
+        <file crc="4004266201" name="modules/de-janitza-pasw-reporting-ui-desktop-ext-enhpowerquality.jar"/>
     </module_version>
 </module>

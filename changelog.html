@@ -145,9 +145,48 @@
 
 
 <div class="version de">
+<h2>Version 6.0.2</h2>
+<ul>
+<li>Behoben: Namen benutzerdefinierter Werte k&ouml;nnen nun 256 Zeichen lang sein</li>
+<li>Die Jahresauswertung produziert weniger F&uuml;llspalten</li>
+<li>Die Jahresauswertung erlaubt mehr Platz f&uuml;r den Ger&auml;tenamen</li>
+<li>Der Verbindungszustand kann &uuml;ber REST abgefragt werden</li>
+<li>Ein/Ausgangskonfiguration &uuml;berarbeitet f&uuml;r UMG96RM-PN</li>
+<li>JRE auf Version 1.8.0_45 angehoben</li>
+<li>Behoben: Ger&auml;teausfallereignisse werden nicht richtig ausgewertet</li>
+<li>Behoben: Auslesefehler bei UMG507</li>
+<li>PDF-Export f&uuml;r Energierechnungen</li>
+<li>Behoben: Byte-Reihenfolge der Profibusprofile war bei UMG 96RM-P &auml;nderbar</li>
+<li>Behoben: Das virtuelle Ger&auml;t liefert manchmal keine Online Werte</li>
+<li>Behoben: Ereignis-Konfiguration UMG96RM-E: Schwellwert wurde teilweise falsch dargestellt.</li>
+<li>Manuelles Eingabeger&auml;t funktioniert nun f&uuml;r gel&ouml;schte Bereiche.</li>
+<li>Es k&ouml;nnen keine falschen Verzeichnisse als Projekte in den GridVis Service geladen werden</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 6.0.2</h2>
+<ul>
+<li>Fixed: Names of user defined values may contain 256 characters now</li>
+<li>The annual cost report produces less gap columns</li>
+<li>The annual cost report allows more room for the device name</li>
+<li>The connection state can be requesed via our REST interface</li>
+<li>I/O config has been restructured for UMG96RM-PN</li>
+<li>Raised JRE Version to 1.8.0_45</li>
+<li>Fixed: Device outage events are not evaluated correctly</li>
+<li>Fixed: Error while synchronizing a UMG507</li>
+<li>pdf export for energy invoices</li>
+<li>Fixed: Byte order of profibus profiles could be changed for UMG 96RM-P</li>
+<li>Fixed: Sometimes the virtual device does not produce online values</li>
+<li>Fixed: event configuration of UMG96RM-E: in certain cases threshold value was not correctly displayed.</li>
+<li>Manuel input device works also for deleted regions.</li>
+<li>It is no longer possible to load arbitrary directories as projects into a GridVis Service</li>
+</ul>
+</div>
+<div class="version de">
 <h2>Version 6.0.1</h2>
 <ul>
 <li>Bessere Anzeige von Messwerten auf dem Dienst</li>
+<li>Behoben: Die Ger&auml;teansicht bleibt leer wenn die Sprache gewechselt wurde</li>
 <li>Behoben: Werden Generische Modbusprofile ge&auml;ndert kann der Service abst&uuml;rzen</li>
 <li>Behoben: GridVis zeigt Einheiten benutzerdefinierter Aufzeichnungswerte nicht mehr an</li>
 <li>Behoben: Im EN50160/IEEE519 Report werden die Spannungsereignisse nicht mehr eingruppiert</li>
@@ -160,6 +199,7 @@
 <h2>Version 6.0.1</h2>
 <ul>
 <li>Better graph component for the GridVis service</li>
+<li>Fixed: Device overview is empty when the language has been changed</li>
 <li>Fixed: Crash of GridVis Service when a generic modbus profile has been changed</li>
 <li>Fixed: GridVis does not show the unit of user defined values</li>
 <li>Fixed: In EN50160/IEEE519 Report, voltage events are not categorized any more</li>
