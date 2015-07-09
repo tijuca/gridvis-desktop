@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jasperreport">
-    <module_version install_time="1426672675567" last="true" origin="installer" specification_version="4.7.1.0">
+    <module_version install_time="1434015701981" last="true" origin="installer" specification_version="4.7.1.0">
         <file crc="13578893" name="config/Modules/de-janitza-pasw-wrapper-jasperreport.xml"/>
-        <file crc="512894791" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
+        <file crc="1283997914" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
         <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcmail-jdk14.jar"/>
         <file crc="401457712" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcprov-jdk14.jar"/>
         <file crc="3598344187" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/com-lowagie/itext.jar"/>

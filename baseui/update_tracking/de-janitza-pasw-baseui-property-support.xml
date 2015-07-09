@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.baseui.property.support">
-    <module_version install_time="1426672674857" last="true" origin="installer" specification_version="1.2.0">
+    <module_version install_time="1434015701633" last="true" origin="installer" specification_version="1.2.0">
         <file crc="3769186509" name="config/Modules/de-janitza-pasw-baseui-property-support.xml"/>
         <file crc="3019426029" name="modules/de-janitza-pasw-baseui-property-support.jar"/>
     </module_version>

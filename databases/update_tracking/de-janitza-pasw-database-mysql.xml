@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.database.mysql">
-    <module_version install_time="1426672672351" last="true" origin="installer" specification_version="10.58.0">
+    <module_version install_time="1434015700658" last="true" origin="installer" specification_version="10.63.0">
         <file crc="3773089946" name="config/Modules/de-janitza-pasw-database-mysql.xml"/>
-        <file crc="1476116050" name="modules/de-janitza-pasw-database-mysql.jar"/>
+        <file crc="1930004717" name="modules/de-janitza-pasw-database-mysql.jar"/>
     </module_version>
 </module>

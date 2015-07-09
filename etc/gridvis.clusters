@@ -27,13 +27,13 @@ extra
 reporting-desktop
 exports-desktop
 project
+performance
 ide
 baseui
 databases
 gridvis
 wrapper
 graphprog
-performance
 extdevices
 extdevice
 scheduling

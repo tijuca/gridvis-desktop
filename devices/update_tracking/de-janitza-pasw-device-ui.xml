@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.ui">
-    <module_version install_time="1426672672536" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1434015697672" last="true" origin="installer" specification_version="1.14.0">
         <file crc="1621605109" name="config/Modules/de-janitza-pasw-device-ui.xml"/>
-        <file crc="159793940" name="modules/de-janitza-pasw-device-desktop-ui.jar"/>
+        <file crc="4014435524" name="modules/de-janitza-pasw-device-desktop-ui.jar"/>
     </module_version>
 </module>
