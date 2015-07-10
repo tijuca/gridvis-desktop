@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.ui.desktop.consumption.ui">
-    <module_version install_time="1434015698289" last="true" origin="installer" specification_version="1.9.0">
+    <module_version install_time="1436423957358" last="true" origin="installer" specification_version="1.11.0">
         <file crc="139999424" name="config/Modules/de-janitza-pasw-topology-ui-desktop-consumption-ui.xml"/>
-        <file crc="3924864333" name="modules/de-janitza-pasw-topology-ui-desktop-consumption-ui.jar"/>
+        <file crc="1380641072" name="modules/de-janitza-pasw-topology-ui-desktop-consumption-ui.jar"/>
     </module_version>
 </module>
