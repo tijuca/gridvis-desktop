@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.apache.poi">
-    <module_version install_time="1434015702148" last="true" origin="installer" specification_version="3.9.0.1">
+    <module_version install_time="1436423961111" last="true" origin="installer" specification_version="3.9.0.1">
         <file crc="982508245" name="config/Modules/de-janitza-pasw-wrapper-apache-poi.xml"/>
         <file crc="3733730903" name="modules/de-janitza-pasw-wrapper-apache-poi.jar"/>
         <file crc="1292573210" name="modules/ext/de.janitza.pasw.wrapper-apache-poi/org-apache-poi/poi.jar"/>

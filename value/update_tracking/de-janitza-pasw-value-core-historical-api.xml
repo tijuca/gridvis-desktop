@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.core.historical.api">
-    <module_version install_time="1434015697479" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1436423956335" last="true" origin="installer" specification_version="1.0.0">
         <file crc="101468865" name="config/Modules/de-janitza-pasw-value-core-historical-api.xml"/>
         <file crc="93399087" name="modules/de-janitza-pasw-value-core-historical-api.jar"/>
     </module_version>
