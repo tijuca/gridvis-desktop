@@ -1,3 +1,32 @@
+gridvis-desktop (6.0.3.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  * [ef4a3ab] Imported Upstream version 6.0.1
+  * [9e6fbee] Imported Upstream version 6.0.2
+  * [7d63d39] rebuild patch queue from patchqueue branch
+  * [162e2a3] adopt latest git-buildpackage changes
+  * [d6583d2] d/g-d.preinst: changing the cache folder due upstream changes
+  * [da1dd19] lintian-overrides: adding overrides for source files
+  * [578c82a] debian/copyright: rework copyright information
+  * [63d46da] d/g-d.docs: adding the german copyright to package
+  * [d9b4406] debian/rules: adopting upstream changes libavplugin*
+  * [e8a99aa] Imported Upstream version 6.0.3.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 14 Jul 2015 10:32:54 +0200
+
+gridvis-desktop (6.0.2-1~bpo70+1) wheezy-backports; urgency=medium
+
+  * [ef4a3ab] Imported Upstream version 6.0.1
+  * [9e6fbee] Imported Upstream version 6.0.2
+  * [7d63d39] rebuild patch queue from patchqueue branch
+  * [162e2a3] adopt latest git-buildpackage changes
+  * [d6583d2] d/g-d.preinst: changing the cache folder due upstream changes
+  * [da1dd19] lintian-overrides: adding overrides for source files
+  * [275dadd] debian/copyright: rework copyright informations
+  * [88a4d37] d/g-d.docs: adding the german copyright to package
+  * [82ed4de] debian/rules: adopting upstream changes libavplugin*
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 09 Jul 2015 15:51:04 +0200
+
 gridvis-desktop (5.1.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   * Rebuild for wheezy-backports.
