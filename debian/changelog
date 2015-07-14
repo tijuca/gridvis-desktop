@@ -1,6 +1,21 @@
-gridvis-desktop (5.1.4-1) unstable; urgency=medium
+gridvis-desktop (6.0.3.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
+  * [ef4a3ab] Imported Upstream version 6.0.1
+  * [b67a3f8] rebuild patch queue from patchqueue branch
+  * [76f2a55] adopt latest git-buildpackage changes
+  * [24e3b99] d/g-d.preinst: changing the cache folder due upstream changes
+  * [40c19d4] lintian-overrides: adding overrides for source files
+  * [9e6fbee] Imported Upstream version 6.0.2
+  * [11d5096] debian/copyright: rework copyright information
+  * [f69c3af] d/g-d.docs: adding the german copyright to package
+  * [4707329] debian/rules: adopting upstream changes libavplugin*
+  * [e8a99aa] Imported Upstream version 6.0.3.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 14 Jul 2015 14:39:28 +0200
+
+gridvis-desktop (5.1.4-1) unstable; urgency=medium
+
   * [2bc3b7a] debian/gridvis-desktop-wrapper.sh: fix typo
   * [9dcdd02] Imported Upstream version 5.1.4
   * [c250214] d/g-d.install: adopting changes by upstream
