@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.impl.skill.impl.api">
-    <module_version install_time="1434015698179" last="true" origin="installer" specification_version="1.8.0">
+    <module_version install_time="1436423957212" last="true" origin="installer" specification_version="1.9.0">
         <file crc="4162306037" name="config/Modules/de-janitza-pasw-topology-impl-skill-impl-api.xml"/>
-        <file crc="2246384432" name="modules/de-janitza-pasw-topology-impl-skill-impl-api.jar"/>
+        <file crc="2823671209" name="modules/de-janitza-pasw-topology-impl-skill-impl-api.jar"/>
     </module_version>
 </module>

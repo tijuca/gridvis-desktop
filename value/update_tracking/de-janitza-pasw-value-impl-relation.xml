@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.impl.relation">
-    <module_version install_time="1434015697533" last="true" origin="installer" specification_version="0.0.4">
+    <module_version install_time="1436423956435" last="true" origin="installer" specification_version="0.0.4">
         <file crc="3566127572" name="config/Modules/de-janitza-pasw-value-impl-relation.xml"/>
-        <file crc="1626841144" name="modules/de-janitza-pasw-value-impl-relation.jar"/>
+        <file crc="479849529" name="modules/de-janitza-pasw-value-impl-relation.jar"/>
     </module_version>
 </module>

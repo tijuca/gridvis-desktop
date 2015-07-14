@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.core.historical.api">
+    <module_version install_time="1436423956578" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="1459033642" name="config/Modules/de-janitza-pasw-device-core-historical-api.xml"/>
+        <file crc="995594579" name="modules/de-janitza-pasw-device-core-historical-api.jar"/>
+    </module_version>
+</module>
