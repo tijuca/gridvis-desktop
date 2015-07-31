@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.jmx.core.api">
-    <module_version install_time="1436423956984" last="true" origin="installer" specification_version="1.2.0">
+    <module_version install_time="1438092464992" last="true" origin="installer" specification_version="1.2.0">
         <file crc="1874431912" name="config/Modules/de-janitza-pasw-jmx-core-api.xml"/>
-        <file crc="1537987109" name="modules/de-janitza-pasw-jmx-core-api.jar"/>
+        <file crc="764835444" name="modules/de-janitza-pasw-jmx-core-api.jar"/>
     </module_version>
 </module>

@@ -145,6 +145,22 @@
 
 
 <div class="version de">
+<h2>Version 6.0.4</h2>
+<ul>
+<li>Behoben: Das L&ouml;schen von Daten aus der Datenbank dauert zu lange</li>
+<li>Behoben: Alarmsystem verursacht hohe CPU Last</li>
+<li>Behoben: Gro&szlig;e negative Zahlen wurden auf Milli skaliert</li>
+</ul>
+</div>
+<div class="version en">
+<h2>Version 6.0.4</h2>
+<ul>
+<li>Fixed: Deleting data from the database takes too much time</li>
+<li>Fixed: The alarm system caused a high CPU usage</li>
+<li>Fixed: Large negative numbers were scaled to milli</li>
+</ul>
+</div>
+<div class="version de">
 <h2>Version 6.0.3</h2>
 <ul>
 <li>Behoben: Wenn viele Ger&auml;te nicht erreichbar sind, wurden gar keine Werte mehr geholt</li>
@@ -300,128 +316,6 @@
 <li>Memory of Prodata 2 can be reseted</li>
 <li>Fixed: Global values and mapped I/O names could not be longer used within Excel exports.</li>
 <li>Fixed: Transformer setting can not be send to a UMG510</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 5.1.3</h2>
-<ul>
-<li>Unterst&uuml;tzung f&uuml;r UMG 96RM-PN hinzugef&uuml;gt</li>
-<li>Daten k&ouml;nnen nach einen Zeitplan gel&ouml;scht werden</li>
-<li>Das UMG 96RM-CBM kann als eingest&auml;ndiges Ger&auml;t hinzugef&uuml;gt werden</li>
-<li>Das UMG 96RM-P kann als eingest&auml;ndiges Ger&auml;t hinzugef&uuml;gt werden</li>
-<li>Das UMG 96RM-E kann als eingest&auml;ndiges Ger&auml;t hinzugef&uuml;gt werden</li>
-<li>Ger&auml;te k&ouml;nnen nach einen Zeitplan aus der Datenbank gel&ouml;scht werden</li>
-<li>In der Ereignis/Transientenansicht kann im Graphen gemessen werden</li>
-<li>In der Ereignis/Transientenansicht kann der Zoom &uuml;ber einen Button zur&uuml;ckgesetzt werden</li>
-<li>Globale Werte k&ouml;nnen in der GridVis jetzt durchg&auml;ngiger verwendet werden</li>
-<li>Behoben: Wandlereinstellungen des UMG 509 werden nicht richtig ausgelesen</li>
-<li>Lizenzinformationen werden auf dem Dienst klarer dargestellt</li>
-<li>Das generische Modbus Ger&auml;t unterst&uuml;tzt bis zu 4 Nachkommastellen</li>
-<li>Copy und Paste funktioniert in der Topologie</li>
-<li>Behoben: Dienst lie&szlig;t Ger&auml;te nicht mehr aus wenn eine MS SQL als Datenbank verwendet wird</li>
-<li>Behoben: Vergleicherkonfiguration f&uuml;r verschiedenen Ger&auml;te konnte nicht aus Datei geladen werden</li>
-<li>Behoben: Jahresauswertung f&uuml;r Verbrauch berechnet die Gesamtkosten falsch</li>
-<li>Behoben: Exporte k&ouml;nnen nicht mit online erfassten Daten durchgef&uuml;hrt werden</li>
-<li>Behoben: Falsche Ermittlung der Z&auml;hlerst&auml;nde in der Verbrauchsabrechnung</li>
-<li>Behoben: Werte in Reporten und Exporten sind nicht mehr sortiert</li>
-<li>Behoben: &Auml;nderungen am Generischen Modbus Profil werden vom GridVis Dienst nicht &uuml;bernommen</li>
-<li>Behoben: Energieberechnung unter Umst&auml;nden fehlerhaft wenn die Aufzeichnungskonfiguration ge&auml;ndert wurde</li>
-<li>Behoben: Ger&auml;tename wurde in Reports nicht angezeigt</li>
-<li>Behoben: &Auml;nderungen am Virtuellen Ger&auml;t werden vom GridVis Dienst nicht &uuml;bernommen</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 5.1.3</h2>
-<ul>
-<li>Support for UMG 96RM-PN added</li>
-<li>Values can be deleted according to a schedule</li>
-<li>The UMG 96RM-CBM can be choosen directly when adding a new device</li>
-<li>The UMG 96RM-P can be choosen directly when adding a new device</li>
-<li>The UMG 96RM-E can be choosen directly when adding a new device</li>
-<li>Devices can be deleted from the database according to a schedule</li>
-<li>Its possible to meassure in the event/transient view</li>
-<li>In event/transient view a button was added to reset the zoom level</li>
-<li>It is easier to use global values throughout GridVis</li>
-<li>Fixed: Transformer settings are loaded incorrectly from UMG 509</li>
-<li>License information are displayed more concisely</li>
-<li>The generic modbus device now supports up to 4 decimal places</li>
-<li>Copy and paste now works for the topology</li>
-<li>Fixed: Service stopped synchronizing devices when a MS SQL database is beeing used</li>
-<li>Fixed: Loading a comparator configuration from a file fails for some devices</li>
-<li>Fixed: Cost overview does not calculate the total cost correctly</li>
-<li>Fixed: Online recorded values could not be used for data exports</li>
-<li>Fixed: Wrong counter state calculation in Metering Report</li>
-<li>Fixed: Values in reports and exports where no longer sorted</li>
-<li>Fixed: Changes to the generic modbus profile are not recognized by the GridVis service</li>
-<li>Fixed: Energy calculation in some cases faulty when the recording configuration was changed</li>
-<li>Fixed: Device name was not shown in reports</li>
-<li>Fixed: Changes to the virtual device are not recognized by the GridVis service</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 5.1.2</h2>
-<ul>
-<li>Neue Darstellung von Ereignissen und Transienten</li>
-<li>In der Topologie k&ouml;nnen Links auf Exporte/Reporte angelegt werden</li>
-<li>Im Alarmmanagement und bei den Exporten k&ouml;nne die Ger&auml;te nach Namen gefiltert werden</li>
-<li>Behoben: Log-Fenster in der Projekt&uuml;bersicht l&auml;sst sich nicht vergr&ouml;&szlig;ern</li>
-<li>Stabilit&auml;t der Graphansicht verbessert</li>
-<li>Behoben: Statisikansicht verwendet konfigurierte Skalierung nicht</li>
-<li>Behoben: Ansicht zum Speicherverbrauch des Dienstes fehlerhaft</li>
-<li>Behoben: Einige Messwerte wurden in den Vergleichern nicht gespeichert</li>
-<li>Behoben: Auf schnellen Rechnern konnte es vorkommen, dass einzelne  Alarmquellen nicht geladen wurden</li>
-<li>Java auf Version 1.8.0_25 angehoben</li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 5.1.2</h2>
-<ul>
-<li>New visualization of events and transients</li>
-<li>Links to exports/reports can be added to the topology</li>
-<li>Devices can be filtered in the  alarm system and export configuration</li>
-<li>Fixed: Log window in project overview cannot be resized</li>
-<li>Improved graph view stability</li>
-<li>Fixed: Statistic view does not use configured scaling</li>
-<li>Fixed: Memory usage overview of services broken</li>
-<li>Fixed: Some values where not saved if they where used in comparator</li>
-<li>Fixed: On fast machines it could happen that some alarm sources did not start</li>
-<li>Java version raised to 1.8.0_25</li>
-</ul>
-</div>
-<div class="version de">
-<h2>Version 5.1.1</h2>
-<ul>
-<li>16Hz, 60Hz und 400Hz werden auf den Achsen der Onlinewellenformen dargestellt</li>
-<li>Statistikreport um statistische Informationen neben Graph erg&auml;nzt</li>
-<li>Der HTTP Port des UMG 96RM-E kann konfiguriert werden</li>
-<li>HTTP kann zur Auslesung der Jasic Ger&auml;te verwendet werden</li>
-<li>RCM Ereignisse des UMG 512 und UMG 509 k&ouml;nnen zur&uuml;ckgesetzt werden</li>
-<li>Man kann den Namen der GridVis Installation &auml;ndern</li>
-<li>Zeitzonenkonfiguration der Ger&auml;te erfolgt in Stunden</li>
-<li>Behoben: Reporte konnten nicht auf UNC Pfaden abgelegt werden</li>
-<li>Behoben: Zeigerdiagramm funktioniert nicht mehr</li>
-<li>Behoben: Der erweiterte Qualit&auml;tsreport berechnet das ISc/IL Verh&auml;ltnis falsch</li>
-<li>Vorlauf in der Ereignisskonfiguration des UMG 512 konnte zu gro&szlig; eingestellt werden</li>
-<li>Behoben: Das Aufzeichnungelement der graphischen Programmierung konnte manchmal nicht gespeichert werden</li>
-<li>Behoben: vertauschte cap/ind bei der Cos-phi-Anzeige in den Grafiken f&uuml;r UMG96S </li>
-</ul>
-</div>
-<div class="version en">
-<h2>Version 5.1.1</h2>
-<ul>
-<li>Axis for online waveforms can be displayed for 16Hz, 60Hz and 400Hz</li>
-<li>Statistic information added to Statistic Report in addition to graph</li>
-<li>The HTTP port of the UMG 96RM-E can be configured</li>
-<li>HTTP can be used to read from Jasic devices</li>
-<li>RCM event of the UMG 512 and UMG 509 can be acknowledged </li>
-<li>Name of GridVis installation can be changed</li>
-<li>Timezone configuration of the devices now uses hours</li>
-<li>Fixed: reports could not be written to UNC paths</li>
-<li>Fixed: Phasor graph does not work correctly</li>
-<li>Fixed: The enhanced power quality report calculated the ISc/IL ratio correctly</li>
-<li>Pretrigger of event configuration for the UMG 512 could be set too high</li>
-<li>Fixed: Recording element in visual programming could not always be saved</li>
-<li>Fixed: display of cos-phi with inverted cap/ind in graphics for UMG96S </li>
 </ul>
 </div>
 </body>
