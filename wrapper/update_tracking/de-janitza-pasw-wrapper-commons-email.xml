@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.email">
-    <module_version install_time="1436423959568" last="true" origin="installer" specification_version="1.3.3">
+    <module_version install_time="1438092474586" last="true" origin="installer" specification_version="1.3.3">
         <file crc="2611383512" name="config/Modules/de-janitza-pasw-wrapper-commons-email.xml"/>
-        <file crc="3472976627" name="modules/de-janitza-pasw-wrapper-commons-email.jar"/>
+        <file crc="1442646636" name="modules/de-janitza-pasw-wrapper-commons-email.jar"/>
         <file crc="3329023346" name="modules/ext/de.janitza.pasw.wrapper-commons-email/org-apache-commons/commons-email.jar"/>
     </module_version>
 </module>

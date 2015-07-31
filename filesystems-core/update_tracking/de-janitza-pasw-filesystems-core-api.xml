@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.filesystems.core.api">
-    <module_version install_time="1436423956018" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1438092460825" last="true" origin="installer" specification_version="1.4.0">
         <file crc="3399050912" name="config/Modules/de-janitza-pasw-filesystems-core-api.xml"/>
-        <file crc="892576744" name="modules/de-janitza-pasw-filesystems-core-api.jar"/>
+        <file crc="3569476730" name="modules/de-janitza-pasw-filesystems-core-api.jar"/>
     </module_version>
 </module>

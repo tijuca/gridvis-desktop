@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.genericmodbus.ui">
-    <module_version install_time="1436423960426" last="true" origin="installer" specification_version="10.49.0">
+    <module_version install_time="1438092476806" last="true" origin="installer" specification_version="10.49.0">
         <file crc="4277905947" name="config/Modules/de-janitza-pasw-device-genericmodbus-ui.xml"/>
-        <file crc="4059454168" name="modules/de-janitza-pasw-device-genericmodbus-ui.jar"/>
+        <file crc="2280908446" name="modules/de-janitza-pasw-device-genericmodbus-ui.jar"/>
     </module_version>
 </module>
