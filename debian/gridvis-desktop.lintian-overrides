@@ -1,6 +1,5 @@
 gridvis-desktop: jar-not-in-usr-share usr/lib/gridvis-desktop/*
 gridvis-desktop: codeless-jar usr/lib/gridvis-desktop/*
-gridvis-desktop: unknown-java-class-version usr/lib/gridvis-desktop/*
 # this depends on mk_shlibs FIXME!
 gridvis-desktop: postinst-has-useless-call-to-ldconfig
 gridvis-desktop: postrm-has-useless-call-to-ldconfig
