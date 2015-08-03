@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.spi.editor.hints/0">
-    <module_version install_time="1436423960218" last="true" origin="installer" specification_version="1.34.1.7.43">
+    <module_version install_time="1438092476117" last="true" origin="installer" specification_version="1.34.1.7.43">
         <file crc="2723969626" name="config/Modules/org-netbeans-spi-editor-hints.xml"/>
         <file crc="4021075229" name="modules/locale/org-netbeans-spi-editor-hints_ja.jar"/>
         <file crc="2058753700" name="modules/locale/org-netbeans-spi-editor-hints_pt_BR.jar"/>

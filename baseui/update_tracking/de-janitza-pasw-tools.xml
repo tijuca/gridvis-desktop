@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tools">
-    <module_version install_time="1436423960537" last="true" origin="installer" specification_version="10.22.0">
+    <module_version install_time="1438092477117" last="true" origin="installer" specification_version="10.22.0">
         <file crc="1173825474" name="config/Modules/de-janitza-pasw-tools.xml"/>
         <file crc="3766328253" name="modules/de-janitza-pasw-baseui-tools.jar"/>
     </module_version>
