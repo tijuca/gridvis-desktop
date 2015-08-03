@@ -1,3 +1,10 @@
+gridvis-desktop (6.0.4-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [12e5af3] Imported Upstream version 6.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Aug 2015 08:16:27 +0200
+
 gridvis-desktop (6.0.3.1-1~bpo70+1) wheezy-backports; urgency=medium
 
   * [ef4a3ab] Imported Upstream version 6.0.1
