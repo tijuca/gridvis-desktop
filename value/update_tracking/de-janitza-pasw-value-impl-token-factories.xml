@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.impl.token.factories">
-    <module_version install_time="1438092462114" last="true" origin="installer" specification_version="0.3.2">
+    <module_version install_time="1444635352657" last="true" origin="installer" specification_version="0.3.2">
         <file crc="2539361604" name="config/Modules/de-janitza-pasw-value-impl-token-factories.xml"/>
-        <file crc="1096008301" name="modules/de-janitza-pasw-value-impl-token-factories.jar"/>
+        <file crc="2376729006" name="modules/de-janitza-pasw-value-impl-token-factories.jar"/>
     </module_version>
 </module>

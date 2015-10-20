@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.scheduling.watchdog.ui">
-    <module_version install_time="1438092476880" last="true" origin="installer" specification_version="10.30.0">
+    <module_version install_time="1444635356275" last="true" origin="installer" specification_version="10.30.0">
         <file crc="4109908794" name="config/Modules/de-janitza-pasw-scheduling-watchdog-ui.xml"/>
-        <file crc="2992933411" name="modules/de-janitza-pasw-scheduling-watchdogui.jar"/>
+        <file crc="1833179698" name="modules/de-janitza-pasw-scheduling-watchdogui.jar"/>
     </module_version>
 </module>

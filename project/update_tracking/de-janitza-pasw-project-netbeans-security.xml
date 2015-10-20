@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.netbeans.security">
-    <module_version install_time="1438092479139" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1444635357349" last="true" origin="installer" specification_version="1.6.0">
         <file crc="1771377071" name="config/Modules/de-janitza-pasw-project-netbeans-security.xml"/>
-        <file crc="1234246766" name="modules/de-janitza-pasw-project-netbeans-security.jar"/>
+        <file crc="2237658946" name="modules/de-janitza-pasw-project-netbeans-security.jar"/>
     </module_version>
 </module>
