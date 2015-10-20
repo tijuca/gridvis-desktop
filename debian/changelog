@@ -1,3 +1,13 @@
+gridvis-desktop (6.0.5-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [cf55c22] Imported Upstream version 6.0.5
+  * [b6adff4] d/g-d.install: adding new folder due upstream changes
+  * [81dc448] lintian: remove useless override for postrm script
+  * [7835b2f] lintian: remove gridvis-desktop.menu file due CTTE#741573
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 20 Oct 2015 20:17:12 +0200
+
 gridvis-desktop (6.0.4-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
