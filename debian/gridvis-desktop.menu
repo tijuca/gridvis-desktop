@@ -1,6 +1,0 @@
-?package(gridvis-desktop):needs="x11" \
-    section="Applications/Programming" \
-    title="GridVis Desktop" \
-    icon32x32="/usr/share/pixmaps/gridvis32.xpm" \
-    command="gridvis-desktop" \
-    hints="GridVis"
