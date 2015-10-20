@@ -22,6 +22,7 @@ extra               usr/lib/gridvis-desktop/
 filesystems-core    usr/lib/gridvis-desktop/
 filesystems-impl    usr/lib/gridvis-desktop/
 filesystems-project usr/lib/gridvis-desktop/
+fop                 usr/lib/gridvis-desktop/
 format              usr/lib/gridvis-desktop/
 graph               usr/lib/gridvis-desktop/
 graphprog           usr/lib/gridvis-desktop/
