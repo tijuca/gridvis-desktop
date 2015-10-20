@@ -1,3 +1,11 @@
+gridvis-desktop (6.0.4-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [12e5af3] Imported Upstream version 6.0.4
+  * [f0a5f78] d/gridvis-desktop.lintian-overrides: remove unused entry
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 20 Oct 2015 18:05:42 +0200
+
 gridvis-desktop (6.0.3.1-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
