@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jasperreport">
-    <module_version install_time="1438092478339" last="true" origin="installer" specification_version="4.7.1.0">
+    <module_version install_time="1444635356927" last="true" origin="installer" specification_version="4.7.1.1">
         <file crc="13578893" name="config/Modules/de-janitza-pasw-wrapper-jasperreport.xml"/>
-        <file crc="4236086984" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
+        <file crc="1471008478" name="modules/de-janitza-pasw-wrapper-jasperreport.jar"/>
         <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcmail-jdk14.jar"/>
         <file crc="401457712" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/bouncycastle/bcprov-jdk14.jar"/>
         <file crc="3598344187" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/com-lowagie/itext.jar"/>
+        <file crc="2916222935" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/de-janitza-pasw/jasperreports-font-extension.jar"/>
         <file crc="2115505048" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/eclipse/jdtcore.jar"/>
         <file crc="1871618793" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/jfree/jcommon.jar"/>
         <file crc="987423026" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/jfree/jfreechart.jar"/>
+        <file crc="3683895312" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/net-sf-jasperreports/jasperreports-fonts.jar"/>
         <file crc="129651783" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/net-sf-jasperreports/jasperreports.jar"/>
         <file crc="3858031784" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-bouncycastle/bcmail-jdk14.jar"/>
         <file crc="401457712" name="modules/ext/de.janitza.pasw.wrapper-jasperreport/org-bouncycastle/bcprov-jdk14.jar"/>
