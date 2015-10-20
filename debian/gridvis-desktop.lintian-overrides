@@ -3,7 +3,6 @@ gridvis-desktop: codeless-jar usr/lib/gridvis-desktop/*
 gridvis-desktop: unknown-java-class-version usr/lib/gridvis-desktop/*
 # this depends on mk_shlibs FIXME!
 gridvis-desktop: postinst-has-useless-call-to-ldconfig
-gridvis-desktop: postrm-has-useless-call-to-ldconfig
 # this is no license file
 gridvis-desktop: extra-license-file usr/lib/gridvis-desktop/license.ico
 # preshipped image files in the jre/ folder
