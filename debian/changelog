@@ -1,3 +1,13 @@
+gridvis-desktop (6.0.5-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [cf55c22] Imported Upstream version 6.0.5
+  * [5750d86] d/g-d.install: adding new folder due upstream changes
+  * [7a8f0b3] lintian: remove useless override for postrm script
+  * [3cc1b84] lintian: remove gridvis-desktop.menu file due CTTE#741573
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 21 Oct 2015 13:43:02 +0200
+
 gridvis-desktop (6.0.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
