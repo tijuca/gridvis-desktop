@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jasperTemplate PUBLIC "-//JasperReports//DTD Template//EN" "http://jasperreports.sourceforge.net/dtds/jaspertemplate.dtd">
+
+<jasperTemplate>
+    <style name="Default" isDefault="true" fontSize="10" fontName="Arial" pdfFontName="Arial" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+    <style name="Bold" style="Default" isBold="true" pdfFontName="Arial Bold"/>
+    <style name="Italic" style="Default" isItalic="true" pdfFontName="Arial Italic"/>
+    <style name="BoldItalic" style="Default" isBold="true" isItalic="true" pdfFontName="Arial Bold Italic"/>
+    <style name="DefaultMono" fontSize="10" fontName="DejaVu Sans Mono" pdfEncoding="Identity-H" isPdfEmbedded="false"/>
+</jasperTemplate>

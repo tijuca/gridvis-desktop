@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.valuedevice.impl">
-    <module_version install_time="1438092463886" last="true" origin="installer" specification_version="1.2.0">
+    <module_version install_time="1444635352940" last="true" origin="installer" specification_version="1.2.0">
         <file crc="2178366191" name="config/Modules/de-janitza-pasw-device-impl-valuedevice-impl.xml"/>
-        <file crc="2063349347" name="modules/de-janitza-pasw-device-impl-valuedevice-impl.jar"/>
+        <file crc="2023153264" name="modules/de-janitza-pasw-device-impl-valuedevice-impl.jar"/>
     </module_version>
 </module>

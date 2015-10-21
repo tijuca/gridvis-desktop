@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.serialport.impl">
-    <module_version install_time="1438092464951" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1444635353133" last="true" origin="installer" specification_version="1.0.0">
         <file crc="743633152" name="config/Modules/de-janitza-pasw-device-impl-serialport-impl.xml"/>
-        <file crc="1174809952" name="modules/de-janitza-pasw-device-impl-serialport-impl.jar"/>
+        <file crc="2859606284" name="modules/de-janitza-pasw-device-impl-serialport-impl.jar"/>
     </module_version>
 </module>

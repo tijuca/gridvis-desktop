@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.filesystems.project.impl">
-    <module_version install_time="1438092461066" last="true" origin="installer" specification_version="1.12.1">
+    <module_version install_time="1444635352483" last="true" origin="installer" specification_version="1.12.1">
         <file crc="448862648" name="config/Modules/de-janitza-pasw-filesystems-project-impl.xml"/>
-        <file crc="482771850" name="modules/de-janitza-pasw-filesystems-project-impl.jar"/>
+        <file crc="1867576554" name="modules/de-janitza-pasw-filesystems-project-impl.jar"/>
     </module_version>
 </module>

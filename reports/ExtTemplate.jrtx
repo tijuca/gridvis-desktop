@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jasperTemplate PUBLIC "-//JasperReports//DTD Template//EN" "http://jasperreports.sourceforge.net/dtds/jaspertemplate.dtd">
+
+<jasperTemplate>
+    <style name="Default" isDefault="true" fontSize="10" fontName="Janitza Report Font" pdfFontName="Janitza Report Font" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+    <style name="Bold" style="Default" isBold="true"/>
+    <style name="Italic" style="Default" isItalic="true"/>
+    <style name="BoldItalic" style="Default" isBold="true" isItalic="true"/>
+    <style name="DefaultMono" style="Default"/>
+</jasperTemplate>

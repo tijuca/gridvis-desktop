@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.logging">
-    <module_version install_time="1438092477909" last="true" origin="installer" specification_version="1.1.3">
+    <module_version install_time="1444635356591" last="true" origin="installer" specification_version="1.1.3">
         <file crc="2725273178" name="config/Modules/de-janitza-pasw-wrapper-commons-logging.xml"/>
         <file crc="2845969041" name="modules/de-janitza-pasw-wrapper-commons-logging.jar"/>
         <file crc="2347256547" name="modules/ext/de.janitza.pasw.wrapper-commons-logging/commons-logging/commons-logging.jar"/>
