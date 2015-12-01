@@ -51,6 +51,7 @@ security            usr/lib/gridvis-desktop/
 sharedplugins       usr/lib/gridvis-desktop/
 topology            usr/lib/gridvis-desktop/
 value               usr/lib/gridvis-desktop/
+web                 usr/lib/gridvis-desktop/
 wrapper             usr/lib/gridvis-desktop/
 icon16.png          usr/share/gridvis-desktop/
 icon32.ico          usr/lib/gridvis-desktop/
