@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.ext.enhpowerquality">
-    <module_version install_time="1444635352541" last="true" origin="installer" specification_version="1.16.1">
+    <module_version install_time="1448630807615" last="true" origin="installer" specification_version="1.18.0">
         <file crc="3489346526" name="config/Modules/de-janitza-pasw-reporting-impl-ext-enhpowerquality.xml"/>
-        <file crc="3305443218" name="modules/de-janitza-pasw-reporting-impl-ext-enhpowerquality.jar"/>
+        <file crc="4142663151" name="modules/de-janitza-pasw-reporting-impl-ext-enhpowerquality.jar"/>
     </module_version>
 </module>

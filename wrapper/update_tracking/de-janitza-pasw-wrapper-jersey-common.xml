@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.common">
+    <module_version install_time="1448630813360" last="true" origin="installer" specification_version="2.21.1">
+        <file crc="994837406" name="config/Modules/de-janitza-pasw-wrapper-jersey-common.xml"/>
+        <file crc="1195108786" name="modules/de-janitza-pasw-wrapper-jersey-common.jar"/>
+        <file crc="1922846449" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/javax-annotation/javax.annotation-api.jar"/>
+        <file crc="3395206601" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/javax-ws-rs/javax.ws.rs-api.jar"/>
+        <file crc="163822190" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-codehaus-jackson/jackson-core-asl.jar"/>
+        <file crc="1942778288" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-codehaus-jackson/jackson-jaxrs.jar"/>
+        <file crc="3377563697" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-codehaus-jackson/jackson-mapper-asl.jar"/>
+        <file crc="3064078669" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-codehaus-jackson/jackson-xc.jar"/>
+        <file crc="682704842" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2-external/aopalliance-repackaged.jar"/>
+        <file crc="2221723429" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2-external/javax.inject.jar"/>
+        <file crc="387039446" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2/hk2-api.jar"/>
+        <file crc="31906997" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2/hk2-locator.jar"/>
+        <file crc="592795949" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2/hk2-utils.jar"/>
+        <file crc="696422277" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-hk2/osgi-resource-locator.jar"/>
+        <file crc="3809363428" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-jersey-bundles-repackaged/jersey-guava.jar"/>
+        <file crc="1409484746" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-jersey-core/jersey-common.jar"/>
+        <file crc="2611844558" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-jersey-media/jersey-media-jaxb.jar"/>
+        <file crc="16993556" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-glassfish-jersey-media/jersey-media-json-jackson.jar"/>
+        <file crc="1337877988" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-javassist/javassist.jar"/>
+    </module_version>
+</module>

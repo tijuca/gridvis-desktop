@@ -23,6 +23,7 @@ reporting-impl
 reporting-core
 format
 filesystems-project
+web
 reports
 baseui
 etc

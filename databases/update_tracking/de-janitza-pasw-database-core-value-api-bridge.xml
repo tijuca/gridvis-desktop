@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.database.core.value.api.bridge">
-    <module_version install_time="1444635355251" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1448630810459" last="true" origin="installer" specification_version="1.2.0">
         <file crc="1307528535" name="config/Modules/de-janitza-pasw-database-core-value-api-bridge.xml"/>
-        <file crc="2022004426" name="modules/de-janitza-pasw-database-core-value-api-bridge.jar"/>
+        <file crc="2530153703" name="modules/de-janitza-pasw-database-core-value-api-bridge.jar"/>
     </module_version>
 </module>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.beanutils">
-    <module_version install_time="1444635356528" last="true" origin="installer" specification_version="1.8.3">
+    <module_version install_time="1448630812154" last="true" origin="installer" specification_version="1.8.3">
         <file crc="4109087324" name="config/Modules/de-janitza-pasw-wrapper-commons-beanutils.xml"/>
         <file crc="2725088845" name="modules/de-janitza-pasw-wrapper-commons-beanutils.jar"/>
         <file crc="1277217186" name="modules/ext/commons-beanutils/commons-beanutils-1.8.3.jar"/>
