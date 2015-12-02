@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.ui.desktop.skill">
-    <module_version install_time="1444635353422" last="true" origin="installer" specification_version="1.19.2">
+    <module_version install_time="1448630808595" last="true" origin="installer" specification_version="1.22.0">
         <file crc="2041538944" name="config/Modules/de-janitza-pasw-topology-ui-desktop-skill.xml"/>
-        <file crc="148728204" name="modules/de-janitza-pasw-topology-ui-desktop-skill.jar"/>
+        <file crc="3780931733" name="modules/de-janitza-pasw-topology-ui-desktop-skill.jar"/>
     </module_version>
 </module>
