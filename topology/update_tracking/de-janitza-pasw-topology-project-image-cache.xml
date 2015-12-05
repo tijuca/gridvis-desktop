@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.project.image.cache">
-    <module_version install_time="1448630808455" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1448900856327" last="true" origin="installer" specification_version="1.7.0">
         <file crc="1953312801" name="config/Modules/de-janitza-pasw-topology-project-image-cache.xml"/>
-        <file crc="1126037052" name="modules/de-janitza-pasw-topology-project-image-cache.jar"/>
+        <file crc="1825340837" name="modules/de-janitza-pasw-topology-project-image-cache.jar"/>
     </module_version>
 </module>

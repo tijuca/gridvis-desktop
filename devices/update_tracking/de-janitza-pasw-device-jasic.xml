@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.jasic">
-    <module_version install_time="1448630807983" last="true" origin="installer" specification_version="1.19.0">
+    <module_version install_time="1448900855898" last="true" origin="installer" specification_version="1.19.0">
         <file crc="518377571" name="config/Modules/de-janitza-pasw-device-jasic.xml"/>
-        <file crc="4196903561" name="modules/de-janitza-pasw-device-impl-jasic.jar"/>
+        <file crc="3012632769" name="modules/de-janitza-pasw-device-impl-jasic.jar"/>
     </module_version>
 </module>
