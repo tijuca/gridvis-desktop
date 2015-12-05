@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.db.impl.scripts.provider">
-    <module_version install_time="1448630807491" last="true" origin="installer" specification_version="1.9.0">
+    <module_version install_time="1448900855336" last="true" origin="installer" specification_version="1.9.0">
         <file crc="690327555" name="config/Modules/de-janitza-pasw-db-impl-scripts-provider.xml"/>
-        <file crc="165313136" name="modules/de-janitza-pasw-db-impl-scripts-provider.jar"/>
-        <file crc="1613062607" name="sharedplugins/dbActionScripts.nbm"/>
+        <file crc="427914180" name="modules/de-janitza-pasw-db-impl-scripts-provider.jar"/>
+        <file crc="3009004995" name="sharedplugins/dbActionScripts.nbm"/>
     </module_version>
 </module>

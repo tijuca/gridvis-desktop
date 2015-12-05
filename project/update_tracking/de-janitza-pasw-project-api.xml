@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.api">
-    <module_version install_time="1448630811984" last="true" origin="installer" specification_version="1.26.0">
+    <module_version install_time="1448900860088" last="true" origin="installer" specification_version="1.26.0">
         <file crc="3936295844" name="config/Modules/de-janitza-pasw-project-api.xml"/>
         <file crc="3902154757" name="modules/de-janitza-pasw-project-api.jar"/>
     </module_version>

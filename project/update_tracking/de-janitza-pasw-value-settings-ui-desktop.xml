@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.settings.ui.desktop">
-    <module_version install_time="1448630812001" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1448900860100" last="true" origin="installer" specification_version="1.6.0">
         <file crc="356599854" name="config/Modules/de-janitza-pasw-value-settings-ui-desktop.xml"/>
-        <file crc="1143187568" name="modules/de-janitza-pasw-value-settings-ui-desktop.jar"/>
+        <file crc="1689292357" name="modules/de-janitza-pasw-value-settings-ui-desktop.jar"/>
     </module_version>
 </module>

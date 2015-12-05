@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.programmingmodbus">
-    <module_version install_time="1448630810842" last="true" origin="installer" specification_version="10.23.0">
+    <module_version install_time="1448900859058" last="true" origin="installer" specification_version="10.23.0">
         <file crc="3473900763" name="config/Modules/de-janitza-pasw-programmingmodbus.xml"/>
-        <file crc="59076780" name="modules/de-janitza-pasw-graphprog-modbus.jar"/>
+        <file crc="836914224" name="modules/de-janitza-pasw-graphprog-modbus.jar"/>
     </module_version>
 </module>

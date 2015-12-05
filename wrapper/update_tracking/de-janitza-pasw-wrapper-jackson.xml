@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jackson">
-    <module_version install_time="1448630812214" last="true" origin="installer" specification_version="1.9.13.0">
+    <module_version install_time="1448900860302" last="true" origin="installer" specification_version="1.9.13.0">
         <file crc="300055847" name="config/Modules/de-janitza-pasw-wrapper-jackson.xml"/>
         <file crc="2457074248" name="modules/de-janitza-pasw-wrapper-jackson.jar"/>
         <file crc="163822190" name="modules/ext/de.janitza.pasw.wrapper-jackson/org-codehaus-jackson/jackson-core-asl.jar"/>
