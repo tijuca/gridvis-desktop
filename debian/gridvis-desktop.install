@@ -12,6 +12,7 @@ database-project    usr/lib/gridvis-desktop/
 databases           usr/lib/gridvis-desktop/
 device              usr/lib/gridvis-desktop/
 devices             usr/lib/gridvis-desktop/
+embedded-swk105     usr/lib/gridvis-desktop/
 exports-core        usr/lib/gridvis-desktop/
 exports-desktop     usr/lib/gridvis-desktop/
 exports-impl        usr/lib/gridvis-desktop/
@@ -34,6 +35,9 @@ jmx-netbeans        usr/lib/gridvis-desktop/
 # we can't just install the whole jre folder, depends on the build
 # platform, we do this within debian/rules
 #jre                 usr/lib/gridvis-desktop/
+kpi-core            usr/lib/gridvis-desktop/
+kpi-device          usr/lib/gridvis-desktop/
+kpi-project         usr/lib/gridvis-desktop/
 license             usr/lib/gridvis-desktop/
 mailing-core        usr/lib/gridvis-desktop/
 performance         usr/lib/gridvis-desktop/
