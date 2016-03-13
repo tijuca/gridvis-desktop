@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.value.tree.impl">
-    <module_version install_time="1448900860197" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1454341558086" last="true" origin="installer" specification_version="1.6.0">
         <file crc="20221971" name="config/Modules/de-janitza-pasw-project-value-tree-impl.xml"/>
-        <file crc="3363804561" name="modules/de-janitza-pasw-project-value-tree-impl.jar"/>
+        <file crc="3174470203" name="modules/de-janitza-pasw-project-value-tree-impl.jar"/>
     </module_version>
 </module>

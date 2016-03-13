@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.valuetree">
-    <module_version install_time="1448900856149" last="true" origin="installer" specification_version="0.11.0">
+    <module_version install_time="1454341544144" last="true" origin="installer" specification_version="0.12.0">
         <file crc="3522620763" name="config/Modules/de-janitza-pasw-device-impl-valuetree.xml"/>
-        <file crc="4076456075" name="modules/de-janitza-pasw-device-impl-valuetree.jar"/>
+        <file crc="2167775072" name="modules/de-janitza-pasw-device-impl-valuetree.jar"/>
     </module_version>
 </module>

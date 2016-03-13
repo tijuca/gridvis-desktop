@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.core.api">
-    <module_version install_time="1448900856227" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1454341544669" last="true" origin="installer" specification_version="1.6.0">
         <file crc="3802156611" name="config/Modules/de-janitza-pasw-topology-core-api.xml"/>
-        <file crc="1558899372" name="modules/de-janitza-pasw-topology-core-api.jar"/>
+        <file crc="200972076" name="modules/de-janitza-pasw-topology-core-api.jar"/>
     </module_version>
 </module>

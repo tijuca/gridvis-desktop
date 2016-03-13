@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.aartesys">
-    <module_version install_time="1448900861257" last="true" origin="installer" specification_version="1.0.2">
+    <module_version install_time="1454341560768" last="true" origin="installer" specification_version="1.0.2">
         <file crc="912855002" name="config/Modules/de-janitza-pasw-wrapper-aartesys.xml"/>
-        <file crc="386582793" name="modules/de-janitza-pasw-wrapper-aartesys.jar"/>
+        <file crc="1136663566" name="modules/de-janitza-pasw-wrapper-aartesys.jar"/>
         <file crc="3999584791" name="modules/ext/de.janitza.pasw.wrapper-aartesys/ch-aartesys-c2chub/AartesysHubConnection.jar"/>
     </module_version>
 </module>

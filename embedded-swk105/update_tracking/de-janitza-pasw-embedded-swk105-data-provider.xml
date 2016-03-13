@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.embedded.swk105.data.provider">
+    <module_version install_time="1454341560042" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="3436765533" name="config/Modules/de-janitza-pasw-embedded-swk105-data-provider.xml"/>
+        <file crc="3288897343" name="modules/de-janitza-pasw-embedded-swk105-data-provider.jar"/>
+    </module_version>
+</module>

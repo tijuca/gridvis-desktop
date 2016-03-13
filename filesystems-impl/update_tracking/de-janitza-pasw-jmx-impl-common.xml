@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.jmx.impl.common">
-    <module_version install_time="1448900856208" last="true" origin="installer" specification_version="1.3.0">
+    <module_version install_time="1454341544508" last="true" origin="installer" specification_version="1.3.0">
         <file crc="404418704" name="config/Modules/de-janitza-pasw-jmx-impl-common.xml"/>
-        <file crc="527606330" name="modules/de-janitza-pasw-jmx-impl-common.jar"/>
+        <file crc="677316734" name="modules/de-janitza-pasw-jmx-impl-common.jar"/>
     </module_version>
 </module>
