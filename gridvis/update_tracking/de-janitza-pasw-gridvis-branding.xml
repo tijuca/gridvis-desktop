@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.gridvis.branding">
-    <module_version install_time="1448900858734" last="true" origin="installer" specification_version="7.0.0">
+    <module_version install_time="1454341553594" last="true" origin="installer" specification_version="7.0.2">
         <file crc="1818917086" name="config/Modules/de-janitza-pasw-gridvis-branding.xml"/>
-        <file crc="2925131598" name="core/locale/core_gridvis.jar"/>
-        <file crc="177201000" name="modules/de-janitza-pasw-gridvis-branding.jar"/>
-        <file crc="3585622941" name="modules/locale/org-netbeans-core-execution_gridvis.jar"/>
-        <file crc="662562829" name="modules/locale/org-netbeans-core-io-ui_gridvis.jar"/>
-        <file crc="834988029" name="modules/locale/org-netbeans-core-multitabs_gridvis.jar"/>
-        <file crc="572253753" name="modules/locale/org-netbeans-core-multiview_gridvis.jar"/>
-        <file crc="2291656322" name="modules/locale/org-netbeans-core-output2_gridvis.jar"/>
-        <file crc="3980213296" name="modules/locale/org-netbeans-core-ui_gridvis.jar"/>
-        <file crc="1514035956" name="modules/locale/org-netbeans-core-windows_gridvis.jar"/>
-        <file crc="1941213597" name="modules/locale/org-netbeans-core_gridvis.jar"/>
-        <file crc="194929743" name="modules/locale/org-netbeans-modules-autoupdate-ui_gridvis.jar"/>
-        <file crc="4156621063" name="modules/locale/org-netbeans-modules-editor-breadcrumbs_gridvis.jar"/>
-        <file crc="3884166172" name="modules/locale/org-netbeans-modules-editor_gridvis.jar"/>
-        <file crc="926475636" name="modules/locale/org-netbeans-modules-notifications_gridvis.jar"/>
-        <file crc="692753998" name="modules/locale/org-netbeans-modules-options-keymap_gridvis.jar"/>
-        <file crc="3802596516" name="modules/locale/org-netbeans-modules-projectui_gridvis.jar"/>
-        <file crc="985464472" name="modules/locale/org-netbeans-spi-quicksearch_gridvis.jar"/>
-        <file crc="649133578" name="modules/locale/org-openide-core-ui_gridvis.jar"/>
-        <file crc="238654148" name="modules/locale/org-openide-dialogs_gridvis.jar"/>
-        <file crc="776198972" name="modules/locale/org-openide-explorer_gridvis.jar"/>
+        <file crc="1677937597" name="core/locale/core_gridvis.jar"/>
+        <file crc="3186451393" name="modules/de-janitza-pasw-gridvis-branding.jar"/>
+        <file crc="1103547071" name="modules/locale/org-netbeans-core-execution_gridvis.jar"/>
+        <file crc="985535926" name="modules/locale/org-netbeans-core-io-ui_gridvis.jar"/>
+        <file crc="4264153510" name="modules/locale/org-netbeans-core-multitabs_gridvis.jar"/>
+        <file crc="3982267293" name="modules/locale/org-netbeans-core-multiview_gridvis.jar"/>
+        <file crc="3589028058" name="modules/locale/org-netbeans-core-output2_gridvis.jar"/>
+        <file crc="2385044030" name="modules/locale/org-netbeans-core-ui_gridvis.jar"/>
+        <file crc="838263845" name="modules/locale/org-netbeans-core-windows_gridvis.jar"/>
+        <file crc="1010000994" name="modules/locale/org-netbeans-core_gridvis.jar"/>
+        <file crc="4180311148" name="modules/locale/org-netbeans-modules-autoupdate-ui_gridvis.jar"/>
+        <file crc="1426657857" name="modules/locale/org-netbeans-modules-editor-breadcrumbs_gridvis.jar"/>
+        <file crc="3403871949" name="modules/locale/org-netbeans-modules-editor_gridvis.jar"/>
+        <file crc="2917323013" name="modules/locale/org-netbeans-modules-notifications_gridvis.jar"/>
+        <file crc="3876730399" name="modules/locale/org-netbeans-modules-options-keymap_gridvis.jar"/>
+        <file crc="4224174600" name="modules/locale/org-netbeans-modules-projectui_gridvis.jar"/>
+        <file crc="2716873936" name="modules/locale/org-netbeans-spi-quicksearch_gridvis.jar"/>
+        <file crc="2315558640" name="modules/locale/org-openide-core-ui_gridvis.jar"/>
+        <file crc="136419151" name="modules/locale/org-openide-dialogs_gridvis.jar"/>
+        <file crc="337242702" name="modules/locale/org-openide-explorer_gridvis.jar"/>
     </module_version>
 </module>

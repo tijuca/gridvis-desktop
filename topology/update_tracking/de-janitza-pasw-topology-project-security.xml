@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.project.security">
-    <module_version install_time="1448900856334" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1454341545122" last="true" origin="installer" specification_version="1.4.0">
         <file crc="1751446941" name="config/Modules/de-janitza-pasw-topology-project-security.xml"/>
-        <file crc="3859896386" name="modules/de-janitza-pasw-topology-project-security.jar"/>
+        <file crc="2862727026" name="modules/de-janitza-pasw-topology-project-security.jar"/>
     </module_version>
 </module>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.common">
-    <module_version install_time="1448900861174" last="true" origin="installer" specification_version="2.21.1">
+    <module_version install_time="1454341559932" last="true" origin="installer" specification_version="2.21.1">
         <file crc="994837406" name="config/Modules/de-janitza-pasw-wrapper-jersey-common.xml"/>
-        <file crc="1195108786" name="modules/de-janitza-pasw-wrapper-jersey-common.jar"/>
+        <file crc="1104263435" name="modules/de-janitza-pasw-wrapper-jersey-common.jar"/>
         <file crc="1922846449" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/javax-annotation/javax.annotation-api.jar"/>
         <file crc="3395206601" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/javax-ws-rs/javax.ws.rs-api.jar"/>
         <file crc="163822190" name="modules/ext/de.janitza.pasw.wrapper-jersey-common/org-codehaus-jackson/jackson-core-asl.jar"/>
