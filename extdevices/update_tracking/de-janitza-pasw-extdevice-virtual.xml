@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.extdevice.virtual">
-    <module_version install_time="1444635356235" last="true" origin="installer" specification_version="10.44.2">
+    <module_version install_time="1454341557024" last="true" origin="installer" specification_version="10.50.0">
         <file crc="976871610" name="config/Modules/de-janitza-pasw-extdevice-virtual.xml"/>
-        <file crc="6596495" name="modules/de-janitza-pasw-device-virtual.jar"/>
+        <file crc="2942999420" name="modules/de-janitza-pasw-device-virtual.jar"/>
     </module_version>
 </module>

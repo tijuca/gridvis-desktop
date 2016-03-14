@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.libs.lucene/3">
-    <module_version install_time="1444635355878" last="true" origin="installer" specification_version="3.15.1">
+    <module_version install_time="1454341555279" last="true" origin="installer" specification_version="3.15.1">
         <file crc="2359018399" name="config/Modules/org-netbeans-libs-lucene.xml"/>
         <file crc="1461152331" name="modules/ext/lucene-core-3.5.0.jar"/>
         <file crc="544552280" name="modules/locale/org-netbeans-libs-lucene_ja.jar"/>

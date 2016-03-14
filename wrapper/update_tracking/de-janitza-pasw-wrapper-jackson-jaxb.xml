@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jackson.jaxb">
+    <module_version install_time="1454341553651" last="true" origin="installer" specification_version="2.7.0.0">
+        <file crc="1946876857" name="config/Modules/de-janitza-pasw-wrapper-jackson-jaxb.xml"/>
+        <file crc="3541972671" name="modules/de-janitza-pasw-wrapper-jackson-jaxb.jar"/>
+        <file crc="2319149444" name="modules/ext/de.janitza.pasw.wrapper-jackson-jaxb/com-fasterxml-jackson-core/jackson-annotations.jar"/>
+        <file crc="4294966420" name="modules/ext/de.janitza.pasw.wrapper-jackson-jaxb/com-fasterxml-jackson-core/jackson-core.jar"/>
+        <file crc="3345255947" name="modules/ext/de.janitza.pasw.wrapper-jackson-jaxb/com-fasterxml-jackson-core/jackson-databind.jar"/>
+        <file crc="3324324865" name="modules/ext/de.janitza.pasw.wrapper-jackson-jaxb/com-fasterxml-jackson-module/jackson-module-jaxb-annotations.jar"/>
+    </module_version>
+</module>

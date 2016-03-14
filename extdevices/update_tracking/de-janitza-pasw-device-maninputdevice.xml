@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.maninputdevice">
-    <module_version install_time="1444635356258" last="true" origin="installer" specification_version="1.31.2">
+    <module_version install_time="1454341557228" last="true" origin="installer" specification_version="1.37.0">
         <file crc="312942047" name="config/Modules/de-janitza-pasw-device-maninputdevice.xml"/>
-        <file crc="1668539694" name="modules/de-janitza-pasw-device-maninputdevice.jar"/>
+        <file crc="459392690" name="modules/de-janitza-pasw-device-maninputdevice.jar"/>
     </module_version>
 </module>

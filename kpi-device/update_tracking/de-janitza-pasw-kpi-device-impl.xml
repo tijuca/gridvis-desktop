@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.kpi.device.impl">
+    <module_version install_time="1454341537664" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="1304134668" name="config/Modules/de-janitza-pasw-kpi-device-impl.xml"/>
+        <file crc="391285790" name="modules/de-janitza-pasw-kpi-impl-kpi-device.jar"/>
+    </module_version>
+</module>

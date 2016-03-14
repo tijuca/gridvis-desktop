@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.connector.derby">
-    <module_version install_time="1444635355449" last="true" origin="installer" specification_version="10.9.1.0">
+    <module_version install_time="1454341554146" last="true" origin="installer" specification_version="10.9.1.0">
         <file crc="2480196136" name="config/Modules/de-janitza-pasw-wrapper-connector-derby.xml"/>
-        <file crc="560361911" name="modules/de-janitza-pasw-wrapper-connector-derby.jar"/>
+        <file crc="3863276523" name="modules/de-janitza-pasw-wrapper-connector-derby.jar"/>
         <file crc="3626887789" name="modules/ext/de.janitza.pasw.wrapper-connector-derby/org-apache-derby/derby.jar"/>
     </module_version>
 </module>
