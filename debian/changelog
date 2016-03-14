@@ -1,3 +1,16 @@
+gridvis-desktop (7.0.2-1) unstable; urgency=medium
+
+  * [31afef4] Imported Upstream version 7.0.0~rc1
+  * [f10d07e] rebuild patch queue from patchqueue branch
+  * [168cdd5] d/g-d.install: adding new folder due upstream changes
+  * [9215e1f] Imported Upstream version 7.0.0
+  * [f0448d8] d/g-d.preinst: changing the cache folder due upstream changes
+  * [c70165b] Imported Upstream version 7.0.2
+  * [bc7d4e9] d/g-d.install: adding new folder due upstream changes
+  * [a4b59eb] debian/control: increase Standards-Version to 3.9.7
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 14 Mar 2016 14:25:42 +0100
+
 gridvis-desktop (6.0.5-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
