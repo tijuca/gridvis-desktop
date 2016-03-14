@@ -1,3 +1,15 @@
+gridvis-desktop (7.0.2-1~bpo70+1) wheezy-backports; urgency=medium
+
+  * [31afef4] Imported Upstream version 7.0.0~rc1
+  * [9215e1f] Imported Upstream version 7.0.0
+  * [c70165b] Imported Upstream version 7.0.2
+  * [78530cd] d/g-d.install: adding new folder due upstream changes
+  * [b793f92] d/g-d.preinst: changing the cache folder due upstream changes
+  * [c4f7880] d/g-d.install: adding new folder due upstream changes
+  * [caeb104] rebuild patch queue from patchqueue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 14 Mar 2016 10:53:48 +0100
+
 gridvis-desktop (6.0.5-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
