@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg505">
-    <module_version install_time="1454341543342" last="true" origin="installer" specification_version="1.22.0">
+    <module_version install_time="1458137632798" last="true" origin="installer" specification_version="1.24.1">
         <file crc="1469713742" name="config/Modules/de-janitza-pasw-device-umg505.xml"/>
-        <file crc="1684008521" name="modules/de-janitza-pasw-device-impl-umg505.jar"/>
+        <file crc="76370286" name="modules/de-janitza-pasw-device-impl-umg505.jar"/>
     </module_version>
 </module>

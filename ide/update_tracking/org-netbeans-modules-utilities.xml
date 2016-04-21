@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.utilities/1">
-    <module_version install_time="1454341550482" last="true" origin="installer" specification_version="1.55.1">
+    <module_version install_time="1458137634079" last="true" origin="installer" specification_version="1.55.1">
         <file crc="754223576" name="config/Modules/org-netbeans-modules-utilities.xml"/>
         <file crc="646391204" name="modules/locale/org-netbeans-modules-utilities_ja.jar"/>
         <file crc="452087248" name="modules/locale/org-netbeans-modules-utilities_pt_BR.jar"/>

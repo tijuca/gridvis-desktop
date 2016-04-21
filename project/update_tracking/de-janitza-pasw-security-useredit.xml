@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.security.useredit">
-    <module_version install_time="1454341559598" last="true" origin="installer" specification_version="1.10.0">
+    <module_version install_time="1458137636370" last="true" origin="installer" specification_version="1.10.0">
         <file crc="2548199152" name="config/Modules/de-janitza-pasw-security-useredit.xml"/>
-        <file crc="1813477486" name="modules/de-janitza-pasw-security-useredit.jar"/>
+        <file crc="1887951742" name="modules/de-janitza-pasw-security-useredit.jar"/>
     </module_version>
 </module>

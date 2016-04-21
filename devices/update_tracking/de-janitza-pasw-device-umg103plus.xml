@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg103plus">
+    <module_version install_time="1458137632769" last="true" origin="installer" specification_version="0.0.1">
+        <file crc="4824860" name="config/Modules/de-janitza-pasw-device-umg103plus.xml"/>
+        <file crc="69263280" name="modules/de-janitza-pasw-device-impl-umg103plus.jar"/>
+    </module_version>
+</module>

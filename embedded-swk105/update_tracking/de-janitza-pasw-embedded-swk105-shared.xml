@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.embedded.swk105.shared">
-    <module_version install_time="1454341560134" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1458137636453" last="true" origin="installer" specification_version="1.0.0">
         <file crc="3210476123" name="config/Modules/de-janitza-pasw-embedded-swk105-shared.xml"/>
-        <file crc="2774351689" name="modules/de-janitza-pasw-embedded-swk105-shared.jar"/>
+        <file crc="1982890631" name="modules/de-janitza-pasw-embedded-swk105-shared.jar"/>
     </module_version>
 </module>

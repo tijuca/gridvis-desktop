@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.aspose">
-    <module_version install_time="1454341559032" last="true" origin="installer" specification_version="8.4.1">
+    <module_version install_time="1458137636193" last="true" origin="installer" specification_version="8.7.1">
         <file crc="1174312002" name="config/Modules/de-janitza-pasw-wrapper-aspose.xml"/>
-        <file crc="4076854819" name="modules/de-janitza-pasw-wrapper-aspose.jar"/>
-        <file crc="185855065" name="modules/ext/de.janitza.pasw.wrapper-aspose/com-aspose/aspose-cells.jar"/>
+        <file crc="24320633" name="modules/de-janitza-pasw-wrapper-aspose.jar"/>
+        <file crc="1123397436" name="modules/ext/de.janitza.pasw.wrapper-aspose/com-aspose/aspose-cells.jar"/>
     </module_version>
 </module>
