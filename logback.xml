@@ -1,0 +1,130 @@
+<!--
+Variables:
+%LOG_DIR%  = nb userdir + "/var/log"
+
+-->
+<!--
+
+Java Level 	Log4j Level
+______________________________
+OFF             OFF
+SEVERE          ERROR
+WARNING 	WARN
+INFO            INFO
+CONFIG          CONFIG
+FINE            DEBUG
+FINER           TRACE
+FINEST          FINEST
+ALL             ALL
+-->
+<!--
+scan and scanPeriod will not work, but file is checked for change by gridvis.
+-->
+<configuration scan="false">
+
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator"/>
+    <property name="DEFAULT_PATTERN" value="%-40(%d [%thread]) %-50(%level %logger) %X - %msg%n%throwable%n" />
+    <property name="DEFAULT_PATTERN_SHORT" value="%-40(%d [%thread]) %-50(%level %logger{40}) %X - %msg%n%throwable%n" />
+
+    <if condition='property("netbeans.logger.console").equals("true")'>
+        <then>
+            <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+                <encoder>
+                    <pattern>${DEFAULT_PATTERN_SHORT}</pattern>
+                </encoder>
+            </appender>
+            <root>
+                <appender-ref ref="STDOUT" />
+            </root>
+        </then>
+    </if>
+
+
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/messages.log</file>
+        <prudent>false</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/messages.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>5MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${DEFAULT_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="COM-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/communication.log</file>
+        <prudent>false</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/communication.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>5MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${DEFAULT_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE-STARTUP" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/startups.log</file>
+        <prudent>false</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/startups.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>5MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${DEFAULT_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+
+
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!-- Communiction is logged external and not added to default output(additivity) -->
+    <logger name="de.janitza.pasw.device.Communication" level="WARN" additivity="false">
+        <appender-ref ref="COM-FILE" />
+    </logger>
+    <logger name="de.janitza.pasw.device.OnlineCommunication" level="INFO" additivity="false">
+        <appender-ref ref="COM-FILE" />
+    </logger>
+    <logger name="de.janitza.pasw.log.NetBeansLog" level="INFO">
+        <appender-ref ref="FILE-STARTUP" />
+    </logger>
+    <logger name="org.netbeans.core.ui.warmup.DiagnosticTask" level="INFO">
+        <appender-ref ref="FILE-STARTUP" />
+    </logger>
+    <logger name="org.netbeans.core.startup.NbEvents" level="INFO">
+        <appender-ref ref="FILE-STARTUP" />
+    </logger>
+
+    <!--
+    <logger name="org.apache.shiro" level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </logger>
+    -->
+
+    <logger name="org.netbeans.core.ui.sampler.SelfSamplerAction" level="OFF" />
+
+
+</configuration>

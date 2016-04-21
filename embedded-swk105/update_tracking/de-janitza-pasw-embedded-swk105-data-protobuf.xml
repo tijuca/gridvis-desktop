@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.embedded.swk105.data.protobuf">
-    <module_version install_time="1454341560104" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1458137636448" last="true" origin="installer" specification_version="1.0.0">
         <file crc="2497867620" name="config/Modules/de-janitza-pasw-embedded-swk105-data-protobuf.xml"/>
-        <file crc="3947988960" name="modules/de-janitza-pasw-embedded-swk105-data-protobuf.jar"/>
+        <file crc="2700109974" name="modules/de-janitza-pasw-embedded-swk105-data-protobuf.jar"/>
         <file crc="4169574292" name="modules/ext/de.janitza.pasw.embedded.swk105.data.protobuf/com-google-protobuf/protobuf-java.jar"/>
         <file crc="2031463886" name="modules/ext/de.janitza.pasw.embedded.swk105.data.protobuf/com-googlecode-protobuf-java-format/protobuf-java-format.jar"/>
     </module_version>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project">
-    <module_version install_time="1454341554521" last="true" origin="installer" specification_version="10.72.0">
+    <module_version install_time="1458137635086" last="true" origin="installer" specification_version="10.76.0">
         <file crc="3112167395" name="config/Modules/de-janitza-pasw-project.xml"/>
-        <file crc="1346572384" name="modules/de-janitza-pasw-project-netbeans.jar"/>
+        <file crc="3441914645" name="modules/de-janitza-pasw-project-netbeans.jar"/>
     </module_version>
 </module>

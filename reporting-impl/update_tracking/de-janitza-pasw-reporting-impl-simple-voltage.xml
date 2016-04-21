@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.simple.voltage">
-    <module_version install_time="1454341539582" last="true" origin="installer" specification_version="1.22.0">
+    <module_version install_time="1458137632284" last="true" origin="installer" specification_version="1.23.0">
         <file crc="92629692" name="config/Modules/de-janitza-pasw-reporting-impl-simple-voltage.xml"/>
-        <file crc="3277397261" name="modules/de-janitza-pasw-reporting-impl-simple-voltage.jar"/>
+        <file crc="2565465637" name="modules/de-janitza-pasw-reporting-impl-simple-voltage.jar"/>
     </module_version>
 </module>

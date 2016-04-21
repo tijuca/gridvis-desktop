@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.value.impl.legacy.bridge">
-    <module_version install_time="1454341540886" last="true" origin="installer" specification_version="0.1.0">
+    <module_version install_time="1458137632464" last="true" origin="installer" specification_version="0.1.0">
         <file crc="1438776356" name="config/Modules/de-janitza-pasw-value-impl-legacy-bridge.xml"/>
-        <file crc="1192760671" name="modules/de-janitza-pasw-value-impl-legacy-bridge.jar"/>
+        <file crc="1514768926" name="modules/de-janitza-pasw-value-impl-legacy-bridge.jar"/>
     </module_version>
 </module>

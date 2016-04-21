@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.proxysettings">
-    <module_version install_time="1454341544391" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1458137632949" last="true" origin="installer" specification_version="1.0.0">
         <file crc="777826713" name="config/Modules/de-janitza-pasw-device-impl-proxysettings.xml"/>
-        <file crc="151597673" name="modules/de-janitza-pasw-device-impl-proxysettings.jar"/>
+        <file crc="3913135466" name="modules/de-janitza-pasw-device-impl-proxysettings.jar"/>
     </module_version>
 </module>
