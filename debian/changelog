@@ -1,5 +1,13 @@
+gridvis-desktop (7.0.4-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [1c4b1b1] Imported Upstream version 7.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 21 Apr 2016 11:15:57 +0200
+
 gridvis-desktop (7.0.2-1) unstable; urgency=medium
 
+  [ Carsten Schoenert ]
   * [31afef4] Imported Upstream version 7.0.0~rc1
   * [f10d07e] rebuild patch queue from patchqueue branch
   * [168cdd5] d/g-d.install: adding new folder due upstream changes
