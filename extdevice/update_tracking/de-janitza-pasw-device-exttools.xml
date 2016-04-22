@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.exttools">
-    <module_version install_time="1454341557201" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1458137635672" last="true" origin="installer" specification_version="1.6.0">
         <file crc="2356832906" name="config/Modules/de-janitza-pasw-device-exttools.xml"/>
-        <file crc="888442846" name="modules/de-janitza-pasw-device-exttools.jar"/>
+        <file crc="2799634521" name="modules/de-janitza-pasw-device-exttools.jar"/>
     </module_version>
 </module>

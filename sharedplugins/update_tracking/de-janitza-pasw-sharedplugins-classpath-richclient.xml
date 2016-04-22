@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sharedplugins.classpath.richclient">
-    <module_version install_time="1454341560490" last="true" origin="installer" specification_version="1.44.0">
+    <module_version install_time="1458137636556" last="true" origin="installer" specification_version="1.51.1">
         <file crc="1258748900" name="config/Modules/de-janitza-pasw-sharedplugins-classpath-richclient.xml"/>
-        <file crc="1268803060" name="modules/de-janitza-pasw-sharedplugins-classpath-richclient.jar"/>
+        <file crc="3248858045" name="modules/de-janitza-pasw-sharedplugins-classpath-richclient.jar"/>
     </module_version>
 </module>

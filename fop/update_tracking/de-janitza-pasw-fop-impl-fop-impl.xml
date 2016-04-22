@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.fop.impl.fop.impl">
-    <module_version install_time="1454341545581" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1458137633173" last="true" origin="installer" specification_version="1.0.0">
         <file crc="4171797701" name="config/Modules/de-janitza-pasw-fop-impl-fop-impl.xml"/>
-        <file crc="1180456080" name="modules/de-janitza-pasw-fop-impl-fop-impl.jar"/>
+        <file crc="1967238444" name="modules/de-janitza-pasw-fop-impl-fop-impl.jar"/>
         <file crc="2916222935" name="modules/ext/de.janitza.pasw.fop.impl.fop-impl/de-janitza-pasw/jasperreports-font-extension.jar"/>
     </module_version>
 </module>
