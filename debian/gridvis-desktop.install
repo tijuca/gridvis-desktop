@@ -39,6 +39,7 @@ kpi-core            usr/lib/gridvis-desktop/
 kpi-device          usr/lib/gridvis-desktop/
 kpi-project         usr/lib/gridvis-desktop/
 license             usr/lib/gridvis-desktop/
+logback.xml         usr/lib/gridvis-desktop/
 mailing-core        usr/lib/gridvis-desktop/
 performance         usr/lib/gridvis-desktop/
 platform            usr/lib/gridvis-desktop/
