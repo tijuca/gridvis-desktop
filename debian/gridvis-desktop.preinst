@@ -20,14 +20,14 @@ set -e
 
 case "$1" in
     install|upgrade)
-		# The cache dir (/var/lib/GridVisProjects/.gridvis/7.0/var/cache)
+		# The cache dir (/var/lib/GridVisProjects/.gridvis/7.1/var/cache)
 		# has to be removed before we can install the new version. The
 		# GridVis will create a new one on first start.
 		# Doing also while install, probably the user hasn't purged the old
 		# installation.
-		if [ -d /var/lib/GridVisProjects/.gridvis/7.0/var/cache ]; then
-			echo "[gridvis-desktop] removing old caching folder /var/lib/GridVisProjects/.gridvis/7.0/var/cache"
-			rm -rf  /var/lib/GridVisProjects/.gridvis/7.0/var/cache
+		if [ -d /var/lib/GridVisProjects/.gridvis/7.1/var/cache ]; then
+			echo "[gridvis-desktop] removing old caching folder /var/lib/GridVisProjects/.gridvis/7.1/var/cache"
+			rm -rf  /var/lib/GridVisProjects/.gridvis/7.1/var/cache
 		fi
     ;;
 
