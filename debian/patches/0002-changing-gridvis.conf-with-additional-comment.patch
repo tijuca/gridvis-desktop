@@ -3,25 +3,27 @@ Date: Sun, 10 Aug 2014 13:07:23 +0200
 Subject: changing gridvis.conf with additional comment
 
 ---
- etc/gridvis.conf | 12 +++++++-----
- 1 file changed, 7 insertions(+), 5 deletions(-)
+ etc/gridvis.conf | 14 +++++++++-----
+ 1 file changed, 9 insertions(+), 5 deletions(-)
 
 diff --git a/etc/gridvis.conf b/etc/gridvis.conf
-index fdec508..c0d9072 100644
+index 84ecdbe..ef7d370 100644
 --- a/etc/gridvis.conf
 +++ b/etc/gridvis.conf
-@@ -1,6 +1,8 @@
+@@ -1,6 +1,10 @@
  # ${HOME} will be replaced by user home directory according to platform
--default_userdir="${HOME}/.${APPNAME}/7.0"
--default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/7.0"
-+#default_userdir="${HOME}/.${APPNAME}/7.0"
+-default_userdir="${HOME}/.${APPNAME}/7.1"
+-default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/7.1"
++#default_userdir="${HOME}/.${APPNAME}/7.1"
++#default_mac_userdir="${HOME}/Library/Application Support/${APPNAME}/7.1"
++
 +# We set a global project directory in /var/lib/GridVisProjects,
 +# also storing the license information there.
-+default_userdir="/var/lib/GridVisProjects/.${APPNAME}/7.0"
++default_userdir="/var/lib/GridVisProjects/.${APPNAME}/7.1"
  
  # options used by the launcher by default, can be overridden by explicit
  # command line switches
-@@ -9,10 +11,10 @@ default_options="--branding gridvis -J-Xms64m -J-Xmx1024m -J-Dvisualvm.display.n
+@@ -9,10 +13,10 @@ default_options="--branding gridvis -J-Dpasw-feature-javafx-deviceoverview=true
  # for development purposes you may wish to append: -J-Dnetbeans.logger.console=true -J-ea
  
  # default location of JDK/JRE, can be overridden by using --jdkhome <dir> switch
