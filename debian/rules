@@ -92,3 +92,6 @@ override_dh_fixperms:
 		-o -name "*properties*" \)` ;\
 		do echo "fixing file permission: $$i" && chmod 644 $$i; done
 
+override_dh_strip:
+	# We dont need dbgsym packages so turning of the build.
+	dh_strip --no-automatic-dbgsym
