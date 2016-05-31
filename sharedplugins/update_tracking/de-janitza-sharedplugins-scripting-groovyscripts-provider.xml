@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.sharedplugins.scripting.groovyscripts.provider">
-    <module_version install_time="1458137636548" last="true" origin="installer" specification_version="1.44.0">
+    <module_version install_time="1464006375196" last="true" origin="installer" specification_version="1.46.0">
         <file crc="3475898305" name="config/Modules/de-janitza-sharedplugins-scripting-groovyscripts-provider.xml"/>
-        <file crc="174874584" name="modules/de-janitza-sharedplugins-scripting-groovyscripts-provider.jar"/>
-        <file crc="3901683013" name="sharedplugins/baseGroovyScripts.nbm"/>
+        <file crc="3963570917" name="modules/de-janitza-sharedplugins-scripting-groovyscripts-provider.jar"/>
+        <file crc="4107463260" name="sharedplugins/baseGroovyScripts.nbm"/>
     </module_version>
 </module>

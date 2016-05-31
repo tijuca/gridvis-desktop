@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.editor.settings.storage/1">
-    <module_version install_time="1458137634170" last="true" origin="installer" specification_version="1.44.1">
+    <module_version install_time="1464006371727" last="true" origin="installer" specification_version="1.44.1">
         <file crc="417708896" name="config/Modules/org-netbeans-modules-editor-settings-storage.xml"/>
         <file crc="2385152878" name="modules/locale/org-netbeans-modules-editor-settings-storage_ja.jar"/>
         <file crc="2650695537" name="modules/locale/org-netbeans-modules-editor-settings-storage_pt_BR.jar"/>

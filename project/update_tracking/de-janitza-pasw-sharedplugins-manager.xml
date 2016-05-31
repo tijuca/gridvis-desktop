@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sharedplugins.manager">
-    <module_version install_time="1458137636552" last="true" origin="installer" specification_version="1.25.0">
+    <module_version install_time="1464006375202" last="true" origin="installer" specification_version="1.25.0">
         <file crc="3634649300" name="config/Modules/de-janitza-pasw-sharedplugins-manager.xml"/>
-        <file crc="845353194" name="modules/de-janitza-pasw-sharedplugins-manager.jar"/>
+        <file crc="3932216354" name="modules/de-janitza-pasw-sharedplugins-manager.jar"/>
     </module_version>
 </module>

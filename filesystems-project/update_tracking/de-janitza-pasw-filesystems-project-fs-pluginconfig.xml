@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.filesystems.project.fs.pluginconfig">
-    <module_version install_time="1458137632257" last="true" origin="installer" specification_version="1.18.0">
+    <module_version install_time="1464006369446" last="true" origin="installer" specification_version="1.18.0">
         <file crc="4055707925" name="config/Modules/de-janitza-pasw-filesystems-project-fs-pluginconfig.xml"/>
-        <file crc="3897424005" name="modules/de-janitza-pasw-filesystems-project-fs-pluginconfig.jar"/>
+        <file crc="2312046233" name="modules/de-janitza-pasw-filesystems-project-fs-pluginconfig.jar"/>
     </module_version>
 </module>

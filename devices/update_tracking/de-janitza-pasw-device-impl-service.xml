@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.service">
-    <module_version install_time="1458137632735" last="true" origin="installer" specification_version="0.12.0">
+    <module_version install_time="1464006370035" last="true" origin="installer" specification_version="0.14.0">
         <file crc="1390050669" name="config/Modules/de-janitza-pasw-device-impl-service.xml"/>
-        <file crc="2375455692" name="modules/de-janitza-pasw-device-impl-service.jar"/>
+        <file crc="3858482372" name="modules/de-janitza-pasw-device-impl-service.jar"/>
     </module_version>
 </module>
