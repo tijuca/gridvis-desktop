@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.com.epve.csv.provider">
+    <module_version install_time="1464006375294" last="true" origin="installer" specification_version="1.1.4">
+        <file crc="2635527839" name="config/Modules/de-com-epve-csv-provider.xml"/>
+        <file crc="1983878579" name="de.com/epve-csv-core.nbm"/>
+        <file crc="1144935591" name="de.com/epve-csv-richclient.nbm"/>
+        <file crc="2294164076" name="modules/de-com-epve-csv-provider.jar"/>
+    </module_version>
+</module>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.apache.poi.ooxml">
-    <module_version install_time="1458137634941" last="true" origin="installer" specification_version="3.9.0.0">
+    <module_version install_time="1464006373221" last="true" origin="installer" specification_version="3.9.0.0">
         <file crc="633473132" name="config/Modules/de-janitza-pasw-wrapper-apache-poi-ooxml.xml"/>
         <file crc="1740703666" name="modules/de-janitza-pasw-wrapper-apache-poi-ooxml.jar"/>
         <file crc="2050839146" name="modules/ext/de.janitza.pasw.wrapper-apache-poi-ooxml/dom4j/dom4j.jar"/>
