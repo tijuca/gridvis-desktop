@@ -1,3 +1,15 @@
+gridvis-desktop (7.1.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [e88e548] d/g-d.install: adding new file due upstream changes
+  * [3ee000e] increase Standards-Version to 3.9.8
+  * [1ff0896] Imported Upstream version 7.1.1
+  * [2047904] rebuild patch queue from patchqueue branch
+  * [3cf3c15] d/g-d.preinst: changing the cache folder due upstream changes
+  * [a59f4cb] debian/rules: adding override for dh-strip
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 13 Jun 2016 07:46:42 +0200
+
 gridvis-desktop (7.0.4-1) unstable; urgency=medium
 
   [ Carsten Schoenert ]
