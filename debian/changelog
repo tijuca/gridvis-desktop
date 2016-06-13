@@ -1,3 +1,15 @@
+gridvis-desktop (7.1.1-1~bpo70+1) wheezy-backports; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [bc9967e] d/g-d.install: adding new file due upstream changes
+  * [b2007ea] increase Standards-Version to 3.9.8
+  * [1ff0896] Imported Upstream version 7.1.1
+  * [5b3e3ce] rebuild patch queue from patchqueue branch
+  * [92e0539] d/g-d.preinst: changing the cache folder due upstream changes
+  * [2ea40f4] debian/rules: adding override for dh-strip
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 01 Jun 2016 16:01:20 +0200
+
 gridvis-desktop (7.0.4-1~bpo70+1) wheezy-backports; urgency=medium
 
   [ Carsten Schoenert ]
