@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.fop.core.fop.api">
-    <module_version install_time="1464006370528" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1467014473574" last="true" origin="installer" specification_version="1.0.0">
         <file crc="303163095" name="config/Modules/de-janitza-pasw-fop-core-fop-api.xml"/>
         <file crc="3383134592" name="modules/de-janitza-pasw-fop-core-fop-api.jar"/>
     </module_version>

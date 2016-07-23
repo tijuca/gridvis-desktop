@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.scheduling.autosync">
-    <module_version install_time="1464006374367" last="true" origin="installer" specification_version="10.39.0">
+    <module_version install_time="1467014477401" last="true" origin="installer" specification_version="10.39.0">
         <file crc="1082985621" name="config/Modules/de-janitza-scheduling-autosync.xml"/>
-        <file crc="2756584518" name="modules/de-janitza-pasw-scheduling-autosync.jar"/>
+        <file crc="1334410922" name="modules/de-janitza-pasw-scheduling-autosync.jar"/>
     </module_version>
 </module>

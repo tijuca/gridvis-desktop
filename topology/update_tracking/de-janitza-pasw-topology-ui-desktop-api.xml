@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.ui.desktop.api">
-    <module_version install_time="1464006370560" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1467014473621" last="true" origin="installer" specification_version="1.7.0">
         <file crc="3232880779" name="config/Modules/de-janitza-pasw-topology-ui-desktop-api.xml"/>
-        <file crc="4029490565" name="modules/de-janitza-pasw-topology-ui-desktop-api.jar"/>
+        <file crc="1038536427" name="modules/de-janitza-pasw-topology-ui-desktop-api.jar"/>
     </module_version>
 </module>
