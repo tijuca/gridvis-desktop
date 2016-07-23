@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.excelinputdevice">
-    <module_version install_time="1464006374172" last="true" origin="installer" specification_version="1.11.0">
+    <module_version install_time="1467014477218" last="true" origin="installer" specification_version="1.12.0">
         <file crc="453654539" name="config/Modules/de-janitza-pasw-device-excelinputdevice.xml"/>
-        <file crc="2506286842" name="modules/de-janitza-pasw-device-excelinputdevice.jar"/>
+        <file crc="3880273913" name="modules/de-janitza-pasw-device-excelinputdevice.jar"/>
     </module_version>
 </module>

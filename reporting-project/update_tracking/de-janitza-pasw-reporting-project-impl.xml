@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.project.impl">
-    <module_version install_time="1464006369565" last="true" origin="installer" specification_version="1.23.0">
+    <module_version install_time="1467014472713" last="true" origin="installer" specification_version="1.23.0">
         <file crc="3765769203" name="config/Modules/de-janitza-pasw-reporting-project-impl.xml"/>
-        <file crc="1471387625" name="modules/de-janitza-pasw-reporting-project-impl.jar"/>
+        <file crc="1085954750" name="modules/de-janitza-pasw-reporting-project-impl.jar"/>
     </module_version>
 </module>

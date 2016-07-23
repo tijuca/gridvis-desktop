@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.com.energy.report.provider">
-    <module_version install_time="1464006375281" last="true" origin="installer" specification_version="1.0.6">
+    <module_version install_time="1467014478646" last="true" origin="installer" specification_version="1.0.6">
         <file crc="1357121085" name="config/Modules/de-com-energy-report-provider.xml"/>
         <file crc="2782998210" name="de.com/energy-report-core.nbm"/>
         <file crc="981615635" name="modules/de-com-energy-report-provider.jar"/>

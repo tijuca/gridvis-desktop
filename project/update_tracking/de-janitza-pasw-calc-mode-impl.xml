@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.calc.mode.impl">
-    <module_version install_time="1464006375285" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1467014478651" last="true" origin="installer" specification_version="1.0.0">
         <file crc="3816730662" name="config/Modules/de-janitza-pasw-calc-mode-impl.xml"/>
-        <file crc="640365834" name="modules/de-janitza-pasw-calc-mode-impl.jar"/>
+        <file crc="2600966866" name="modules/de-janitza-pasw-calc-mode-impl.jar"/>
     </module_version>
 </module>
