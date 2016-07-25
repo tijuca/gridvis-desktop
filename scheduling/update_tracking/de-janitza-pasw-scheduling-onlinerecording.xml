@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.scheduling.onlinerecording">
-    <module_version install_time="1464006374374" last="true" origin="installer" specification_version="10.46.0">
+    <module_version install_time="1467014477406" last="true" origin="installer" specification_version="10.46.1">
         <file crc="1142492864" name="config/Modules/de-janitza-pasw-scheduling-onlinerecording.xml"/>
-        <file crc="3279732036" name="modules/de-janitza-pasw-scheduling-onlinerecording.jar"/>
+        <file crc="1643983490" name="modules/de-janitza-pasw-scheduling-onlinerecording.jar"/>
     </module_version>
 </module>

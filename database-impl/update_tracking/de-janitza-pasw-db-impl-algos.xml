@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.db.impl.algos">
-    <module_version install_time="1464006369348" last="true" origin="installer" specification_version="1.2.0">
+    <module_version install_time="1467014472528" last="true" origin="installer" specification_version="1.4.0">
         <file crc="122389084" name="config/Modules/de-janitza-pasw-db-impl-algos.xml"/>
-        <file crc="3721637418" name="modules/de-janitza-pasw-db-impl-algos.jar"/>
+        <file crc="633867118" name="modules/de-janitza-pasw-db-impl-algos.jar"/>
     </module_version>
 </module>
