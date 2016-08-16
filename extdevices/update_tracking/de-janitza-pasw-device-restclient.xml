@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.restclient">
-    <module_version install_time="1467014478367" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1469708560711" last="true" origin="installer" specification_version="1.7.0">
         <file crc="1657960697" name="config/Modules/de-janitza-pasw-device-restclient.xml"/>
-        <file crc="566940232" name="modules/de-janitza-pasw-device-restclient.jar"/>
+        <file crc="117501900" name="modules/de-janitza-pasw-device-restclient.jar"/>
     </module_version>
 </module>

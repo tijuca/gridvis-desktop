@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.kpi.project.impl">
-    <module_version install_time="1467014472396" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1469708555093" last="true" origin="installer" specification_version="1.4.0">
         <file crc="2221717618" name="config/Modules/de-janitza-pasw-kpi-project-impl.xml"/>
-        <file crc="3848785196" name="modules/de-janitza-pasw-kpi-project-impl.jar"/>
+        <file crc="491421330" name="modules/de-janitza-pasw-kpi-project-impl.jar"/>
     </module_version>
 </module>
