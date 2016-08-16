@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>application</artifactId>
-    <version>7.1.3</version>
+    <version>7.1.4</version>
     <packaging>nbm-application</packaging>
 
     <name>gridvis - NB App</name>
@@ -62,6 +62,19 @@
 
     <dependencies>
         <!-- Cluster Suites-->
+        <!-- Perfomance metering Cluster -->
+        <dependency>
+            <groupId>de.janitza.pasw.performance.cluster</groupId>
+            <artifactId>core</artifactId>
+            <version>1.2.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>de.janitza.pasw.performance.cluster</groupId>
+            <artifactId>impl</artifactId>
+            <version>1.3.0</version>
+            <type>pom</type>
+        </dependency>
         <dependency>
             <groupId>de.janitza.pasw.kpi.cluster</groupId>
             <artifactId>core</artifactId>
@@ -84,7 +97,7 @@
         <dependency>
             <groupId>de.janitza.pasw.exports.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.25.0</version>
+            <version>1.25.1</version>
             <type>pom</type>
         </dependency>
 
@@ -99,7 +112,7 @@
         <dependency>
             <groupId>de.janitza.pasw.db.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.20.0</version>
+            <version>1.20.1</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -121,7 +134,7 @@
         <dependency>
             <groupId>de.janitza.pasw.reporting.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.33.1</version>
+            <version>1.33.2</version>
             <type>pom</type>
         </dependency>
         <!-- Value Cluster -->
@@ -161,7 +174,7 @@
         <dependency>
             <groupId>de.janitza.pasw.device.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>0.24.0</version>
+            <version>0.24.1</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -173,7 +186,7 @@
         <dependency>
             <groupId>de.janitza.pasw.device.cluster</groupId>
             <artifactId>impl</artifactId>
-            <version>0.34.0</version>
+            <version>0.34.1</version>
             <type>pom</type>
         </dependency>
         <!-- JMX Cluster -->
@@ -207,7 +220,7 @@
         <dependency>
             <groupId>de.janitza.pasw.reporting.cluster</groupId>
             <artifactId>ui-desktop</artifactId>
-            <version>1.32.1</version>
+            <version>1.32.2</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -237,22 +250,10 @@
         <dependency>
             <groupId>de.janitza.pasw.topology.cluster</groupId>
             <artifactId>desktop</artifactId>
-            <version>1.31.0</version>
+            <version>1.31.1</version>
             <type>pom</type>
         </dependency>
-        <!-- Perfomance metering Cluster -->
-        <dependency>
-            <groupId>de.janitza.pasw.performance.cluster</groupId>
-            <artifactId>core</artifactId>
-            <version>1.1.1</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>de.janitza.pasw.performance.cluster</groupId>
-            <artifactId>impl</artifactId>
-            <version>1.1.1</version>
-            <type>pom</type>
-        </dependency>
+
         <!-- end of gridviscluster -->
 
         <!-- server cluster (comment helps bcompare)-->
@@ -416,12 +417,12 @@
         <dependency>
             <groupId>de.janitza.pasw.gridvis</groupId>
             <artifactId>branding</artifactId>
-            <version>7.1.3</version>
+            <version>7.1.4</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-base</artifactId>
-            <version>1.31.0</version>
+            <version>1.31.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -467,22 +468,22 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-derby</artifactId>
-            <version>10.68.0</version>
+            <version>10.68.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-jandb</artifactId>
-            <version>11.54.0</version>
+            <version>11.54.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-mssqlserver</artifactId>
-            <version>10.67.0</version>
+            <version>10.67.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-mysql</artifactId>
-            <version>10.74.0</version>
+            <version>10.74.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -507,12 +508,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-netbeans</artifactId>
-            <version>10.82.0</version>
+            <version>10.82.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-ui</artifactId>
-            <version>10.101.0</version>
+            <version>10.101.1</version>
             <exclusions>
                 <exclusion>
                     <groupId>de.janitza.pasw.performance.core</groupId>
@@ -579,18 +580,18 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-excelinputdevice</artifactId>
-            <version>1.12.0</version>
+            <version>1.12.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-excelinputdevice-ui</artifactId>
-            <version>1.7.0</version>
+            <version>1.7.1</version>
         </dependency>
 
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-ui</artifactId>
-            <version>10.41.0</version>
+            <version>10.41.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -649,7 +650,7 @@
         <dependency>
             <groupId>de.janitza.maven</groupId>
             <artifactId>annotations</artifactId>
-            <version>1.1</version>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -664,12 +665,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-api</artifactId>
-            <version>10.61.0</version>
+            <version>10.61.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-sql</artifactId>
-            <version>10.55.0</version>
+            <version>10.55.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -704,12 +705,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-api</artifactId>
-            <version>1.27.0</version>
+            <version>1.27.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-base</artifactId>
-            <version>10.63.0</version>
+            <version>10.63.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -724,27 +725,27 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-api</artifactId>
-            <version>10.45.0</version>
+            <version>10.45.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-autosync</artifactId>
-            <version>10.39.0</version>
+            <version>10.39.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-onlinerecording</artifactId>
-            <version>10.46.1</version>
+            <version>10.46.2</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-timesync</artifactId>
-            <version>10.39.0</version>
+            <version>10.39.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-watchdog</artifactId>
-            <version>10.40.0</version>
+            <version>10.40.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -759,7 +760,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>configurationitems</artifactId>
-            <version>1.39.0</version>
+            <version>1.39.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -895,7 +896,7 @@
         <dependency>
             <groupId>de.janitza.pasw.gridvis</groupId>
             <artifactId>changelog</artifactId>
-            <version>7.1.3</version>
+            <version>7.1.4</version>
             <type>xml</type>
         </dependency>
 
@@ -917,7 +918,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sec-realm-jdbc-base</artifactId>
-            <version>1.27.0</version>
+            <version>1.27.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -954,7 +955,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>security-mediator</artifactId>
-            <version>1.22.0</version>
+            <version>1.22.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -979,7 +980,7 @@
         <dependency>
             <artifactId>device-genericmodbus</artifactId>
             <groupId>de.janitza.pasw</groupId>
-            <version>10.58.1</version>
+            <version>10.58.1.20</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -999,7 +1000,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>alarm-impl</artifactId>
-            <version>1.38.0</version>
+            <version>1.38.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1072,7 +1073,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>log</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
 
         <!-- Testing dependencies -->
@@ -1089,13 +1090,13 @@
         <dependency>
             <groupId>de.janitza.pasw.project</groupId>
             <artifactId>test</artifactId>
-            <version>10.157.0</version>
+            <version>10.157.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>de.janitza.sharedplugins</groupId>
             <artifactId>scripting-groovyscripts-provider</artifactId>
-            <version>1.46.0</version>
+            <version>1.46.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1105,7 +1106,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sharedplugins-classpath-richclient</artifactId>
-            <version>1.57.0</version>
+            <version>1.57.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1194,7 +1195,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>calc-mode-impl</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <type>nbm</type>
         </dependency>
         <!--dependency>
@@ -1206,7 +1207,7 @@
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>freerange-energy-report-provider</artifactId>
-            <version>1.3.0</version>
+            <version>1.3.1</version>
             <type>nbm</type>
         </dependency>
         <dependency>
@@ -1282,7 +1283,6 @@
             <version>1.0.1</version>
             <scope>provided</scope>
         </dependency>
-
 
     </dependencies>
 
@@ -1864,7 +1864,7 @@
                 <dependency>
                     <groupId>de.janitza.pasw.project</groupId>
                     <artifactId>test</artifactId>
-                    <version>10.157.0</version>
+                    <version>10.157.1</version>
                 </dependency>
                 <dependency>
                     <groupId>de.janitza.pasw</groupId>
@@ -2005,6 +2005,8 @@
             <id>aspectj</id>
             <properties>
                 <netbeans.run.params.ide>--cp:a ${project.build.directory}/${branding-token}/aspectjrt.jar --cp:a ${project.build.directory}/${branding-token}/janitza-aspectj.jar</netbeans.run.params.ide>
+                <aspect-version>1.8.9</aspect-version>
+                <pasw-aspect-version>1.8-SNAPSHOT</pasw-aspect-version>
             </properties>
             <build>
                 <plugins>
@@ -2013,22 +2015,26 @@
                     <plugin>
                         <groupId>de.janitza.maven</groupId>
                         <artifactId>aspectj</artifactId>
-                        <version>1.0-SNAPSHOT</version>
+                        <version>${pasw-aspect-version}</version>
+                        <configuration>
+                            <!-- Define the ant filter for all jars that are to be instrunmented. -->
+                            <include-filter>**/modules/*excelinputdevice-ui*.jar **/modules/*project-ui*.jar **/modules/*project-netbeans*.jar **/modules/*org-openide-dialogs*.jar</include-filter>
+                        </configuration>
                         <dependencies>
                             <dependency>
                                 <groupId>org.aspectj</groupId>
                                 <artifactId>aspectjtools</artifactId>
-                                <version>1.7.3</version>
+                                <version>${aspect-version}</version>
                             </dependency>
                             <dependency>
                                 <groupId>org.aspectj</groupId>
                                 <artifactId>aspectjrt</artifactId>
-                                <version>1.7.4</version>
+                                <version>1.8.9</version>
                             </dependency>
                             <dependency>
                                 <groupId>de.janitza.maven</groupId>
                                 <artifactId>aspectj</artifactId>
-                                <version>1.0-SNAPSHOT</version>
+                                <version>${pasw-aspect-version}</version>
                             </dependency>
                         </dependencies>
                         <executions>
@@ -2059,14 +2065,14 @@
                                         <artifactItem>
                                             <groupId>org.aspectj</groupId>
                                             <artifactId>aspectjrt</artifactId>
-                                            <version>1.7.4</version>
+                                            <version>${aspect-version}</version>
                                             <outputDirectory>${project.build.directory}/${branding-token}</outputDirectory>
                                             <destFileName>aspectjrt.jar</destFileName>
                                         </artifactItem>
                                         <artifactItem>
                                             <groupId>de.janitza.maven</groupId>
                                             <artifactId>aspectj</artifactId>
-                                            <version>1.0-SNAPSHOT</version>
+                                            <version>${pasw-aspect-version}</version>
                                             <outputDirectory>${project.build.directory}/${branding-token}</outputDirectory>
                                             <destFileName>janitza-aspectj.jar</destFileName>
                                         </artifactItem>

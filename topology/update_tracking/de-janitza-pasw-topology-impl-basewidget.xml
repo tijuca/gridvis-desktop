@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.impl.basewidget">
-    <module_version install_time="1467014473457" last="true" origin="installer" specification_version="1.17.0">
+    <module_version install_time="1469708556326" last="true" origin="installer" specification_version="1.17.0">
         <file crc="1247109275" name="config/Modules/de-janitza-pasw-topology-impl-basewidget.xml"/>
-        <file crc="2359588149" name="modules/de-janitza-pasw-topology-impl-basewidget.jar"/>
+        <file crc="1335612200" name="modules/de-janitza-pasw-topology-impl-basewidget.jar"/>
     </module_version>
 </module>
