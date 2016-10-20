@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project.historical.provider">
-    <module_version install_time="1469708560922" last="true" origin="installer" specification_version="1.7.0">
+    <module_version install_time="1472114899758" last="true" origin="installer" specification_version="1.7.0">
         <file crc="3407105611" name="config/Modules/de-janitza-pasw-project-historical-provider.xml"/>
-        <file crc="1925486775" name="modules/de-janitza-pasw-project-historical-provider.jar"/>
+        <file crc="542696752" name="modules/de-janitza-pasw-project-historical-provider.jar"/>
     </module_version>
 </module>

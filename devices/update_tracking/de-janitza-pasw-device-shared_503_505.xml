@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.shared_503_505">
-    <module_version install_time="1469708555981" last="true" origin="installer" specification_version="1.25.0">
+    <module_version install_time="1472114895376" last="true" origin="installer" specification_version="1.25.0">
         <file crc="2634955796" name="config/Modules/de-janitza-pasw-device-shared_503_505.xml"/>
         <file crc="1295512223" name="modules/de-janitza-pasw-device-impl-shared_503_505.jar"/>
     </module_version>
