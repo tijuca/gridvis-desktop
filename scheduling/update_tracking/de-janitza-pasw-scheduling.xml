@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.scheduling">
-    <module_version install_time="1469708560100" last="true" origin="installer" specification_version="10.45.1">
+    <module_version install_time="1472114898875" last="true" origin="installer" specification_version="10.45.1">
         <file crc="2383049371" name="config/Modules/de-janitza-pasw-scheduling.xml"/>
-        <file crc="412328954" name="modules/de-janitza-pasw-scheduling-api.jar"/>
+        <file crc="1220166804" name="modules/de-janitza-pasw-scheduling-api.jar"/>
     </module_version>
 </module>
