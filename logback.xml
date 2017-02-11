@@ -125,6 +125,7 @@ scan and scanPeriod will not work, but file is checked for change by gridvis.
     -->
 
     <logger name="org.netbeans.core.ui.sampler.SelfSamplerAction" level="OFF" />
+    <logger name="com.teamdev.jxbrowser" level="WARN" />
 
 
 </configuration>

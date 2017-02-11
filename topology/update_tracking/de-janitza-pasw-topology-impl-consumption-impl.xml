@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.impl.consumption.impl">
-    <module_version install_time="1472114895733" last="true" origin="installer" specification_version="1.18.0">
+    <module_version install_time="1486122465631" last="true" origin="installer" specification_version="1.18.0">
         <file crc="2041802106" name="config/Modules/de-janitza-pasw-topology-impl-consumption-impl.xml"/>
-        <file crc="4094910887" name="modules/de-janitza-pasw-topology-impl-consumption-impl.jar"/>
+        <file crc="2437274126" name="modules/de-janitza-pasw-topology-impl-consumption-impl.jar"/>
     </module_version>
 </module>

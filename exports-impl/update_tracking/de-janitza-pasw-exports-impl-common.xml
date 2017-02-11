@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.exports.impl.common">
-    <module_version install_time="1472114894666" last="true" origin="installer" specification_version="1.5.0">
+    <module_version install_time="1486122459805" last="true" origin="installer" specification_version="1.5.0">
         <file crc="3246014911" name="config/Modules/de-janitza-pasw-exports-impl-common.xml"/>
-        <file crc="3038797216" name="modules/de-janitza-pasw-exports-impl-common.jar"/>
+        <file crc="3030650338" name="modules/de-janitza-pasw-exports-impl-common.jar"/>
     </module_version>
 </module>

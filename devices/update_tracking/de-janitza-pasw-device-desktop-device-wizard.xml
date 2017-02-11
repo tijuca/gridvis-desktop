@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.desktop.device.wizard">
+    <module_version install_time="1486122461794" last="true" origin="installer" specification_version="0.0.2">
+        <file crc="938105772" name="config/Modules/de-janitza-pasw-device-desktop-device-wizard.xml"/>
+        <file crc="4100845331" name="modules/de-janitza-pasw-device-desktop-device-wizard.jar"/>
+    </module_version>
+</module>

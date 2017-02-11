@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.connectiontype.base">
+    <module_version install_time="1486122461916" last="true" origin="installer" specification_version="0.4.0">
+        <file crc="1889280562" name="config/Modules/de-janitza-pasw-device-impl-connectiontype-base.xml"/>
+        <file crc="2834050188" name="modules/de-janitza-pasw-device-impl-connectiontype-base.jar"/>
+    </module_version>
+</module>

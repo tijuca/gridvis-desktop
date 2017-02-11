@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.commons.configuration">
-    <module_version install_time="1472114898766" last="true" origin="installer" specification_version="1.10">
+    <module_version install_time="1486122475046" last="true" origin="installer" specification_version="1.10">
         <file crc="1918093543" name="config/Modules/de-janitza-pasw-wrapper-commons-configuration.xml"/>
         <file crc="3983323100" name="modules/de-janitza-pasw-wrapper-commons-configuration.jar"/>
         <file crc="2155198144" name="modules/ext/de.janitza.pasw.wrapper-commons-configuration/commons-configuration/commons-configuration.jar"/>

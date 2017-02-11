@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.auto.onlinevalue">
+    <module_version install_time="1486122478087" last="true" origin="installer" specification_version="1.31.0">
+        <file crc="3307985781" name="config/Modules/de-janitza-pasw-auto-onlinevalue.xml"/>
+        <file crc="3854827098" name="modules/de-janitza-pasw-auto-onlinevalue.jar"/>
+    </module_version>
+</module>
