@@ -9,15 +9,25 @@ importable with git-import-orig.
 Importend:
 You need booth setup scripts (amd64 and i386) to create the orig.tar.xz file!
 
-1. Get the ISO image from the Janitza website
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Getting Janitza GridVis version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There are two options to get the recent versions of the GridVis UI tool.
+The normal way is to catch the ISO file from the Janitza Download site.
+
 Open the GridVis download website and get the the current version of the
 ISO image file from http://www.janitza.de/downloads/gridvis-download/
 
-For example version 5.1.0
-http://gridvis.janitza.de/download/5.1.0/GridVis.iso
+For example version 7.1.10
+http://gridvis.janitza.de/download/7.1.10/GridVis.iso
+The image file is very big, mostly greater than 3GB!
 
-The image file is very big, mostly greater than 1,8GB!
+The second option is to only download the needed files from the Janitze
+Download area. Also here shown for a version 7.1.10. If you gone do that you
+can skip the following step 2.
+
+http://gridvis.janitza.de/download/7.1.10/GridVis-7.1.10.sh
+http://gridvis.janitza.de/download/7.1.10/GridVis-7.1.10-64bit.sh
+
 
 2. Mount the ISO image or use a UI tool for getting the needed files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -118,4 +128,4 @@ create the archive by running:
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Finaly the archive can now be imported.
 
-  $ git-import-orig ~/tmp/gridvis-desktop/gridvis-desktop_[x.x.x].orig.tar.xz --sign-tags
+  $ gbp import-orig ~/tmp/gridvis-desktop/gridvis-desktop_[x.x.x].orig.tar.xz --sign-tags
