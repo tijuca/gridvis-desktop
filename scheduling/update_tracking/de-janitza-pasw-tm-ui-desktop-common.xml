@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tm.ui.desktop.common">
+    <module_version install_time="1486122459062" last="true" origin="installer" specification_version="1.2.0">
+        <file crc="4065703240" name="config/Modules/de-janitza-pasw-tm-ui-desktop-common.xml"/>
+        <file crc="2483946226" name="modules/de-janitza-pasw-tm-ui-desktop-common.jar"/>
+    </module_version>
+</module>

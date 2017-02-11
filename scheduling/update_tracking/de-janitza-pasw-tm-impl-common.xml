@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tm.impl.common">
+    <module_version install_time="1486122458898" last="true" origin="installer" specification_version="1.3.0">
+        <file crc="90236780" name="config/Modules/de-janitza-pasw-tm-impl-common.xml"/>
+        <file crc="2936930895" name="modules/de-janitza-pasw-tm-impl-common.jar"/>
+    </module_version>
+</module>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.xmlbeans">
-    <module_version install_time="1472114899412" last="true" origin="installer" specification_version="2.4.0">
+    <module_version install_time="1486122477099" last="true" origin="installer" specification_version="2.4.0">
         <file crc="4247054058" name="config/Modules/de-janitza-pasw-wrapper-xmlbeans.xml"/>
         <file crc="2557315363" name="modules/de-janitza-pasw-wrapper-xmlbeans.jar"/>
         <file crc="2245314880" name="modules/ext/de.janitza.pasw.wrapper-xmlbeans/org-apache-xmlbeans/xmlbeans.jar"/>

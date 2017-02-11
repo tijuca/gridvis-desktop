@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.ecsbase">
-    <module_version install_time="1472114895286" last="true" origin="installer" specification_version="1.24.0">
+    <module_version install_time="1486122462266" last="true" origin="installer" specification_version="1.27.0">
         <file crc="475450552" name="config/Modules/de-janitza-pasw-device-impl-ecsbase.xml"/>
-        <file crc="3987467401" name="modules/de-janitza-pasw-device-impl-ecsbase.jar"/>
+        <file crc="195195018" name="modules/de-janitza-pasw-device-impl-ecsbase.jar"/>
     </module_version>
 </module>

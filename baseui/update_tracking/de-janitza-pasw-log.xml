@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.log">
-    <module_version install_time="1472114899682" last="true" origin="installer" specification_version="1.0.2">
+    <module_version install_time="1486122478472" last="true" origin="installer" specification_version="1.1.0">
         <file crc="738736706" name="config/Modules/de-janitza-pasw-log.xml"/>
-        <file crc="2217202081" name="modules/de-janitza-pasw-log.jar"/>
+        <file crc="2749799522" name="modules/de-janitza-pasw-log.jar"/>
     </module_version>
 </module>

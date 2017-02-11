@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.project">
-    <module_version install_time="1472114898005" last="true" origin="installer" specification_version="10.82.5">
+    <module_version install_time="1486122472685" last="true" origin="installer" specification_version="10.96.0">
         <file crc="3112167395" name="config/Modules/de-janitza-pasw-project.xml"/>
-        <file crc="1615737122" name="modules/de-janitza-pasw-project-netbeans.jar"/>
+        <file crc="1771327166" name="modules/de-janitza-pasw-project-netbeans.jar"/>
         <file crc="28241745" name="modules/ext/de.janitza.pasw.project-netbeans/commons-collections/commons-collections.jar"/>
     </module_version>
 </module>

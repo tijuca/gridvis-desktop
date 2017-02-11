@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.topology.impl.base">
-    <module_version install_time="1472114895702" last="true" origin="installer" specification_version="1.11.0">
+    <module_version install_time="1486122465533" last="true" origin="installer" specification_version="1.11.0">
         <file crc="3535254198" name="config/Modules/de-janitza-pasw-topology-impl-base.xml"/>
-        <file crc="1980495663" name="modules/de-janitza-pasw-topology-impl-base.jar"/>
+        <file crc="553172828" name="modules/de-janitza-pasw-topology-impl-base.jar"/>
     </module_version>
 </module>

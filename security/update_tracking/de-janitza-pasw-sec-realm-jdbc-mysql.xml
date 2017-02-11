@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sec.realm.jdbc.mysql">
-    <module_version install_time="1472114899438" last="true" origin="installer" specification_version="1.36.0">
+    <module_version install_time="1486122477185" last="true" origin="installer" specification_version="1.36.0">
         <file crc="1281536185" name="config/Modules/de-janitza-pasw-sec-realm-jdbc-mysql.xml"/>
-        <file crc="3897757927" name="modules/de-janitza-pasw-sec-realm-jdbc-mysql.jar"/>
+        <file crc="4022539977" name="modules/de-janitza-pasw-sec-realm-jdbc-mysql.jar"/>
     </module_version>
 </module>

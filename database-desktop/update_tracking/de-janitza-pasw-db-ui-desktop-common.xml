@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.db.ui.desktop.common">
-    <module_version install_time="1472114894788" last="true" origin="installer" specification_version="1.11.1">
+    <module_version install_time="1486122460208" last="true" origin="installer" specification_version="1.13.0">
         <file crc="92165243" name="config/Modules/de-janitza-pasw-db-ui-desktop-common.xml"/>
-        <file crc="3008060861" name="modules/de-janitza-pasw-db-ui-desktop-common.jar"/>
+        <file crc="2601262424" name="modules/de-janitza-pasw-db-ui-desktop-common.jar"/>
     </module_version>
 </module>

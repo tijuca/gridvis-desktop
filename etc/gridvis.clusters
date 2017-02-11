@@ -1,6 +1,7 @@
 reports
 platform
 etc
+scheduling
 performance
 kpi-core
 kpi-project
@@ -18,13 +19,13 @@ database-desktop
 filesystems-core
 filesystems-impl
 filesystems-project
-reporting-core
-reporting-impl
 value
 format
 devices
 device
 jmx-core
+reporting-core
+reporting-impl
 jmx-netbeans
 topology
 extra
@@ -32,6 +33,7 @@ reporting-desktop
 fop
 exports-desktop
 project
+webembed
 ide
 baseui
 databases
@@ -40,7 +42,6 @@ wrapper
 graphprog
 extdevices
 extdevice
-scheduling
 help
 graph
 scripting
