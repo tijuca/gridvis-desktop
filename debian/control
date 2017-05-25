@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
 #Vcs-Git: 
 #Vcs-Browser: 
 Standards-Version: 3.9.8
-Homepage: http://www.janitza.com/products/software/software-gridvis/
+Homepage: https://www.janitza.com/gridvis-download.html
 
 Package: gridvis-desktop
 Architecture: amd64 i386
