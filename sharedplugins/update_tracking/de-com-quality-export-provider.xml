@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.com.quality.export.provider">
-    <module_version install_time="1486122479111" last="true" origin="installer" specification_version="1.0.18">
+    <module_version install_time="1491384328782" last="true" origin="installer" specification_version="1.0.22">
         <file crc="2000177904" name="config/Modules/de-com-quality-export-provider.xml"/>
-        <file crc="2839274564" name="de.com/quality-export-core.nbm"/>
-        <file crc="2423884843" name="de.com/quality-export-richclient.nbm"/>
-        <file crc="2738625694" name="modules/de-com-quality-export-provider.jar"/>
+        <file crc="1819091416" name="de.com/quality-export-core.nbm"/>
+        <file crc="1390548964" name="de.com/quality-export-richclient.nbm"/>
+        <file crc="413352010" name="modules/de-com-quality-export-provider.jar"/>
     </module_version>
 </module>

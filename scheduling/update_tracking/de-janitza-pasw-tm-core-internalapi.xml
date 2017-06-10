@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tm.core.internalapi">
-    <module_version install_time="1486122458751" last="true" origin="installer" specification_version="1.3.0">
+    <module_version install_time="1491384300266" last="true" origin="installer" specification_version="1.5.0">
         <file crc="2459879544" name="config/Modules/de-janitza-pasw-tm-core-internalapi.xml"/>
-        <file crc="414607830" name="modules/de-janitza-pasw-tm-core-internalapi.jar"/>
+        <file crc="979992593" name="modules/de-janitza-pasw-tm-core-internalapi.jar"/>
     </module_version>
 </module>

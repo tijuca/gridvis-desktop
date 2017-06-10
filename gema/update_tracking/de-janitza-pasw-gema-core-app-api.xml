@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.gema.core.app.api">
+    <module_version install_time="1491384300935" last="true" origin="installer" specification_version="1.0.2">
+        <file crc="1783088848" name="config/Modules/de-janitza-pasw-gema-core-app-api.xml"/>
+        <file crc="1370700" name="modules/de-janitza-pasw-gema-core-app-api.jar"/>
+    </module_version>
+</module>

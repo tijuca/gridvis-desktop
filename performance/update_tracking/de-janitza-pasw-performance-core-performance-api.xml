@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.performance.core.performance.api">
-    <module_version install_time="1486122459129" last="true" origin="installer" specification_version="1.2.0">
+    <module_version install_time="1491384301173" last="true" origin="installer" specification_version="1.2.0">
         <file crc="1229311544" name="config/Modules/de-janitza-pasw-performance-core-performance-api.xml"/>
-        <file crc="552051642" name="modules/de-janitza-pasw-performance-core-performance-api.jar"/>
+        <file crc="664687785" name="modules/de-janitza-pasw-performance-core-performance-api.jar"/>
     </module_version>
 </module>

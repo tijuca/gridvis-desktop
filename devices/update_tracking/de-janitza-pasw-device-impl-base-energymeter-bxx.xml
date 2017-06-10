@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.base.energymeter.bxx">
-    <module_version install_time="1486122464870" last="true" origin="installer" specification_version="0.2.0">
+    <module_version install_time="1491384306619" last="true" origin="installer" specification_version="0.3.0">
         <file crc="1730896122" name="config/Modules/de-janitza-pasw-device-impl-base-energymeter-bxx.xml"/>
-        <file crc="634180634" name="modules/de-janitza-pasw-device-impl-base-energymeter-bxx.jar"/>
+        <file crc="2941430543" name="modules/de-janitza-pasw-device-impl-base-energymeter-bxx.jar"/>
     </module_version>
 </module>

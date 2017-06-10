@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.db.core.api">
-    <module_version install_time="1486122459976" last="true" origin="installer" specification_version="1.1.0">
+    <module_version install_time="1491384302306" last="true" origin="installer" specification_version="1.1.0">
         <file crc="1399799021" name="config/Modules/de-janitza-pasw-db-core-api.xml"/>
-        <file crc="562963666" name="modules/de-janitza-pasw-db-core-api.jar"/>
+        <file crc="2238017255" name="modules/de-janitza-pasw-db-core-api.jar"/>
     </module_version>
 </module>

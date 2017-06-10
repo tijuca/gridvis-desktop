@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.rest.server.rest.entities">
-    <module_version install_time="1486122479384" last="true" origin="installer" specification_version="1.37.0">
+    <module_version install_time="1491384328903" last="true" origin="installer" specification_version="1.37.0">
         <file crc="3013749078" name="config/Modules/de-janitza-pasw-rest-server-rest-entities.xml"/>
-        <file crc="1516009298" name="modules/de-janitza-pasw-rest-server-rest-entities.jar"/>
+        <file crc="1398135594" name="modules/de-janitza-pasw-rest-server-rest-entities.jar"/>
     </module_version>
 </module>

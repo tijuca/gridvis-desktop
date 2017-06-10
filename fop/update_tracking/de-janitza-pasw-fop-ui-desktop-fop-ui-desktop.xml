@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.fop.ui.desktop.fop.ui.desktop">
-    <module_version install_time="1486122466125" last="true" origin="installer" specification_version="1.0.0">
+    <module_version install_time="1491384308476" last="true" origin="installer" specification_version="1.0.0">
         <file crc="624740485" name="config/Modules/de-janitza-pasw-fop-ui-desktop-fop-ui-desktop.xml"/>
-        <file crc="954467204" name="modules/de-janitza-pasw-fop-ui-desktop-fop-ui-desktop.jar"/>
+        <file crc="1968556302" name="modules/de-janitza-pasw-fop-ui-desktop-fop-ui-desktop.jar"/>
     </module_version>
 </module>

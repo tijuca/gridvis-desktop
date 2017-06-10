@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg96rmel">
-    <module_version install_time="1486122464055" last="true" origin="installer" specification_version="1.30.0">
+    <module_version install_time="1491384306362" last="true" origin="installer" specification_version="1.31.0">
         <file crc="1821049263" name="config/Modules/de-janitza-pasw-device-umg96rmel.xml"/>
-        <file crc="1336260811" name="modules/de-janitza-pasw-device-impl-umg96rmel.jar"/>
+        <file crc="2874651222" name="modules/de-janitza-pasw-device-impl-umg96rmel.jar"/>
     </module_version>
 </module>

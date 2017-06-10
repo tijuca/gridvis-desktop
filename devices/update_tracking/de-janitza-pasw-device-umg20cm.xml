@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.umg20cm">
-    <module_version install_time="1486122463125" last="true" origin="installer" specification_version="1.31.0">
+    <module_version install_time="1491384305823" last="true" origin="installer" specification_version="1.33.1">
         <file crc="3848998020" name="config/Modules/de-janitza-pasw-device-umg20cm.xml"/>
-        <file crc="129042638" name="modules/de-janitza-pasw-device-impl-umg20cm.jar"/>
+        <file crc="3801404898" name="modules/de-janitza-pasw-device-impl-umg20cm.jar"/>
     </module_version>
 </module>

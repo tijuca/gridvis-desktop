@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.protonpack">
+    <module_version install_time="1491384318524" last="true" origin="installer" specification_version="1.13">
+        <file crc="4242197307" name="config/Modules/de-janitza-pasw-wrapper-protonpack.xml"/>
+        <file crc="2344902117" name="modules/de-janitza-pasw-wrapper-protonpack.jar"/>
+        <file crc="2389263836" name="modules/ext/de.janitza.pasw.wrapper-protonpack/com-codepoetics/protonpack.jar"/>
+    </module_version>
+</module>

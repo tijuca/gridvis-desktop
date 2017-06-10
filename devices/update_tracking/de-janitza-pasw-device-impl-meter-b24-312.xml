@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.meter.b24.312">
-    <module_version install_time="1486122465004" last="true" origin="installer" specification_version="0.2.0">
+    <module_version install_time="1491384306719" last="true" origin="installer" specification_version="0.3.0">
         <file crc="2471517071" name="config/Modules/de-janitza-pasw-device-impl-meter-b24-312.xml"/>
-        <file crc="1565019392" name="modules/de-janitza-pasw-device-impl-meter-b24-312.jar"/>
+        <file crc="634295401" name="modules/de-janitza-pasw-device-impl-meter-b24-312.jar"/>
     </module_version>
 </module>

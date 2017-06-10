@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.counterecs3">
-    <module_version install_time="1486122462080" last="true" origin="installer" specification_version="1.21.0">
+    <module_version install_time="1491384305132" last="true" origin="installer" specification_version="1.22.0">
         <file crc="1126045528" name="config/Modules/de-janitza-pasw-device-impl-counterecs3.xml"/>
-        <file crc="2865651057" name="modules/de-janitza-pasw-device-impl-counterecs3.jar"/>
+        <file crc="3002184824" name="modules/de-janitza-pasw-device-impl-counterecs3.jar"/>
     </module_version>
 </module>

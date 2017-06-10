@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>application</artifactId>
-    <version>7.1.10</version>
+    <version>7.2.6</version>
     <packaging>nbm-application</packaging>
 
     <name>gridvis - NB App</name>
@@ -18,10 +18,10 @@
     <properties>
         <app-name>Janitza-GridVis</app-name>
         <app-title>GridVis</app-title>
-        <app-version-number>7.1</app-version-number>
-        <app-version-number-preview>7.2</app-version-number-preview>
+        <app-version-number>7.2</app-version-number>
+        <app-version-number-preview>7.3</app-version-number-preview>
         <app-version>${project.version}</app-version>
-        <app-version-preview>7.2.0-SNAPSHOT</app-version-preview>
+        <app-version-preview>7.3.0-SNAPSHOT</app-version-preview>
         <app-publisher>Janitza electronics GmbH</app-publisher>
         <app-publisher-url>www.janitza.de</app-publisher-url>
         <app-installerid>5192-2920-3443-4425</app-installerid>
@@ -43,6 +43,7 @@
         <netbeans.conf.file>app.conf</netbeans.conf.file>
         <jenkins-creator-pin>gridvis-docker</jenkins-creator-pin>
         <jenkins-creator-package>default</jenkins-creator-package>
+        <jenkins-creator-exclude-from-bulk>true</jenkins-creator-exclude-from-bulk>
         <!-- Make sure we have the latest cluster versions. -->
         <sanity-force-cluster-version-on>.*</sanity-force-cluster-version-on>
 
@@ -58,7 +59,7 @@
         <cli-logback>-J-Dnetbeans.mainclass=de.janitza.pasw.arg.catcher.MainClass -J-Djava.util.logging.config.class=de.janitza.pasw.pasw.logback.JulHandler ${cli-own-logback-config}</cli-logback>
         <cli-jvm>-J-Xms64m -J-Xmx500m -J-Dvisualvm.display.name=${branding-token} -J-ea ${cli-jRebel}</cli-jvm>
         <cli-netbeans>--branding ${branding-token} --locale de --laf com.sun.java.swing.plaf.windows.WindowsLookAndFeel</cli-netbeans>
-        <cli-gridvis>-J-Dfast-status-mail=true -J-Dsharedplugin-live-reload=false -J-DJAN_DEBUG_DISABLE_RELOAD=true -J-Dalarm-emulate-server=true -J-Dalarm-emulate-time=true</cli-gridvis>
+        <cli-gridvis>-J-Dfast-status-mail=true -J-Dsharedplugin-live-reload=false -J-DJAN_DEBUG_DISABLE_RELOAD=false -J-Dalarm-emulate-server=true -J-Dalarm-emulate-time=true</cli-gridvis>
         <netbeans.run.params>${netbeans.run.params.ide} ${cli-logback} ${cli-jvm} ${cli-netbeans} ${cli-gridvis} ${cli-own-commands-from-m2}</netbeans.run.params>
         <reportsBaseDir>${project.build.directory}/${branding-token}/reports</reportsBaseDir>
         <gridvis.languages>cs,de,en,es,fr,ja,ko,nl,pt,ru,sr,tr,zh_CN,zh_TW,nl_NL,pt_PT,it</gridvis.languages>
@@ -69,28 +70,47 @@
         <dependency>
             <groupId>de.janitza.pasw.tm.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.3.0</version>
+            <version>1.5.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.tm.cluster</groupId>
             <artifactId>impl</artifactId>
-            <version>1.3.0</version>
+            <version>1.8.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.tm.cluster</groupId>
             <artifactId>project</artifactId>
-            <version>1.3.0</version>
+            <version>1.5.2</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.tm.cluster</groupId>
             <artifactId>ui-desktop</artifactId>
-            <version>1.2.0</version>
+            <version>1.3.0</version>
             <type>pom</type>
         </dependency>
-        <!-- Perfomance metering Cluster -->
+        <!-- GeMa Cluster -->
+        <dependency>
+            <groupId>de.janitza.pasw.gema.cluster</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.2</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>de.janitza.pasw.gema.cluster</groupId>
+            <artifactId>impl</artifactId>
+            <version>1.0.2</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>de.janitza.pasw.gema.cluster</groupId>
+            <artifactId>ui-desktop</artifactId>
+            <version>1.1.0</version>
+            <type>pom</type>
+        </dependency>
+        <!-- Performance metering Cluster -->
         <dependency>
             <groupId>de.janitza.pasw.performance.cluster</groupId>
             <artifactId>core</artifactId>
@@ -112,7 +132,7 @@
         <dependency>
             <groupId>de.janitza.pasw.license.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.11.0</version>
+            <version>1.12.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -140,7 +160,7 @@
         <dependency>
             <groupId>de.janitza.pasw.db.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.37.0</version>
+            <version>1.40.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -162,13 +182,13 @@
         <dependency>
             <groupId>de.janitza.pasw.value.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.10.0</version>
+            <version>1.13.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.value.cluster</groupId>
             <artifactId>impl</artifactId>
-            <version>1.3.0</version>
+            <version>1.7.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -195,19 +215,19 @@
         <dependency>
             <groupId>de.janitza.pasw.device.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>0.31.0</version>
+            <version>0.32.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.device.cluster</groupId>
             <artifactId>desktop</artifactId>
-            <version>0.31.0</version>
+            <version>0.36.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.device.cluster</groupId>
             <artifactId>impl</artifactId>
-            <version>0.43.0</version>
+            <version>0.47.1</version>
             <type>pom</type>
         </dependency>
         <!-- JMX Cluster -->
@@ -222,7 +242,7 @@
         <dependency>
             <groupId>de.janitza.pasw.reporting.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.38.0</version>
+            <version>1.40.0</version>
             <type>pom</type>
         </dependency>
         <!-- end of cluster -->
@@ -242,13 +262,13 @@
         <dependency>
             <groupId>de.janitza.pasw.topology.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.32.0</version>
+            <version>1.33.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.reporting.cluster</groupId>
             <artifactId>ui-desktop</artifactId>
-            <version>1.38.0</version>
+            <version>1.39.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
@@ -278,19 +298,19 @@
         <dependency>
             <groupId>de.janitza.pasw.topology.cluster</groupId>
             <artifactId>desktop</artifactId>
-            <version>1.35.0</version>
+            <version>1.36.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.webembed.cluster</groupId>
             <artifactId>core</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw.webembed.cluster</groupId>
             <artifactId>impl</artifactId>
-            <version>1.4.0</version>
+            <version>1.9.0</version>
             <type>pom</type>
         </dependency>
         <!-- end of gridviscluster -->
@@ -456,7 +476,7 @@
         <dependency>
             <groupId>de.janitza.pasw.gridvis</groupId>
             <artifactId>branding</artifactId>
-            <version>7.1.10</version>
+            <version>7.2.6</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -485,6 +505,11 @@
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
+            <artifactId>wrapper-protonpack</artifactId>
+            <version>1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>de.janitza.pasw</groupId>
             <artifactId>wrapper-commons-lang3</artifactId>
             <version>3.3.2</version>
         </dependency>
@@ -507,22 +532,22 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-derby</artifactId>
-            <version>10.71.0</version>
+            <version>10.74.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-jandb</artifactId>
-            <version>11.59.0</version>
+            <version>11.63.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-mssqlserver</artifactId>
-            <version>10.71.0</version>
+            <version>10.75.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-mysql</artifactId>
-            <version>10.78.0</version>
+            <version>10.81.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -547,12 +572,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-netbeans</artifactId>
-            <version>10.96.0</version>
+            <version>10.97.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-ui</artifactId>
-            <version>10.113.4</version>
+            <version>10.118.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>de.janitza.pasw.performance.core</groupId>
@@ -589,7 +614,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-virtual-common</artifactId>
-            <version>1.5.0</version>
+            <version>1.6.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -619,7 +644,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-excelinputdevice</artifactId>
-            <version>1.19.0</version>
+            <version>1.21.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -629,23 +654,18 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-excelinputdevice-ui-v2</artifactId>
-            <version>1.6.0</version>
+            <version>1.8.0</version>
         </dependency>
 
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-ui</artifactId>
-            <version>10.45.0</version>
-        </dependency>
-        <dependency>
-            <groupId>de.janitza.pasw</groupId>
-            <artifactId>scheduling-onlinerecordingui</artifactId>
             <version>10.47.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
-            <artifactId>scheduling-watchdogui</artifactId>
-            <version>10.36.0</version>
+            <artifactId>scheduling-onlinerecordingui</artifactId>
+            <version>10.48.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -708,12 +728,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-api</artifactId>
-            <version>10.66.0</version>
+            <version>10.68.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>database-sql</artifactId>
-            <version>10.60.0</version>
+            <version>10.64.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -748,17 +768,17 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-api</artifactId>
-            <version>1.28.0</version>
+            <version>1.29.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-base</artifactId>
-            <version>10.67.1</version>
+            <version>10.69.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>value-settings-ui-desktop</artifactId>
-            <version>1.8.0</version>
+            <version>1.9.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -778,16 +798,11 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-onlinerecording</artifactId>
-            <version>10.50.0</version>
+            <version>10.51.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>scheduling-timesync</artifactId>
-            <version>10.42.0</version>
-        </dependency>
-        <dependency>
-            <groupId>de.janitza.pasw</groupId>
-            <artifactId>scheduling-watchdog</artifactId>
             <version>10.43.0</version>
         </dependency>
         <dependency>
@@ -803,7 +818,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>configurationitems</artifactId>
-            <version>1.44.0</version>
+            <version>1.45.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -839,7 +854,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sharedplugins-implementation</artifactId>
-            <version>1.19.0</version>
+            <version>1.20.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -939,7 +954,7 @@
         <dependency>
             <groupId>de.janitza.pasw.gridvis</groupId>
             <artifactId>changelog</artifactId>
-            <version>7.1.10</version>
+            <version>7.2.6</version>
             <type>xml</type>
         </dependency>
 
@@ -966,12 +981,12 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sec-realm-jdbc-mysql</artifactId>
-            <version>1.36.0</version>
+            <version>1.36.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sec-realm-jdbc-mssql</artifactId>
-            <version>1.38.0</version>
+            <version>1.38.1</version>
         </dependency>
 
         <dependency>
@@ -998,7 +1013,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>security-mediator</artifactId>
-            <version>1.23.0</version>
+            <version>1.24.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1023,17 +1038,17 @@
         <dependency>
             <artifactId>device-genericmodbus</artifactId>
             <groupId>de.janitza.pasw</groupId>
-            <version>10.66.1</version>
+            <version>10.67.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-restclient</artifactId>
-            <version>1.12.0</version>
+            <version>1.13.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>device-swk105</artifactId>
-            <version>1.12.0</version>
+            <version>1.13.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1043,7 +1058,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>alarm-impl</artifactId>
-            <version>1.44.0</version>
+            <version>1.46.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1148,7 +1163,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>sharedplugins-classpath-richclient</artifactId>
-            <version>1.76.0</version>
+            <version>1.80.0</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1163,7 +1178,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>alarm-ui</artifactId>
-            <version>1.39.0</version>
+            <version>1.39.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1203,7 +1218,7 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>project-historical-provider</artifactId>
-            <version>1.8.0</version>
+            <version>1.9.1</version>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
@@ -1219,7 +1234,7 @@
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>energy-report-provider</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0</version>
             <type>nbm</type>
         </dependency>
         <dependency>
@@ -1231,25 +1246,25 @@
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>quality-export-provider</artifactId>
-            <version>1.0.18</version>
+            <version>1.0.22</version>
             <type>nbm</type>
         </dependency>
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>rcm-provider</artifactId>
-            <version>1.0.8</version>
+            <version>1.0.10</version>
             <type>nbm</type>
         </dependency>
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>freerange-energy-report-provider</artifactId>
-            <version>1.4.0</version>
+            <version>1.5.0</version>
             <type>nbm</type>
         </dependency>
         <dependency>
             <groupId>de.com</groupId>
             <artifactId>epve-csv-provider</artifactId>
-            <version>1.2.0</version>
+            <version>1.3.0</version>
             <type>nbm</type>
         </dependency>
         <dependency>
@@ -1332,13 +1347,13 @@
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>features</artifactId>
-            <version>7.1.10</version>
+            <version>7.2.6</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>de.janitza.pasw</groupId>
             <artifactId>wrapper-jxbrowser</artifactId>
-            <version>6.10</version>
+            <version>6.13</version>
         </dependency>
     </dependencies>
 
