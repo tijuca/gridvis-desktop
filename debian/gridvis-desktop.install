@@ -25,6 +25,8 @@ filesystems-impl    usr/lib/gridvis-desktop/
 filesystems-project usr/lib/gridvis-desktop/
 fop                 usr/lib/gridvis-desktop/
 format              usr/lib/gridvis-desktop/
+gema                usr/lib/gridvis-desktop/
+gema-desktop        usr/lib/gridvis-desktop/
 graph               usr/lib/gridvis-desktop/
 graphprog           usr/lib/gridvis-desktop/
 gridvis             usr/lib/gridvis-desktop/
@@ -57,6 +59,7 @@ sharedplugins       usr/lib/gridvis-desktop/
 topology            usr/lib/gridvis-desktop/
 value               usr/lib/gridvis-desktop/
 web                 usr/lib/gridvis-desktop/
+webembed            usr/lib/gridvis-desktop/
 wrapper             usr/lib/gridvis-desktop/
 icon16.png          usr/share/gridvis-desktop/
 icon32.ico          usr/lib/gridvis-desktop/
