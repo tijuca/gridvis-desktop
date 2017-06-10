@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.gema.impl.app">
+    <module_version install_time="1491384301043" last="true" origin="installer" specification_version="1.0.2">
+        <file crc="2409654670" name="config/Modules/de-janitza-pasw-gema-impl-app.xml"/>
+        <file crc="4068308289" name="modules/de-janitza-pasw-gema-impl-app.jar"/>
+    </module_version>
+</module>

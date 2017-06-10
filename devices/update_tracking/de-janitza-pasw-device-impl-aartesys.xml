@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.aartesys">
-    <module_version install_time="1486122462480" last="true" origin="installer" specification_version="1.6.0">
+    <module_version install_time="1491384305450" last="true" origin="installer" specification_version="1.6.1">
         <file crc="316686354" name="config/Modules/de-janitza-pasw-device-impl-aartesys.xml"/>
-        <file crc="3414594811" name="modules/de-janitza-pasw-device-impl-aartesys.jar"/>
+        <file crc="3302501872" name="modules/de-janitza-pasw-device-impl-aartesys.jar"/>
     </module_version>
 </module>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.performance.impl.performance">
-    <module_version install_time="1486122459194" last="true" origin="installer" specification_version="1.3.0">
+    <module_version install_time="1491384301221" last="true" origin="installer" specification_version="1.3.0">
         <file crc="1754358537" name="config/Modules/de-janitza-pasw-performance-impl-performance.xml"/>
-        <file crc="4107545244" name="modules/de-janitza-pasw-performance-impl-performance.jar"/>
+        <file crc="694595121" name="modules/de-janitza-pasw-performance-impl-performance.jar"/>
         <file crc="1679558439" name="modules/ext/de.janitza.pasw.performance.impl.performance/io-dropwizard-metrics/metrics-core.jar"/>
         <file crc="223323581" name="modules/ext/de.janitza.pasw.performance.impl.performance/io-dropwizard-metrics/metrics-healthchecks.jar"/>
     </module_version>

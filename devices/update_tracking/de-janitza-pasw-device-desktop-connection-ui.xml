@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.desktop.connection.ui">
-    <module_version install_time="1486122461760" last="true" origin="installer" specification_version="0.2.0">
+    <module_version install_time="1491384304633" last="true" origin="installer" specification_version="0.7.0">
         <file crc="3479494425" name="config/Modules/de-janitza-pasw-device-desktop-connection-ui.xml"/>
-        <file crc="2898047569" name="modules/de-janitza-pasw-device-desktop-connection-ui.jar"/>
+        <file crc="3276083458" name="modules/de-janitza-pasw-device-desktop-connection-ui.jar"/>
     </module_version>
 </module>

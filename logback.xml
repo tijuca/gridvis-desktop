@@ -95,7 +95,23 @@ scan and scanPeriod will not work, but file is checked for change by gridvis.
         </encoder>
     </appender>
 
+    <appender name="TIMEMANAGEMENT-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/timemanagement.log</file>
+        <prudent>false</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/timemanagement.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>5MB</maxFileSize>
+        </triggeringPolicy>
 
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>${DEFAULT_PATTERN}</pattern>
+        </encoder>
+    </appender>
 
     <root level="INFO">
         <appender-ref ref="FILE" />
@@ -116,6 +132,9 @@ scan and scanPeriod will not work, but file is checked for change by gridvis.
     </logger>
     <logger name="org.netbeans.core.startup.NbEvents" level="INFO">
         <appender-ref ref="FILE-STARTUP" />
+    </logger>
+    <logger name="de.janitza.pasw.tm" level="WARN" additivity="false">
+        <appender-ref ref="TIMEMANAGEMENT-FILE" />
     </logger>
 
     <!--

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.webembed.impl.webembed">
-    <module_version install_time="1486122466936" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1491384309691" last="true" origin="installer" specification_version="1.9.0">
         <file crc="1988750591" name="config/Modules/de-janitza-pasw-webembed-impl-webembed.xml"/>
-        <file crc="3888961180" name="energy-rest/energy-rest.jar"/>
-        <file crc="3029008471" name="modules/de-janitza-pasw-webembed-impl-webembed.jar"/>
-        <file crc="896038051" name="war/desktop-html.war"/>
+        <file crc="337975730" name="energy-rest/energy-rest.jar"/>
+        <file crc="1129141821" name="modules/de-janitza-pasw-webembed-impl-webembed.jar"/>
+        <file crc="3302598068" name="war/desktop-html.war"/>
     </module_version>
 </module>

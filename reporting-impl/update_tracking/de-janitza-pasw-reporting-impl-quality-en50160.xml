@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.reporting.impl.quality.en50160">
-    <module_version install_time="1486122465203" last="true" origin="installer" specification_version="1.23.0">
+    <module_version install_time="1491384306973" last="true" origin="installer" specification_version="1.23.0">
         <file crc="1171007213" name="config/Modules/de-janitza-pasw-reporting-impl-quality-en50160.xml"/>
-        <file crc="4143926452" name="modules/de-janitza-pasw-reporting-impl-quality-en50160.jar"/>
+        <file crc="3437655750" name="modules/de-janitza-pasw-reporting-impl-quality-en50160.jar"/>
     </module_version>
 </module>

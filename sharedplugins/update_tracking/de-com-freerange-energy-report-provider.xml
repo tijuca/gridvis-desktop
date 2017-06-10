@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.com.freerange.energy.report.provider">
-    <module_version install_time="1486122479351" last="true" origin="installer" specification_version="1.4.0">
+    <module_version install_time="1491384328860" last="true" origin="installer" specification_version="1.5.0">
         <file crc="113104827" name="config/Modules/de-com-freerange-energy-report-provider.xml"/>
-        <file crc="956265252" name="de.com/freerange-energy-report-core.nbm"/>
-        <file crc="125483037" name="modules/de-com-freerange-energy-report-provider.jar"/>
+        <file crc="400479056" name="de.com/freerange-energy-report-core.nbm"/>
+        <file crc="4086349453" name="modules/de-com-freerange-energy-report-provider.jar"/>
     </module_version>
 </module>

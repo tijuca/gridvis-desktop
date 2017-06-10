@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.sec.realm.jdbc.mssql">
-    <module_version install_time="1486122477210" last="true" origin="installer" specification_version="1.38.0">
+    <module_version install_time="1491384326301" last="true" origin="installer" specification_version="1.38.1">
         <file crc="591207214" name="config/Modules/de-janitza-pasw-sec-realm-jdbc-mssql.xml"/>
-        <file crc="4078442384" name="modules/de-janitza-pasw-sec-realm-jdbc-mssql.jar"/>
+        <file crc="3620406405" name="modules/de-janitza-pasw-sec-realm-jdbc-mssql.jar"/>
     </module_version>
 </module>

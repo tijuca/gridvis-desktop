@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.tm.impl.errorinfo">
+    <module_version install_time="1491384300637" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="1305736532" name="config/Modules/de-janitza-pasw-tm-impl-errorinfo.xml"/>
+        <file crc="2747969400" name="modules/de-janitza-pasw-tm-impl-errorinfo.jar"/>
+    </module_version>
+</module>

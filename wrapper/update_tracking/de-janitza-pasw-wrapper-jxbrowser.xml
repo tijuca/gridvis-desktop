@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jxbrowser">
-    <module_version install_time="1486122483001" last="true" origin="installer" specification_version="6.10">
+    <module_version install_time="1491384332938" last="true" origin="installer" specification_version="6.13">
         <file crc="3457277598" name="config/Modules/de-janitza-pasw-wrapper-jxbrowser.xml"/>
-        <file crc="2612019598" name="modules/de-janitza-pasw-wrapper-jxbrowser.jar"/>
-        <file crc="3598444707" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-linux32.jar"/>
-        <file crc="33895351" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-linux64.jar"/>
-        <file crc="2686789217" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-win.jar"/>
-        <file crc="3247321422" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser.jar"/>
+        <file crc="2366831510" name="modules/de-janitza-pasw-wrapper-jxbrowser.jar"/>
+        <file crc="2708287167" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-linux32.jar"/>
+        <file crc="3363371710" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-linux64.jar"/>
+        <file crc="898667123" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser-win.jar"/>
+        <file crc="2664811993" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/com-teamdev-jxbrowser/jxbrowser.jar"/>
         <file crc="2790218176" name="modules/ext/de.janitza.pasw.wrapper-jxbrowser/de-janitza-fxbrowser/license.jar"/>
     </module_version>
 </module>

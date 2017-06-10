@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.license.core.spi">
-    <module_version install_time="1486122459573" last="true" origin="installer" specification_version="1.5.0">
+    <module_version install_time="1491384301617" last="true" origin="installer" specification_version="1.5.0">
         <file crc="343546325" name="config/Modules/de-janitza-pasw-license-core-spi.xml"/>
-        <file crc="198812376" name="modules/de-janitza-pasw-license-core-spi.jar"/>
+        <file crc="3226556308" name="modules/de-janitza-pasw-license-core-spi.jar"/>
     </module_version>
 </module>

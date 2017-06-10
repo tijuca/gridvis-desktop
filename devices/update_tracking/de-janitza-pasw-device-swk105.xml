@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.swk105">
-    <module_version install_time="1486122477685" last="true" origin="installer" specification_version="1.12.0">
+    <module_version install_time="1491384327026" last="true" origin="installer" specification_version="1.13.0">
         <file crc="3918708517" name="config/Modules/de-janitza-pasw-device-swk105.xml"/>
-        <file crc="3093896965" name="modules/de-janitza-pasw-device-swk105.jar"/>
+        <file crc="179279223" name="modules/de-janitza-pasw-device-swk105.jar"/>
     </module_version>
 </module>

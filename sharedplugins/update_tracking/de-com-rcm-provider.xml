@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.com.rcm.provider">
-    <module_version install_time="1486122479140" last="true" origin="installer" specification_version="1.0.8">
+    <module_version install_time="1491384328818" last="true" origin="installer" specification_version="1.0.10">
         <file crc="2829206735" name="config/Modules/de-com-rcm-provider.xml"/>
-        <file crc="3097888997" name="de.com/rcm-core.nbm"/>
-        <file crc="3408155539" name="de.com/rcm-richclient.nbm"/>
-        <file crc="4143976560" name="modules/de-com-rcm-provider.jar"/>
+        <file crc="3941330299" name="de.com/rcm-core.nbm"/>
+        <file crc="1703335214" name="de.com/rcm-richclient.nbm"/>
+        <file crc="1375578191" name="modules/de-com-rcm-provider.jar"/>
     </module_version>
 </module>

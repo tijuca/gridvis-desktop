@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.device.impl.umgupgrade">
-    <module_version install_time="1486122464305" last="true" origin="installer" specification_version="1.10.2">
+    <module_version install_time="1491384306411" last="true" origin="installer" specification_version="1.10.2">
         <file crc="389935352" name="config/Modules/de-janitza-pasw-device-impl-umgupgrade.xml"/>
-        <file crc="1109443040" name="modules/de-janitza-pasw-device-impl-umgupgrade.jar"/>
+        <file crc="1064415339" name="modules/de-janitza-pasw-device-impl-umgupgrade.jar"/>
     </module_version>
 </module>

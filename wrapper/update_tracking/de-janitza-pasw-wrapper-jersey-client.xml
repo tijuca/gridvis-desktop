@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="de.janitza.pasw.wrapper.jersey.client">
-    <module_version install_time="1486122478456" last="true" origin="installer" specification_version="2.24.1.1">
+    <module_version install_time="1491384328101" last="true" origin="installer" specification_version="2.24.1.1">
         <file crc="1510401908" name="config/Modules/de-janitza-pasw-wrapper-jersey-client.xml"/>
-        <file crc="1582938879" name="modules/de-janitza-pasw-wrapper-jersey-client.jar"/>
+        <file crc="3547170992" name="modules/de-janitza-pasw-wrapper-jersey-client.jar"/>
         <file crc="3314254435" name="modules/ext/de.janitza.pasw.wrapper-jersey-client/org-glassfish-jersey-connectors/jersey-apache-connector.jar"/>
         <file crc="600379948" name="modules/ext/de.janitza.pasw.wrapper-jersey-client/org-glassfish-jersey-core/jersey-client.jar"/>
     </module_version>
